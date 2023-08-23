@@ -4,7 +4,7 @@ project:
 format:
   html:
     theme: 
-      - litera
+      - spacelab
       - layout/css/adveconpol.scss
 
 bibliography: data/lit/wipol_advanced.bib
@@ -17,7 +17,7 @@ website:
   navbar:
     pinned: true
     background: light
-    foreground: "#5d8198"
+    foreground: dark
     collapse: true
     right:
       - href: index.qmd
