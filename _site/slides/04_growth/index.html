@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Matthias Schnetzer">
+<meta name="dcterms.date" content="2023-03-27">
+
+<title>PI 0822 Economic Policy (Applied Track) -     Economic Policy Visualization</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">PI 0822 Economic Policy (Applied Track)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../visualization.html" rel="" target="">
+ <span class="menu-text">Visualization</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><p><span class="fa-stack course-icon"> <i class="fas fa-comment fa-stack-2x blue"></i> <i class="fas fa-chart-column fa-stack-1x fa-inverse" style="margin-top:-5pt"></i> </span><br> Economic Policy Visualization</p></h1>
+<p class="subtitle lead">Growth · Geometries</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Matthias Schnetzer </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 27, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="growth-in-economic-policy" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="growth-in-economic-policy">Growth in economic policy</h2>
+<div class="blockquote">
+<p>In recent years economic growth has come to occupy an exalted position in the hierarchy of goals of government policy […] At least in professional economic discussion, we need to give a definite and distinctive meaning to growth as a policy objective. Let it be neither a new synonym for good things in general nor a fashionable way to describe other economic objectives. Let growth be something it is possible to oppose as well as to favor, depending on judgments of social priorities and opportunities.</p>
+</div>
+<div style="font-size:1.2rem;text-align:right;font-family:'Roboto Slab';">
+<p>James <span class="citation" data-cites="tobin:1964">Tobin (<a href="#ref-tobin:1964" role="doc-biblioref">1964</a>)</span></p>
+</div>
+</section>
+<section id="beyond-gdp-initiatives" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="beyond-gdp-initiatives">Beyond GDP initiatives</h2>
+<ul>
+<li>Even though many aspects of the living standard correlate with GDP, there are also some blind spots (informal sector and non-market production, environmental and health externalities, etc.).</li>
+<li>GDP is not designed as comprehensive measure of prosperity and well-being. “Beyond GDP” initiatives aim to find additional indicators for <span class="hl hl-dred">environmental and social aspects of progress</span>.</li>
+<li>In 2007, the EU commission organized a conference on “Beyond GDP” which led to a roadmap for the “EU 2020 Strategy”.</li>
+<li>Much attention for Stiglitz-Sen-Fitoussi Report in 2009 with 12 recommendations how to measure progress.</li>
+<li>United Nations formally adopted 17 “Sustainable Development Goals” (or Agenda 2030) in their general assembly in 2015.</li>
+</ul>
+</section>
+<section id="the-growth-imperative" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="the-growth-imperative">The growth imperative</h2>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="img/sdg8.png" class="img-fluid"></p>
+</div><div class="column" style="width:80%;">
+<ul>
+<li>Growth is an important goal in economic policy</li>
+<li><em>Magic square of economic policy</em> promotes high GDP growth (besides low inflation, high emplpoyment, and balanced trade)</li>
+<li>UN Sustainable Development Goals (SDG): “Promote inclusive and sustainable economic growth, employment and decent work for all”</li>
+<li>More specifically, “sustain per capita economic growth in accordance with national circumstances and, in particular, <span class="hl hl-dred">at least 7 per cent</span> gross domestic product growth per annum in the least developed countries”</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="rule-of-70" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="rule-of-70">Rule of 70</h2>
+<p>We often underestimate the power of growth! How long does it take for a variable <span class="hl hl-dred">to double</span> with a specific growth rate? The rule of 70 is a good approximation. Just divide 70 by the annual growth rate:</p>
+<p><span class="math display">\[ \Delta = \frac{70}{g} \]</span></p>
+<p>Even with a moderate growth rate of 2%, total GDP doubles in 35 years. An annual growth rate of 7% would mean a doubling of production in only 10 years.</p>
+</section>
+<section id="measuring-gdp" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="measuring-gdp">Measuring GDP</h2>
+<ul>
+<li>1937: Simon Kuznets presented the modern concept of GDP to US Congress following the Great Depression, warning that it is not a measure of national welfare.</li>
+<li>1953: System of National Accounts (SNA) aims to harmonize measurement of GDP across the globe.</li>
+<li>1995: European System of Accounts (ESA) is used by member states of the European Union (latest adaption 2010)</li>
+<li>Three calculations: output, expenditure, and income approaches</li>
+<li>GDP is not entirely exact: some components have to be estimated (e.g.&nbsp;tip, underground economy)</li>
+<li>GDP has methodological gaps and some arbitrary definitions of what is productive, e.g.&nbsp;it includes childcare by nannies but not by parents.</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Short read: <a href="https://www.economist.com/the-economist-explains/2016/01/27/why-gdp-is-so-difficult-to-measure">Economist: Why GDP is so difficult to measure?</a></p>
+</div></div></section>
+<section id="gdp-growth-across-the-globe" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="gdp-growth-across-the-globe">GDP growth across the globe</h2>
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.2     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.</code></pre>
+<div class="columns">
+<div class="column">
+<p><span class="secfont">Linear scale (1989 = 1)</span></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/linear-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div><div class="column fragment">
+<p><span class="secfont">Logarithmic scale (1989 = 1)</span></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/log-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: World Bank</p>
+</div></div></section>
+<section id="reeeally-long-term-growth-of-gdp" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="reeeally-long-term-growth-of-gdp">Reeeally long-term growth of GDP</h2>
+<div class="columns">
+<div class="column">
+<p><span class="secfont">Linear scale</span> <br><br> <img src="img/gdp_growth_long.png" class="img-fluid" data-fig-align="center"></p>
+</div><div class="column">
+<p><span class="secfont">Logarithmic scale</span> <br><br> <img src="img/gdp_growth_long_log.png" class="img-fluid" data-fig-align="center"></p>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://ourworldindata.org/economic-growth">Our world in data</a></p>
+</div></div></section>
+<section id="why-do-some-economies-grow-and-others-dont" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="why-do-some-economies-grow-and-others-dont">Why do some economies grow and others don’t?</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/korea.jpg" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Related reading: <span class="citation" data-cites="crespo:2020">Cuaresma et al. (<a href="#ref-crespo:2020" role="doc-biblioref">2020</a>)</span></p>
+</div></div></section>
+<section id="reasons-for-differences-in-economic-growth" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="reasons-for-differences-in-economic-growth">Reasons for differences in economic growth</h2>
+<p>Economists historically focus on the “factors of production”, like physical capital and human capital to explain differences in growth <span class="citation" data-cites="mankiw:1992 young:1995">(<a href="#ref-mankiw:1992" role="doc-biblioref">Mankiw et al., 1992</a>; <a href="#ref-young:1995" role="doc-biblioref">Young, 1995</a>)</span>.</p>
+<p>The contemporary literature <span class="citation" data-cites="acemoglu:2019 glaeser:2004">(<a href="#ref-acemoglu:2019" role="doc-biblioref">Acemoglu et al., 2019</a>; <a href="#ref-glaeser:2004" role="doc-biblioref">Glaeser et al., 2004</a>)</span> additionally highlights</p>
+<ul>
+<li>culture (e.g., the willingness to trust and engage in trade with strangers)</li>
+<li>geography (e.g., ease of transportation, resources)</li>
+<li>institutions (e.g., welfare state regimes, democracy, legal rights)</li>
+<li>(luck)</li>
+</ul>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Short read: <a href="https://asteriskmag.com/issues/1/why-isn-t-the-whole-world-rich#1">Asterisk Magazine</a></p>
+</div></div></section>
+<section id="which-chart-describes-best-what-you-want-to-show" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="which-chart-describes-best-what-you-want-to-show">Which chart describes best what you want to show?</h2>
+<div class="columns">
+<div class="column">
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attache Paket: 'scales'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Das folgende Objekt ist maskiert 'package:purrr':
+
+    discard</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Das folgende Objekt ist maskiert 'package:readr':
+
+    col_factor</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/abs-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/rates-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div><div class="column fragment">
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/base-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: The `size` argument of `element_rect()` is deprecated as of ggplot2 3.4.0.
+ℹ Please use the `linewidth` argument instead.</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/bars-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="show-me-your-geometries" class="level1">
+<h1>Show me your geometries!</h1>
+<center>
+<img src="../../data/img/avatar_break.png" class="img-fluid" width="250">
+</center>
+<div class="footer">
+
+</div>
+<section id="selected-geometries-in-ggplot" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="selected-geometries-in-ggplot">Selected geometries in {ggplot}</h2>
+<div class="tbl-classic tbl-smaller">
+<table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 22%">
+<col style="width: 73%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Geometry</th>
+<th>Explanation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><img src="img/geom_ribbon.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>area, ribbon</td>
+<td>An area plot is the continuous analogue of a stacked bar chart.</td>
+</tr>
+<tr class="even">
+<td><img src="img/geom_bar.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>bar, col</td>
+<td>Bar charts may be proportional (bar) or with absolute values (col).</td>
+</tr>
+<tr class="odd">
+<td><img src="img/geom_boxplot.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>boxplot</td>
+<td>The boxplot compactly displays the distribution of a continuous variable.</td>
+</tr>
+<tr class="even">
+<td><img src="img/geom_density.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>density, histogram</td>
+<td>Kernel density plot, which is a smoothed version of the histogram.</td>
+</tr>
+<tr class="odd">
+<td><img src="img/geom_abline.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>hline, vline, abline</td>
+<td>Draws a horizontal or vertical line with an intercept or a line with a slope.</td>
+</tr>
+<tr class="even">
+<td><img src="img/geom_line.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>line, path</td>
+<td>Line between observations in order of variable (line) or appearance (path)</td>
+</tr>
+<tr class="odd">
+<td><img src="img/geom_errorbar.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>linerange, errorbar</td>
+<td>Various ways of representing a vertical interval defined by x, ymin and ymax.</td>
+</tr>
+<tr class="even">
+<td><img src="img/geom_point.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>point, jitter</td>
+<td>The point geom is used to create scatterplots and jitter avoids overplotting.</td>
+</tr>
+<tr class="odd">
+<td><img src="img/geom_curve.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>segment, curve</td>
+<td>Draws a straight or curved line between points (x,y) and (xend, yend).</td>
+</tr>
+<tr class="even">
+<td><img src="img/geom_smooth.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>smooth</td>
+<td>Smoothed line with standard error bounds across a scatterplot.</td>
+</tr>
+<tr class="odd">
+<td><img src="img/geom_violin.png" style="vertical-align:middle;padding:0;margin:0;" height="35"></td>
+<td>violin</td>
+<td>A violin plot is a compact display of a continuous distribution.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="additional-geometries" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="additional-geometries">Additional geometries</h2>
+<div class="columns center" style="font-size:1.3rem;">
+<div class="column" style="width:33%;">
+<p><span class="secfont">ggstream::geom_stream()</span> <img src="img/geom_stream.png" height="200"></p>
+</div><div class="column fragment" style="width:33%;">
+<p><span class="secfont">waffle::geom_waffle()</span> <img src="img/geom_waffle.png" height="200"></p>
+</div><div class="column fragment" style="width:33%;">
+<p><span class="secfont">ggchicklet::geom_chicklet()</span> <img src="img/geom_chicklet.png" height="200"></p>
+</div>
+</div>
+<div class="columns center" style="font-size:1.3rem;">
+<div class="column fragment" style="width:33%;">
+<p><span class="secfont">ggridges::geom_density_ridges()</span> <img src="img/geom_ridges.png" height="200"></p>
+</div><div class="column fragment" style="width:33%;">
+<p><span class="secfont">ggsankey::geom_sankey()</span> <img src="img/geom_sankey.png" height="200"></p>
+</div><div class="column fragment" style="width:33%;">
+<p><span class="secfont">ggbump::geom_bump()</span> <img src="img/geom_bump.png" height="200"></p>
+</div>
+</div>
+</section>
+<section id="bibliography" class="level2 bibstyle">
+<h2 class="bibstyle anchored" data-anchor-id="bibliography">Bibliography</h2>
+<div class="footer">
+
+</div>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-acemoglu:2019" class="csl-entry" role="listitem">
+Acemoglu, Daron/Naidu, Suresh/Restrepo, Pascual/Robinson, James A. (2019). Democracy does cause growth. <em>Journal of Political Economy</em>, <em>127</em>(1), 47–100. DOI: <a href="https://doi.org/10.1086/700936">10.1086/700936</a>
+</div>
+<div id="ref-crespo:2020" class="csl-entry" role="listitem">
+Cuaresma, Jesús Crespo/Danylo, Olha/Fritz, Steffen/Hofer, Martin/Kharas, Homi/Bayas, Juan Carlos Laso (2020). What do we know about poverty in north korea? <em>Palgrave Communications</em>, <em>6</em>(40). DOI: <a href="https://doi.org/10.1057/s41599-020-0417-4">10.1057/s41599-020-0417-4</a>
+</div>
+<div id="ref-glaeser:2004" class="csl-entry" role="listitem">
+Glaeser, Edward L./Porta, Rafael La/Lopez-de-Silanes, Florencio/Shleifer, Andrei (2004). Do institutions cause growth? <em>Journal of Economic Growth</em>, <em>9</em>(3), 271–303. DOI: <a href="https://doi.org/10.1023/b:joeg.0000038933.16398.ed">10.1023/b:joeg.0000038933.16398.ed</a>
+</div>
+<div id="ref-mankiw:1992" class="csl-entry" role="listitem">
+Mankiw, N. G./Romer, D./Weil, D. N. (1992). A contribution to the empirics of economic growth. <em>The Quarterly Journal of Economics</em>, <em>107</em>(2), 407–437. DOI: <a href="https://doi.org/10.2307/2118477">10.2307/2118477</a>
+</div>
+<div id="ref-tobin:1964" class="csl-entry" role="listitem">
+Tobin, James (1964). Economic growth as an objective of government policy. <em>American Economic Review</em>, <em>54</em>(3), 1–20.
+</div>
+<div id="ref-young:1995" class="csl-entry" role="listitem">
+Young, A. (1995). The tyranny of numbers: Confronting the statistical realities of the east asian growth experience. <em>The Quarterly Journal of Economics</em>, <em>110</em>(3), 641–680. DOI: <a href="https://doi.org/10.2307/2946695">10.2307/2946695</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Made with and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right"> 2023 by Matthias Schnetzer</div>
+  </div>
+</footer>
+
+
+
+</body></html>

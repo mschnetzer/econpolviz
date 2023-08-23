@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Matthias Schnetzer">
+<meta name="dcterms.date" content="2023-04-24">
+
+<title>PI 0822 Economic Policy (Applied Track) -     Economic Policy Visualization</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">PI 0822 Economic Policy (Applied Track)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../visualization.html" rel="" target="">
+ <span class="menu-text">Visualization</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><p><span class="fa-stack course-icon"> <i class="fas fa-comment fa-stack-2x blue"></i> <i class="fas fa-chart-column fa-stack-1x fa-inverse" style="margin-top:-5pt"></i> </span><br> Economic Policy Visualization</p></h1>
+<p class="subtitle lead">Labour · Labels</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Matthias Schnetzer </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 24, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="full-employment-as-economic-policy-goal" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="full-employment-as-economic-policy-goal">Full employment as economic policy goal</h2>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="img/sdg8.png" class="img-fluid"></p>
+</div><div class="column" style="width:80%;">
+<ul>
+<li>UN SDG 8.5: “By 2030, achieve <span class="hl hl-dred">full and productive employment</span> and decent work for all women and men, including for young people and persons with disabilities, and equal pay for work of equal value.”</li>
+<li>Full employment is desirable since the <span class="hl hl-dred">individual, economic, and social costs</span> of unemployment are high <span class="citation" data-cites="young:2012">(<a href="#ref-young:2012" role="doc-biblioref">Young, 2012</a>)</span>: risk of poverty, health issues, decreasing human and social capital, stigmatization, rising government expenditure, etc.</li>
+<li>However, full employment affects the <span class="hl hl-dred">industrial relations</span> between capital and labour and might thus not be favoured by capital owners <span class="citation" data-cites="kalecki:1943">(<a href="#ref-kalecki:1943" role="doc-biblioref">Kalecki, 1943</a>)</span></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="opposing-views-on-the-labour-market" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="opposing-views-on-the-labour-market">Opposing views on the labour market</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><span class="secfont marker-hl" style="font-size:1.8rem;">Neoclassical view</span></p>
+<ul>
+<li>Labour market is one among many other markets</li>
+<li>Price (i.e.&nbsp;real wage) brings labour supply and labour demand into <span class="hl hl-dred">equilibrium</span></li>
+<li>Full employment is achieved in the labour market equilibrium, while unemployment is voluntary due to specific labour-leisure choices</li>
+<li>Involuntary unemployment is a result of <span class="hl hl-dred">third-party intervention</span> into the labour market</li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><span class="secfont marker-hl" style="font-size:1.8rem;">(Post-)Keynesian view</span></p>
+<ul>
+<li>Labour market is <span class="hl hl-blue">posterior</span> (downstream) to production</li>
+<li>Demand for labour is determined by effective demand on the goods market</li>
+<li>Full employment is reached when effective demand equals full capacity utilization</li>
+<li>Involuntary unemployment is a consequence of <span class="hl hl-blue">lacking aggregate demand</span> by private and public sector.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="goods-and-labour-market-in-the-keynesian-cross" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="goods-and-labour-market-in-the-keynesian-cross">Goods and labour market in the Keynesian cross</h2>
+<div class="cell" data-layout-align="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="576"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="a-classification-of-unemployment" class="level2">
+<h2 class="anchored" data-anchor-id="a-classification-of-unemployment">A classification of unemployment</h2>
+<div class="tbl-classic tbl-larger">
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 40%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Macroeconomy</th>
+<th>Specific sectors</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><span style="font-size:1.7rem"><strong>Short-term</strong></span></td>
+<td><span class="hl hl-blue">frictional:</span> <br> people voluntarily leaving their job need some time to find new employment. Unemployment is thus <span class="hl hl-dred">interim</span> and even present in an economy with full employment.</td>
+<td><span class="hl hl-blue">seasonal:</span> <br> Seasonal jobs are limited to a certain <span class="hl hl-dred">time period</span>, leaving people in those industries without employment after the season ends (e.g.&nbsp;tourism, construction).</td>
+</tr>
+<tr class="even">
+<td><span style="font-size:1.7rem"><strong>Mid- and long-term</strong></span></td>
+<td><span class="hl hl-blue">cyclical:</span> <br> the number of unemployed workers varies during cycles of economic <span class="hl hl-dred">ups and downs</span>. Business cycles on average last 5-6 years and typically affect the whole economy.</td>
+<td><span class="hl hl-blue">structural:</span> <br> caused by fundamental change in the economy such as evolving technology. While jobs are available, people who could fill those roles either don’t have the right <span class="hl hl-dred">skills</span> or aren’t in the right location.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="policies-against-unemployment" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="policies-against-unemployment">Policies against unemployment</h2>
+<div class="columns">
+<div class="column" style="width:48%;">
+<ul>
+<li><span class="marker-hl">Active labour market policy (ALMP)</span>
+<ul>
+<li>Aim: integration of the unemployed into the labour market <span class="citation" data-cites="card:2017">(<a href="#ref-card:2017" role="doc-biblioref">Card et al., 2017</a>)</span></li>
+<li>Examples: coaching, training, subsidies for <em>secondary</em> labour market, assistance for personal issues (homelessness, addiction)</li>
+</ul></li>
+<li><span class="marker-hl">Passive labour market policy (PLMP)</span>
+<ul>
+<li>Aim: social security for the unemployed</li>
+<li>Examples: unemployment benefits, income support, etc.</li>
+</ul></li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column fragment" style="width:48%;">
+<ul>
+<li><span class="marker-hl">Activating policies</span>
+<ul>
+<li>Aim: ALMP paid from funds for PLMP</li>
+<li>Examples: part-time work for the elderly, training allowances</li>
+</ul></li>
+<li><span class="marker-hl">Job guarantee</span>
+<ul>
+<li>Aim: Public sector as amployer of the last resort</li>
+<li>Examples: India <span class="citation" data-cites="ravi:2015">(<a href="#ref-ravi:2015" role="doc-biblioref">Ravi/Engler, 2015</a>)</span>, Marienthal in Austria <span class="citation" data-cites="kasy:2022">(<a href="#ref-kasy:2022" role="doc-biblioref">Kasy/Lehner, 2022</a>)</span></li>
+</ul></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="the-measurement-of-unemployment" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="the-measurement-of-unemployment">The measurement of unemployment</h2>
+<ul>
+<li><span class="marker-hl">International definition</span> (ILO/Eurostat)
+<ul>
+<li>Data: Labour Force Survey (LFS) - 23,000 household per quarter in <span class="emoji" data-emoji="austria">🇦🇹</span></li>
+<li>Unemployed: if not worked at least 1 hour in the reference week</li>
+<li>Rate: <span style="font-size:1.2rem;"><span class="math display">\[\frac{\texttt{unemployed (15-74 years old)}}{\texttt{labour force (employed + unemployed, 15-74 years old)}}\]</span></span></li>
+</ul></li>
+<li><span class="marker-hl">National definition</span>
+<ul>
+<li>Data: Public Employment Service (AMS)</li>
+<li>Unemployed: officially registered at AMS</li>
+<li>Rate: <span style="font-size:1.2rem;"><span class="math display">\[\frac{\texttt{registered unemployed}}{\texttt{labour force (employed + unemployed)}}\]</span></span></li>
+</ul></li>
+</ul>
+</section>
+<section id="unemployment-rates-across-europe" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="unemployment-rates-across-europe">Unemployment rates across Europe</h2>
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<pre><code>
+  The 'cran_repo' argument in shelf() was not set, so it will use
+  cran_repo = 'https://cran.r-project.org' by default.
+
+  To avoid this message, set the 'cran_repo' argument to a CRAN
+  mirror URL (see https://cran.r-project.org/mirrors.html) or set
+  'quiet = TRUE'.</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/eurates-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="evolution-of-work-time" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="evolution-of-work-time">Evolution of work time</h2>
+<div class="cell" data-layout-align="center">
+<pre><code>Warning: Tried to calculate with group_by(), but the calculation failed.
+Falling back to ungrouped filter operation...</code></pre>
+<pre><code>label_key: geo</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/time-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="labour-market-participation-of-parents-in-austria" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="labour-market-participation-of-parents-in-austria">Labour market participation of parents in Austria</h2>
+<div class="cell" data-layout-align="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/care-1.png" class="img-fluid figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="labels-and-fonts" class="level1 page-columns page-full">
+<h1>Labels and Fonts</h1>
+<center>
+<img src="../../data/img/avatar_read.png" class="img-fluid" width="250">
+</center>
+<div class="footer">
+
+</div>
+<section id="serif-and-sans-serif-fonts" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="serif-and-sans-serif-fonts">Serif and sans-serif fonts</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/serif.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="sans-serif-fonts-are-better-for-reading-charts" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="sans-serif-fonts-are-better-for-reading-charts">Sans-serif fonts are better for reading charts</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/roboto_compare.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="use-a-font-with-lining-and-tabular-numbers" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="use-a-font-with-lining-and-tabular-numbers">Use a font with lining and tabular numbers</h2>
+<div style="text-align:center;">
+<p><img src="img/numbers_lining.png" height="230"> <br> <img src="img/numbers_tabular.png" height="230"></p>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="use-bold-fonts-only-for-emphasis" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="use-bold-fonts-only-for-emphasis">Use bold fonts only for emphasis</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/bold.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="but-dont-use-too-thin-font-either" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="but-dont-use-too-thin-font-either">But don’t use too thin font, either</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/thin.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="choose-an-adequate-size-for-your-annotations" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="choose-an-adequate-size-for-your-annotations">Choose an adequate size for your annotations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/size.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="use-uppercase-fonts-wisely" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="use-uppercase-fonts-wisely">Use uppercase fonts wisely</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/uppercase.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="there-are-condensed-and-wide-fonts" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="there-are-condensed-and-wide-fonts">There are condensed and wide fonts</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/condensed.png" height="450" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="dont-be-too-narrow-but-too-wide-neither" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="dont-be-too-narrow-but-too-wide-neither">Don’t be too narrow, but too wide neither</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/narrow.png" height="500" class="figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="some-examples" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="some-examples">Some examples</h2>
+<div class="columns" style="text-align:center;">
+<div class="column">
+<p><img src="img/economist.png" class="img-fluid" style="border:0.5px solid;" width="450" alt="Economist"> <br> <img src="img/nyt.png" class="img-fluid" style="border:0.5px solid;" width="450" alt="New York Times"> <br> <img src="img/politico.png" class="img-fluid" style="border:0.5px solid;" width="450" alt="Politico"></p>
+</div><div class="column">
+<p><img src="img/guardian.png" class="img-fluid" style="border:0.5px solid;" width="450" alt="Guardian"> <br> <img src="img/spiegel.png" class="img-fluid" style="border:0.5px solid;" width="450" alt="Spiegel"> <br> <img src="img/538.png" class="img-fluid" style="border:0.5px solid;" width="450" alt="Fivethirtyeight"></p>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <a href="https://blog.datawrapper.de/fonts-for-data-visualization/">Datawrapper</a></p>
+</div></div></section>
+<section id="bibliography" class="level2 bibstyle">
+<h2 class="bibstyle anchored" data-anchor-id="bibliography">Bibliography</h2>
+<div class="footer">
+
+</div>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-card:2017" class="csl-entry" role="listitem">
+Card, David/Kluve, Jochen/Weber, Andrea (2017). What works? A meta analysis of recent active labor market program evaluations. <em>Journal of the European Economic Association</em>, <em>16</em>(3), 894–931. DOI: <a href="https://doi.org/10.1093/jeea/jvx028">10.1093/jeea/jvx028</a>
+</div>
+<div id="ref-kalecki:1943" class="csl-entry" role="listitem">
+Kalecki, Michal (1943). Political aspects of full employment. <em>The Political Quarterly</em>, <em>14</em>(4), 322–330. DOI: <a href="https://doi.org/10.1111/j.1467-923x.1943.tb01016.x">10.1111/j.1467-923x.1943.tb01016.x</a>
+</div>
+<div id="ref-kasy:2022" class="csl-entry" role="listitem">
+Kasy, Maximilian/Lehner, Lukas (2022). <em>Employing the unemployed of marienthal: Evaluation of a guaranteed job program</em> (Working Paper No. 2022-29). INET Oxford.
+</div>
+<div id="ref-ravi:2015" class="csl-entry" role="listitem">
+Ravi, Shamika/Engler, Monika (2015). Workfare as an effective way to fight poverty: The case of india’s <span>NREGS</span>. <em>World Development</em>, <em>67</em>, 57–71. DOI: <a href="https://doi.org/10.1016/j.worlddev.2014.09.029">10.1016/j.worlddev.2014.09.029</a>
+</div>
+<div id="ref-young:2012" class="csl-entry" role="listitem">
+Young, Cristobal (2012). Losing a job: The nonpecuniary cost of unemployment in the united states. <em>Social Forces</em>, <em>91</em>(2), 609–634. DOI: <a href="https://doi.org/10.1093/sf/sos071">10.1093/sf/sos071</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Made with and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right"> 2023 by Matthias Schnetzer</div>
+  </div>
+</footer>
+
+
+
+</body></html>

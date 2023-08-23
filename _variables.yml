@@ -1,0 +1,33 @@
+author: Matthias Schnetzer
+
+instructor:
+  name: Dr. Matthias Schnetzer
+  name-wo-title: Matthias Schnetzer
+  employer: "Vienna Chamber of Labour & WU Vienna"
+  email: mschnetz@wu.ac.at
+  url: "https://mschnetzer.github.io"
+  twitter: matschnetzer
+  github: mschnetzer
+  contact_policy: | 
+    Please contact me via [e-mail](mailto:mschnetz@wu.ac.at) and I will usually respond within a few days. Note that we use the learning platform [learn.wu.ac.at](https://learn.wu.ac.at) for all assignments in this course.
+
+course:
+  title: Economic Policy (Applied Track)
+  subtitle: Visualizing Innovation
+  icon: fa-lightbulb
+  icon-bg: fa-comment
+  number: "PI 0822"
+  semester: "Winter term 2023"
+  days: "Mondays"
+  time: "10:00–12:00"
+  location: "TC.3.10"
+  dates: "Oct 9, 2023 – Dec 18, 2023"
+  students: 30
+  url: "https://mschnetzer.github.io/econpolviz"
+  copyright_year: "2023"
+
+university:
+  name: Vienna University of Economics and Business
+  department: Department of Economics
+  url: "https://www.wu.ac.at"
+  

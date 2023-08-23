@@ -1,0 +1,47 @@
+{
+  "index.qmd": {
+    "index.html": "d2ffb49d"
+  },
+  "slides/05_inflation/index.qmd": {
+    "index.html": "241e9bb7"
+  },
+  "slides/08_wealth/index.qmd": {
+    "index.html": "b5105c16"
+  },
+  "slides/06_labour/index.qmd": {
+    "index.html": "f0dcad3f"
+  },
+  "slides/04_growth/index.qmd": {
+    "index.html": "c4dddd23"
+  },
+  "slides/03_visualization/index.qmd": {
+    "index.html": "9b787428"
+  },
+  "slides/10_climate/index.qmd": {
+    "index.html": "9f599c87"
+  },
+  "slides/01_introduction/index.qmd": {
+    "index.html": "c3077941"
+  },
+  "slides/07_income/index.qmd": {
+    "index.html": "8b7b3f79"
+  },
+  "slides/02_data/index.qmd": {
+    "index.html": "43e7e958"
+  },
+  "slides/09_mobility/index.qmd": {
+    "index.html": "25aa9a9d"
+  },
+  "visualization.qmd": {
+    "visualization.html": "8a9df59a"
+  },
+  "syllabus.qmd": {
+    "syllabus.html": "09267d03"
+  },
+  "data/code/07_income.Rmd": {
+    "07_income.html": "c090478e"
+  },
+  "schedule.qmd": {
+    "schedule.html": "ad40170b"
+  }
+}

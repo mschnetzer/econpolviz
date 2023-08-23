@@ -1,0 +1,62 @@
+---
+title: "{{< var course.title >}}"
+subtitle: "{{< var course.subtitle >}}"
+details: |
+    {{< var course.number >}} • {{< var course.semester >}} <br> {{< var university.name >}}
+course-icon: "{{< var course.icon >}}"
+course-icon-bg: "{{< var course.icon-bg >}}"
+page-layout: full
+format:
+  html:
+    template-partials: layout/partials/title-block.html
+    css: layout/css/adveconpol.scss
+---
+
+::: {.home}
+
+::: {.grid .course-info}
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+#### Lecturer
+
+- {{< fa user >}} &nbsp; {{< var instructor.name >}}
+- {{< fa globe >}} &nbsp; [{{< var instructor.url >}}]({{< var instructor.url >}})
+- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
+- {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+#### Course details
+
+- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
+- {{< fa calendar >}} &nbsp; {{< var course.days >}}
+- {{< fa clock >}} &nbsp; {{< var course.time >}}
+- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+:::
+
+::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
+#### Contact
+
+{{< var instructor.contact_policy >}}
+:::
+
+:::
+
+
+#### Summary
+
+"A picture is worth a thousand words". This course focuses on data visualization techniques with reference to contemporary issues of economic policy. There will be coding sessions in class where students assemble plots in R and study the basics of data visualization. Students are required to recreate figures at home to improve their skills in coding. As a special feature, we will have a collaboration with the [Austrian Patent Office](https://www.patentamt.at). Students will gain insights into the evolution and dissemination of innovation in the economic system. The agency will exclusively provide internal data to create data visualizations and illustrate the process of private innovation in Austria. Students need to bring their laptop to class and should have prior knowledge of data handling in R (tidyr).
+
+::: {style="text-align:center;"}
+![](data/img/wu-logo-simple.png){height="95px"} &emsp; ![](data/img/patentamt.png){height="100px"}
+:::
+
+To sum up, students will gain:
+
+::: {.summary-points}
+- an overview of contemporary debates in economic policy based on recent empirical research
+- a basic understanding of principles of data visualization and the use of figures in economic policy debates
+- an opportunity to work with exclusive data from the Austrian Patent Office
+:::
+
+:::

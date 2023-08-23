@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Matthias Schnetzer">
+<meta name="dcterms.date" content="2023-04-17">
+
+<title>PI 0822 Economic Policy (Applied Track) -     Economic Policy Visualization</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">PI 0822 Economic Policy (Applied Track)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../visualization.html" rel="" target="">
+ <span class="menu-text">Visualization</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><p><span class="fa-stack course-icon"> <i class="fas fa-comment fa-stack-2x blue"></i> <i class="fas fa-chart-column fa-stack-1x fa-inverse" style="margin-top:-5pt"></i> </span><br> Economic Policy Visualization</p></h1>
+<p class="subtitle lead">Inflation · Colors</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Matthias Schnetzer </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 17, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="what-exactly-is-inflation" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="what-exactly-is-inflation">What exactly is inflation?</h2>
+<p>Inflation is the increase of the general price level in an economy which is usually expressed as annual percentage change in a price index. Inflation implies a decrease in purchasing power. The causes of inflation include:</p>
+<div class="columns">
+<div class="column" style="width:48%;">
+<p><span class="secfont marker-hl" style="font-size:1.5rem;">Keynesian view</span></p>
+<ul>
+<li><span class="hl hl-dred">Demand-pull</span> inflation via increases of aggregate demand</li>
+<li><span class="hl hl-dred">Cost-push</span> inflation via drop in aggregate supply (supply-shock inflation)</li>
+<li><span class="hl hl-dred">Built-in</span> inflation via adaptive expectations (i.e.&nbsp;price-wage/profit spiral), e.g. <span class="citation" data-cites="weber:2023">Weber/Wasner (<a href="#ref-weber:2023" role="doc-biblioref">2023</a>)</span></li>
+</ul>
+</div><div class="column" style="width:4%;">
+
+</div><div class="column" style="width:48%;">
+<p><span class="secfont marker-hl" style="font-size:1.5rem;">Monetarist view</span></p>
+<ul>
+<li><span class="hl hl-blue">Money supply</span> controls inflation</li>
+<li><span class="hl hl-blue">Quantity theory</span> relates the quantity of money (<span class="math inline">\(M\)</span>) to the price level (<span class="math inline">\(P\)</span>): <span class="math inline">\(M \cdot V = P \cdot Y\)</span>, with the velocity of money (<span class="math inline">\(V\)</span>) being stable in the short-run.</li>
+<li><span class="hl hl-blue">Rational expectations</span> influence inflation</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="inflation-in-economic-policy" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="inflation-in-economic-policy">Inflation in economic policy</h2>
+<ul>
+<li>Price stability (i.e.&nbsp;low or even now inflation) is an important goal for economic policy.</li>
+<li>It is also the main goal of the European Central Bank (ECB) which it aims to obtain with monetary policy. The ECB mid-term inflation target lies at 2% and is <span class="hl hl-blue">symmetric</span>: meaning negative and positive deviations of inflation from the target are equally undesirable.</li>
+<li>Mix of fiscal (government spending, taxation, subsidies, etc.) and monetary (interest rate, quantitative easing) policies affect inflation in “normal times”.</li>
+<li>Potential triggers of current inflation: war, supply shortages due to the pandemics, CO2 taxation</li>
+</ul>
+</section>
+<section id="conflicting-economic-policy-goals-inflation-and-unemployment" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="conflicting-economic-policy-goals-inflation-and-unemployment">Conflicting economic policy goals: Inflation and unemployment</h2>
+<p>A longstanding discussion in economic policy revolves around the (negative) relationship between inflation and unemployment. This has been expressed in the <span class="secfont hl hl-dred">Phillips curve</span>.</p>
+<div class="columns">
+<div class="column">
+<p><span class="secfont marker-hl" style="font-size:1.3rem;">Keynesian view</span><br> <img src="img/phillips-curve.png" class="img-fluid"></p>
+</div><div class="column">
+<p><span class="secfont marker-hl" style="font-size:1.3rem;">Monetarist view</span><br> <img src="img/phillips-monetarist.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="how-do-we-measure-inflation" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="how-do-we-measure-inflation">How do we measure inflation?</h2>
+<p>The most important measure is the <span class="secfont hl hl-dred">Consumer prices index (CPI)</span>, which is based on a weighted average market basket of consumer goods and services purchased by households</p>
+<p>For international comparison of price levels, Eurostat provides the <span class="secfont hl hl-blue">Harmonised Indices of Consumer Prices (HICP)</span> and the OECD calculates <span class="secfont hl hl-blue">Purchasing Power Parities (PPP)</span></p>
+<p>Other important indices include the <span class="secfont hl hl-green">Wholesale Price Index (WPI)</span> and <span class="secfont hl hl-green">Producer Price Index (PPI)</span>.</p>
+<p>Apart from price indices, the <span class="secfont hl hl-yellow">GDP deflator</span> measures the general price level of all domestically produced goods and services.</p>
+</section>
+<section id="how-to-construct-the-cpi-in-austria" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="how-to-construct-the-cpi-in-austria">How to construct the CPI in Austria?</h2>
+<ul>
+<li><span class="hl hl-dred">Household Budgetary Survey</span>: survey on household consumption; every five years with roughly 7,000 households</li>
+<li>Consumer basket: 1958 only 197 goods and surveys, today 757 index positions</li>
+<li><span class="hl hl-dred">COICOP</span>: “Classification of Individual Consumption by Purpose” with 12 main groups</li>
+<li>Price information directly from companies (scanner data since 2022, cigarettes, etc.) and from inquiries in retail shops</li>
+<li>More than 38,000 prices surveyed monthly in 19 cities and 4,200 shops</li>
+</ul>
+</section>
+<section id="changes-in-the-cpi-in-selected-european-countries" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="changes-in-the-cpi-in-selected-european-countries">Changes in the CPI in selected European countries</h2>
+<div class="cell" data-layout-align="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/euroinf-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Further reading: <span class="citation" data-cites="wug:2022">WuG Editorial board (<a href="#ref-wug:2022" role="doc-biblioref">2022</a>)</span>, <span class="citation" data-cites="zuckerstatter:2022">Zuckerstätter et al. (<a href="#ref-zuckerstatter:2022" role="doc-biblioref">2022</a>)</span></p>
+</div></div></section>
+<section id="inflation-in-austria-by-selected-coicop-groups" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="inflation-in-austria-by-selected-coicop-groups">Inflation in Austria by selected COICOP groups</h2>
+<div class="cell" data-layout-align="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/infstream-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="drivers-of-inflation-in-austria" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="drivers-of-inflation-in-austria">Drivers of inflation in Austria</h2>
+<div class="cell" data-layout-align="center">
+<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/infbump-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="all-colours-are-beautiful" class="level1 page-columns page-full">
+<h1>All colours are beautiful</h1>
+<center>
+<img src="../../data/img/avatar_sweatshirt.png" class="img-fluid" width="250">
+</center>
+<div class="footer">
+
+</div>
+<section id="colors-in-r" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="colors-in-r">Colors in R</h2>
+<p>You can assign colors by <span class="hl hl-dred">names</span></p>
+<ul>
+<li>“red”, “green”, “chocolate”, “cadetblue”, etc.</li>
+<li>See a complete list of the 657 colors typing <span class="secfont">colors()</span></li>
+</ul>
+<p>. . .</p>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code> [1] "white"         "aliceblue"     "antiquewhite"  "antiquewhite1"
+ [5] "antiquewhite2" "antiquewhite3" "antiquewhite4" "aquamarine"   
+ [9] "aquamarine1"   "aquamarine2"   "aquamarine3"   "aquamarine4"  </code></pre>
+</div>
+</div>
+<p>. . .</p>
+<p><br> Alternatively, you can use <span class="hl hl-dred">hex color codes</span></p>
+<ul>
+<li>#F8766D, #00BA38, #619CFF, etc.</li>
+<li>Use color picker to get hex code, e.g.&nbsp;<a href="https://htmlcolorcodes.com">https://htmlcolorcodes.com</a></li>
+</ul>
+</section>
+<section id="color-palettes-of-rcolorbrewer" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="color-palettes-of-rcolorbrewer">Color palettes of {RColorBrewer}</h2>
+<div class="columns">
+<div class="column center" style="width:33%;">
+<p>Sequential</p>
+<p><span style="font-size:1.3rem;">Use to encode numerical information <em>with order</em></span></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/seq-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div><div class="column center fragment" style="width:33%;">
+<p>Diverging</p>
+<p><span style="font-size:1.3rem;">Use to encode numerical information with <em>critical midpoint</em></span></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/div-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div><div class="column center fragment" style="width:33%;">
+<p>Qualitative</p>
+<p><span style="font-size:1.3rem;">Use to encode <em>categorical</em> information</span></p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/qual-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <span class="citation" data-cites="scherer:2022">Scherer (<a href="#ref-scherer:2022" role="doc-biblioref">2022</a>)</span></p>
+</div></div></section>
+<section id="color-blindness" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="color-blindness">Color blindness</h2>
+<div class="columns">
+<div class="column">
+<p>You may check whether the color scale works for people who can distinguish fewer colours than others with <span class="secfont">{colorBlindness}</span>.</p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: The `guide` argument in `scale_*()` cannot be `FALSE`. This was deprecated in
+ggplot2 3.3.4.
+ℹ Please use "none" instead.
+ℹ The deprecated feature was likely used in the colorBlindness package.
+  Please report the issue to the authors.</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/cblind-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div><div class="column fragment">
+<p>The <span class="secfont">viridis</span> color scale is discriminable under the most common forms of colour blindness, and reproduces well in greyscale.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/viridis-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="fancy-palettes" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="fancy-palettes">Fancy palettes</h2>
+<div class="columns">
+<div class="column center">
+<p><a href="https://github.com/BlakeRMills/MetBrewer"><span class="secfont">{MetBrewer}</span></a></p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Welcome to unikn (v0.9.0)!</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>grepal() searches for color names.</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/met-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div><div class="column center">
+<p><a href="https://github.com/karthik/wesanderson"><span class="secfont">{wesanderson}</span></a></p>
+<div class="cell">
+<div class="cell-output cell-output-stderr">
+<pre><code>Registered S3 method overwritten by 'wesanderson':
+  method        from     
+  print.palette MetBrewer</code></pre>
+</div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/wes-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="color-scales-in-ggplot" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="color-scales-in-ggplot">Color scales in {ggplot}</h2>
+<div class="center secfont" style="font-size:2.5rem;">
+<p>scale_color_* <br> scale_fill_*</p>
+</div>
+<div class="columns">
+<div class="column center">
+<p>Continuous:</p>
+<ul>
+<li><span class="secfont">continuous(type)</span></li>
+<li><span class="secfont">distiller(palette)</span></li>
+<li><span class="secfont">gradient(high, low)</span></li>
+<li><span class="secfont">gradient2(high, mid, low)</span></li>
+<li><span class="secfont">gradientn(colours)</span></li>
+<li><span class="secfont">viridis_c(option)</span></li>
+</ul>
+</div><div class="column center">
+<p>Discrete:</p>
+<ul>
+<li><span class="secfont">manual(values)</span></li>
+<li><span class="secfont">brewer(palette)</span></li>
+<li><span class="secfont">grey(start, end)</span></li>
+<li><span class="secfont">viridis_d(option)</span></li>
+</ul>
+</div>
+</div>
+</section>
+<section id="bibliography" class="level2 bibstyle">
+<h2 class="bibstyle anchored" data-anchor-id="bibliography">Bibliography</h2>
+<div class="footer">
+
+</div>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-scherer:2022" class="csl-entry" role="listitem">
+Scherer, Cédric (2022). Graphic design with ggplot2. <a href="https://rstudio-conf-2022.github.io/ggplot2-graphic-design/">https://rstudio-conf-2022.github.io/ggplot2-graphic-design/</a>
+</div>
+<div id="ref-weber:2023" class="csl-entry" role="listitem">
+Weber, Isabella M./Wasner, Evan (2023). Sellers’ inflation, profits and conflict: Why can large firms hike prices in an emergency? <em>Review of Keynesian Economics</em>, <em>11</em>(2), 183–213. DOI: <a href="https://doi.org/10.4337/roke.2023.02.05">https://doi.org/10.4337/roke.2023.02.05</a>
+</div>
+<div id="ref-wug:2022" class="csl-entry" role="listitem">
+WuG Editorial board (2022). How to tackle the inflation crisis? Learnings from european case studies. <em>Wirtschaft Und Gesellschaft</em>, <em>48</em>(4), 497–518.
+</div>
+<div id="ref-zuckerstatter:2022" class="csl-entry" role="listitem">
+Zuckerstätter, Sepp/Kafenda, Lukas/Muckenhuber, Mattias/Russinger, Reinhold (2022). Austria: Policies dealing with the inflation crisis. <em>Wirtschaft Und Gesellschaft</em>, <em>48</em>(4), 578–598.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Made with and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right"> 2023 by Matthias Schnetzer</div>
+  </div>
+</footer>
+
+
+
+</body></html>

@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.433">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Matthias Schnetzer">
+<meta name="dcterms.date" content="2023-06-05">
+
+<title>PI 0822 Economic Policy (Applied Track) -     Economic Policy Visualization</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">PI 0822 Economic Policy (Applied Track)</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../syllabus.html" rel="" target="">
+ <span class="menu-text">Syllabus</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html" rel="" target="">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../visualization.html" rel="" target="">
+ <span class="menu-text">Visualization</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><p><span class="fa-stack course-icon"> <i class="fas fa-comment fa-stack-2x blue"></i> <i class="fas fa-chart-column fa-stack-1x fa-inverse" style="margin-top:-5pt"></i> </span><br> Economic Policy Visualization</p></h1>
+<p class="subtitle lead">Mobility · Maps</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Matthias Schnetzer </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 5, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="discuss-with-your-neighbour" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="discuss-with-your-neighbour">Discuss with your neighbour</h2>
+<p><span class="bubble bubble-bottom-left absolute" data-top="20%" data-left="25%" style="max-width:350px;--bubcol: var(--bubcol-blue);font-size:1.5rem;">How would you describe the state of intergenerational social mobility in your country?</span></p>
+<p><span class="bubble bubble-bottom-right absolute" data-top="50%" data-left="30%" style="max-width:350px;--bubcol: var(--bubcol-dred);font-size:1.5rem;">Which channels do you know where parents exert influence on the socio-economic outcomes of children?</span></p>
+<p><img src="img/discuss1.png" class="absolute" data-bottom="0px" data-left="5%" height="600"> <img src="img/discuss2.png" class="absolute" style="transform: rotateY(180deg);" data-bottom="0px" data-right="5%" height="600"></p>
+<div class="footer">
+<p>Illustrations by <a href="https://openpeeps.com">https://openpeeps.com</a>.</p>
+</div>
+</section>
+<section id="selected-channels-of-intergenerational-persistence" class="level2 medium page-columns page-full">
+<h2 class="medium anchored" data-anchor-id="selected-channels-of-intergenerational-persistence">Selected channels of intergenerational persistence</h2>
+<div class="altlist incremental">
+<ul class="incremental">
+<li>Children of well-off families <span class="marker-hl">attend better educational institutions</span>, which results in higher incomes later on.</li>
+<li>Family background shapes <span class="marker-hl">individual labor market-related</span> characteristics (Habitus, social and cultural capital, health, etc.)</li>
+<li>Children of poorer families face <span class="marker-hl">higher opportunity costs</span> at their job search and tend to accept the first job opportunity</li>
+<li><span class="marker-hl">Social networks</span> of the well-off facilitate job search substantially</li>
+</ul>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <span class="citation" data-cites="franzini:2009">Franzini/Raitano (<a href="#ref-franzini:2009" role="doc-biblioref">2009</a>)</span></p>
+</div></div></section>
+<section id="glass-ceiling" class="level2">
+<h2 class="anchored" data-anchor-id="glass-ceiling">Glass ceiling</h2>
+<div class="blockquote" style="font-size:1.9rem;">
+<p>That room [at the top] rarely opens up because those mediocrities are too well-screened by parents who hire private tutors, buy cultural enrichment, teach etiquette, set expectations, stand as personal examples of success, coach interview technique, navigate any bureaucratic maze put before them, set up home in nice areas, arrange internships via friends and, just to rub in their supremacy, make direct gifts of cash and assets. To fail under these conditions is a kind of achievement in itself.</p>
+</div>
+<div style="font-size:1.2rem;text-align:right;font-family:'Roboto Slab';">
+<p>Janan Ganesh<br>Financial Times (December 9, 2016)</p>
+</div>
+</section>
+<section id="traditional-theory" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="traditional-theory">Traditional theory</h2>
+<p><span class="citation" data-cites="becker:1979">Becker/Tomes (<a href="#ref-becker:1979" role="doc-biblioref">1979</a>)</span>, <span class="citation" data-cites="becker:1986">Becker/Tomes (<a href="#ref-becker:1986" role="doc-biblioref">1986</a>)</span>:</p>
+<div class="incremental">
+<ul class="incremental">
+<li>Optimization problem for parental investments into the human capital of descendants (utility of parents is maximized)</li>
+<li>Stochastic term for “birth lottery” (genetic abilities, talents): <em>Nature versus Nurture</em></li>
+<li>Parental utility does not only depend on the life-cycle income of the descendant, but there is dynastic utility</li>
+</ul>
+</div>
+<p>. . .</p>
+<p>Response by <span class="citation" data-cites="daly:1982">Daly (<a href="#ref-daly:1982" role="doc-biblioref">1982</a>)</span>: Provision of descendants in future generations is a public good, since the future offspring may potentially descend from all other members in a society.</p>
+<p>. . .</p>
+<p>Objection by <span class="citation" data-cites="mani:2013">Mani et al. (<a href="#ref-mani:2013" role="doc-biblioref">2013</a>)</span>: Rational parental behaviour is limited by income and wealth, since poverty impedes cognitive abilities of adults and hinders rational investment decisions in childern.</p>
+</section>
+<section id="measurement-of-intergenerational-mobility" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="measurement-of-intergenerational-mobility">Measurement of intergenerational mobility</h2>
+<div style="text-align:center;">
+<p>Intergenerational earnings elasticity: <span class="math inline">\(\beta\)</span> <span class="math display">\[log~y_{ic} = \alpha + \beta~y_{ip} + \varepsilon_{ic}\]</span> Intergenerational earnings correlation: <span class="math inline">\(\rho\)</span> <span class="math display">\[\rho = \beta~\frac{\sigma_p}{\sigma_c}\]</span> with <span class="math inline">\(\sigma\)</span> being the standard deviation.</p>
+</div>
+</section>
+<section id="life-cycle-vs.-current-income" class="level2">
+<h2 class="anchored" data-anchor-id="life-cycle-vs.-current-income">Life cycle vs.&nbsp;current income</h2>
+<div style="font-size:1.5rem;">
+<p>(Measurable) current income corresponds to life cycle income plus random transitory deviations <span class="math display">\[ y_{ic}^* = y_{ic} + \omega_{ic} \\
+y_{ip}^* = y_{ip} + \omega_{ip} \]</span></p>
+<p>Intergenerational elasticity is calculated with current income records</p>
+<p><span class="math display">\[ plim~\widehat{\beta} = \frac{cov(y_{ip}^*, y_{ic}^*)}{var(y_{ip}^*)} = \\
+= \frac{\beta\left[var(y_{ip}) + cov(y_{ip}, \omega_{ip})\right] + cov(y_{ic}, \omega_{ic})/\beta + cov(\omega_{ic}, \omega_{ip})}{var(y_{ip}) + 2 \cdot cov(y_{ip}, \omega_{ip}) + var(\omega_{ip})} \]</span></p>
+<p>Consequently there is an attenuation bias (downward bias) <span class="math display">\[ plim~\widehat{\beta} = \beta \frac{var(y_{ip})}{var(y_{ip}) + var(\omega_{ip})} &lt; \beta \]</span></p>
+</div>
+</section>
+<section id="transition-matrices" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="transition-matrices">Transition matrices</h2>
+<p>A transition matrix captures the probabilities of switches <span class="math inline">\(p_{ij}\)</span> from status <span class="math inline">\(i\)</span> to <span class="math inline">\(j\)</span>.</p>
+<p><span class="math display">\[
+  P =
+  \left[ {\begin{array}{cccc}
+    p_{11} &amp; p_{12} &amp; \cdots &amp; p_{1n}\\
+    p_{21} &amp; p_{22} &amp; \cdots &amp; p_{2n}\\
+    \vdots &amp; \vdots &amp; \ddots &amp; \vdots\\
+    p_{m1} &amp; p_{m2} &amp; \cdots &amp; p_{mn}\\
+  \end{array} } \right]
+\]</span></p>
+<p><br></p>
+<p>There are various indices to compare transition matrices:</p>
+<ul>
+<li>Prais-Index: <span class="math inline">\(M(P) = \frac{n - trace(P)}{n-1}\)</span> where <span class="math inline">\(M(P) \in [0,1]\)</span></li>
+<li>Absolute Average Jump (AAJ): <span class="math inline">\(\Omega = \frac{\sum_{i=1}^{n}|rank_{ic} - rank_{ip}|}{n}\)</span></li>
+</ul>
+</section>
+<section id="great-gatsby-curve" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="great-gatsby-curve">Great Gatsby curve</h2>
+<div class="cell" data-layout-align="center">
+<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.2     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.2     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors
+Joining with `by = join_by(iso3c)`
+`geom_smooth()` using formula = 'y ~ x'</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/gatsby-1.png" class="img-fluid figure-img" width="816"></p>
+</figure>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <span class="citation" data-cites="oecd:2018">OECD (<a href="#ref-oecd:2018" role="doc-biblioref">2018</a>)</span>, <span class="citation" data-cites="corak:2013">Corak (<a href="#ref-corak:2013" role="doc-biblioref">2013</a>)</span></p>
+</div></div></section>
+<section id="educational-mobility-in-austria" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="educational-mobility-in-austria">Educational mobility in Austria</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/educationmobility.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Note: Sample of 25 to 44 years of age</p>
+</div></div></section>
+<section id="decreasing-absolute-mobility-in-the-us" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="decreasing-absolute-mobility-in-the-us">Decreasing absolute mobility in the US</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/mobilityusa.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <span class="citation" data-cites="chetty:2017">Chetty et al. (<a href="#ref-chetty:2017" role="doc-biblioref">2017</a>)</span></p>
+</div></div></section>
+<section id="multigenerational-persistence" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="multigenerational-persistence">Multigenerational persistence</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/grandparents1.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="img/grandparents2.png" class="img-fluid figure-img"></p>
+</figure>
+</div>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <span class="citation" data-cites="neidhofer:2018">Neidhöfer/Stockhausen (<a href="#ref-neidhofer:2018" role="doc-biblioref">2018</a>)</span></p>
+</div></div></section>
+<section id="mobility-takes-generations" class="level2 smaller page-columns page-full">
+<h2 class="smaller anchored" data-anchor-id="mobility-takes-generations">Mobility takes generations</h2>
+<div class="cell" data-layout-align="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/generations-1.png" class="img-fluid figure-img" width="576"></p>
+</figure>
+</div>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p>Source: <span class="citation" data-cites="oecd:2018">OECD (<a href="#ref-oecd:2018" role="doc-biblioref">2018</a>)</span></p>
+</div></div></section>
+<section id="long-term-social-persistence" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="long-term-social-persistence">Long-term social persistence</h2>
+<div class="iconlist">
+<ul>
+<li><span class="emoji" data-emoji="uk">🇬🇧</span> <span class="citation" data-cites="clark:2015">Clark/Cummins (<a href="#ref-clark:2015" role="doc-biblioref">2015</a>)</span>: Richest british families around 1850 still own four times the average family wealth in 2012 <br> (= <span class="marker-hl">5 generations later</span>)</li>
+<li><span class="emoji" data-emoji="it">🇮🇹</span> <span class="citation" data-cites="barone:2020">Barone/Mocetti (<a href="#ref-barone:2020" role="doc-biblioref">2020</a>)</span>: Families with highest income in Florence in 1427 still are at the top of the income distribution in 2011 <br> (= <span class="marker-hl">6 centuries later</span>)</li>
+<li><span class="emoji" data-emoji="de">🇩🇪</span> <span class="citation" data-cites="braun:2017">Braun/Stuhler (<a href="#ref-braun:2017" role="doc-biblioref">2017</a>)</span>: Social status in Germany also depends from the great-grandparents.<br> (= <span class="marker-hl">4 generations later</span>)</li>
+</ul>
+</div>
+</section>
+<section id="maps" class="level1">
+<h1>Maps</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../data/img/avatar_cool.png" height="350" class="figure-img"></p>
+</figure>
+</div>
+<div class="footer">
+
+</div>
+<section id="projections" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="projections">Projections</h2>
+<p>Choose a <span class="marker-hl">map projection</span>! For instance, <span class="secfont">{giscoR}</span> by Eurostat provides maps in the following three projections. Check coordinates for axis limits at <a href="https://epsg.io">https://epsg.io</a>.</p>
+<div class="cell" data-layout-align="center">
+<pre><code>Linking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0; sf_use_s2() is TRUE</code></pre>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/projections-1.png" class="img-fluid figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="the-sf-package" class="level2 medium">
+<h2 class="medium anchored" data-anchor-id="the-sf-package">The {sf} package</h2>
+<p>The <span class="secfont">sf</span> (<em>simple features</em>) package deals with spatial geometries. These features have a geometry describing where on Earth the feature is located, and they have attributes, which describe other properties.</p>
+<div class="cell" data-layout-align="center">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="index_files/figure-html/sfgeom-1.png" class="img-fluid figure-img" width="1056"></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="plot-a-map" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="plot-a-map">Plot a map</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>europe_3035 <span class="sc">|&gt;</span> <span class="fu">select</span>(CNTR_ID, NAME_ENGL, geometry) <span class="sc">|&gt;</span> <span class="fu">slice_head</span>(<span class="at">n =</span> <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Simple feature collection with 3 features and 2 fields
+Geometry type: POLYGON
+Dimension:     XY
+Bounding box:  xmin: 3618229 ymin: 1900590 xmax: 5257241 ymax: 2889034
+Projected CRS: ETRS89-extended / LAEA Europe
+  CNTR_ID NAME_ENGL                       geometry
+1      AL   Albania POLYGON ((5148385 2216599, ...
+2      AT   Austria POLYGON ((4832035 2857837, ...
+3      AD   Andorra POLYGON ((3640254 2192873, ...</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>europe_3035 <span class="sc">|&gt;</span> <span class="fu">ggplot</span>() <span class="sc">+</span> </span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_sf</span>(<span class="at">fill =</span> <span class="st">"midnightblue"</span>, <span class="at">linewidth =</span> .<span class="dv">1</span>, <span class="at">color =</span> <span class="st">"white"</span>) <span class="sc">+</span> </span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_sf</span>(<span class="at">xlim =</span> <span class="fu">c</span>(<span class="dv">2377294</span>, <span class="dv">7453440</span>), <span class="at">ylim =</span> <span class="fu">c</span>(<span class="dv">1313597</span>, <span class="dv">5628510</span>), <span class="at">expand =</span> F)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="index_files/figure-html/plotmap-1.png" class="img-fluid" width="576"></p>
+</div>
+</div>
+</section>
+<section id="bibliography" class="level2 bibstyle">
+<h2 class="bibstyle anchored" data-anchor-id="bibliography">Bibliography</h2>
+<div class="footer">
+
+</div>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-barone:2020" class="csl-entry" role="listitem">
+Barone, Guglielmo/Mocetti, Sauro (2020). Intergenerational mobility in the very long run: Florence 1427-2011. <em>The Review of Economic Studies</em>, <em>88</em>(4), 1863–1891. DOI: <a href="https://doi.org/10.1093/restud/rdaa075">10.1093/restud/rdaa075</a>
+</div>
+<div id="ref-becker:1979" class="csl-entry" role="listitem">
+Becker, Gary/Tomes, Nigel (1979). An equilibrium theory of the distribution of income and intergenerational mobility. <em>The Journal of Political Economy</em>, <em>87</em>(6), 1153–1189.
+</div>
+<div id="ref-becker:1986" class="csl-entry" role="listitem">
+Becker, Gary/Tomes, Nigel (1986). Human capital and the rise and fall of families. <em>Journal of Labor Economics</em>, <em>4</em>(3), S1–S39.
+</div>
+<div id="ref-braun:2017" class="csl-entry" role="listitem">
+Braun, Sebastian Till/Stuhler, Jan (2017). The transmission of inequality across multiple generations: Testing recent theories with evidence from germany. <em>The Economic Journal</em>, <em>128</em>(609), 576–611. DOI: <a href="https://doi.org/10.1111/ecoj.12453">10.1111/ecoj.12453</a>
+</div>
+<div id="ref-chetty:2017" class="csl-entry" role="listitem">
+Chetty, Raj/Grusky, David/Hell, Maximilian/Hendren, Nathaniel/Manduca, Robert/Narang, Jimmy (2017). The fading american dream: Trends in absolute income mobility since 1940. <em>Science</em>, <em>356</em>(6336), 398–406. DOI: <a href="https://doi.org/10.1126/science.aal4617">10.1126/science.aal4617</a>
+</div>
+<div id="ref-clark:2015" class="csl-entry" role="listitem">
+Clark, Gregory/Cummins, Neil (2015). Intergenerational wealth mobility in england, 1858–2012: Surnames and social mobility. <em>The Economic Journal</em>, <em>125</em>(582), 61–85. DOI: <a href="https://doi.org/10.1111/ecoj.12165">10.1111/ecoj.12165</a>
+</div>
+<div id="ref-corak:2013" class="csl-entry" role="listitem">
+Corak, Miles (2013). Income inequality, equality of opportunity, and intergenerational mobility. <em>Journal of Economic Perspectives</em>, <em>27</em>(3), 79–102. DOI: <a href="https://doi.org/10.1257/jep.27.3.79">10.1257/jep.27.3.79</a>
+</div>
+<div id="ref-daly:1982" class="csl-entry" role="listitem">
+Daly, Herman E. (1982). Chicago school individualism versus sexual reproduction: A critique of becker and tomes. <em>Journal of Economic Issues,</em> <em>16</em>(1), 307–312.
+</div>
+<div id="ref-franzini:2009" class="csl-entry" role="listitem">
+Franzini, Maurizio/Raitano, Michele (2009). Persistence of inequality in europe: The role of family economic conditions. <em>International Review of Applied Economics</em>, <em>23</em>(3), 345–366. DOI: <a href="https://doi.org/10.1080/02692170902811777">10.1080/02692170902811777</a>
+</div>
+<div id="ref-mani:2013" class="csl-entry" role="listitem">
+Mani, Anandi/Mullainathan, Sendhil/Shafir, Eldar/Zhao, Jiaying (2013). Poverty impedes cognitive function. <em>Science</em>, <em>341</em>(6149), 976–980. DOI: <a href="https://doi.org/10.1126/science.1238041">10.1126/science.1238041</a>
+</div>
+<div id="ref-neidhofer:2018" class="csl-entry" role="listitem">
+Neidhöfer, Guido/Stockhausen, Maximilian (2018). Dynastic inequality compared: Multigenerational mobility in the united states, the united kingdom, and germany. <em>Review of Income and Wealth</em>, <em>65</em>(2), 383–414. DOI: <a href="https://doi.org/10.1111/roiw.12364">10.1111/roiw.12364</a>
+</div>
+<div id="ref-oecd:2018" class="csl-entry" role="listitem">
+OECD (2018). <em>A broken social elevator? How to promote social mobility</em>. OECD Publishing. DOI: <a href="https://doi.org/10.1787/9789264301085-en">10.1787/9789264301085-en</a>
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Made with and <a href="https://quarto.org/">Quarto</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right"> 2023 by Matthias Schnetzer</div>
+  </div>
+</footer>
+
+
+
+</body></html>
