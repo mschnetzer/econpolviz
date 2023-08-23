@@ -19,19 +19,23 @@ format:
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 #### Lecturer
 
-- {{< fa user >}} &nbsp; {{< var instructor.name >}}
-- {{< fa globe >}} &nbsp; [{{< var instructor.url >}}]({{< var instructor.url >}})
-- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
-- {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+<ul class="fa-ul" style="padding-left: 0;">
+  <li><span class="fa-li">{{< fa user >}}</span>{{< var instructor.name >}}</li>
+  <li><span class="fa-li">{{< fa globe >}}</span>[{{< var instructor.url >}}]({{< var instructor.url >}})</li>
+  <li><span class="fa-li">{{< fa envelope >}}</span><a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a></li>
+  <li><span class="fa-li">{{< fa brands twitter >}}</span>[{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})</li>
+</ul>
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 #### Course details
 
-- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
-- {{< fa calendar >}} &nbsp; {{< var course.days >}}
-- {{< fa clock >}} &nbsp; {{< var course.time >}}
-- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+<ul class="fa-ul" style="padding-left: 0;">
+  <li><span class="fa-li">{{< fa calendar-alt >}}</span>{{< var course.dates >}}</li>
+  <li><span class="fa-li">{{< fa calendar >}}</span>{{< var course.days >}}</li>
+  <li><span class="fa-li">{{< fa clock >}}</span>{{< var course.time >}}</li>
+  <li><span class="fa-li">{{< fa location-dot >}}</span>{{< var course.location >}}</li>
+</ul>
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}

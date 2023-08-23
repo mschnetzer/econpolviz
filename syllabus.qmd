@@ -9,28 +9,34 @@ css: layout/css/adveconpol.scss
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 #### Lecturer
 
-- {{< fa user >}} &nbsp; {{< var instructor.name >}}
-- {{< fa globe >}} &nbsp; [{{< var instructor.url >}}]({{< var instructor.url >}})
-- {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
-- {{< fa brands twitter >}} &nbsp; [{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})
+<ul class="fa-ul" style="padding-left: 0;">
+    <li><span class="fa-li">{{< fa user >}}</span>{{< var instructor.name >}}</li>
+    <li><span class="fa-li">{{< fa globe >}}</span>[{{< var instructor.url >}}]({{< var instructor.url >}})</li>
+    <li><span class="fa-li">{{< fa envelope >}}</span><a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a></li>
+    <li><span class="fa-li">{{< fa brands twitter >}}</span>[{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})</li>
+</ul>
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 #### Dates
 
-- {{< fa calendar-alt >}} &nbsp; {{< var course.dates >}}
-- {{< fa calendar >}} &nbsp; {{< var course.days >}}
-- {{< fa clock >}} &nbsp; {{< var course.time >}}
-- {{< fa location-dot >}} &nbsp; {{< var course.location >}}
+<ul class="fa-ul" style="padding-left: 0;">
+    <li><span class="fa-li">{{< fa calendar-alt >}}</span>{{< var course.dates >}}</li>
+    <li><span class="fa-li">{{< fa calendar >}}</span>{{< var course.days >}}</li>
+    <li><span class="fa-li">{{< fa clock >}}</span>{{< var course.time >}}</li>
+    <li><span class="fa-li">{{< fa location-dot >}}</span>{{< var course.location >}}</li>
+</ul>
 :::
 
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 #### Highlights
 
-- {{< fa users-line >}} &nbsp; max. {{< var course.students >}} students
-- {{< fa comments >}} &nbsp; Learn about innovation
-- {{< fa laptop-code >}} &nbsp;&nbsp; Improve your R coding skills
-- {{< fa pencil >}} &nbsp; Visualize with exlusive data
+<ul class="fa-ul" style="padding-left: 0;">
+    <li><span class="fa-li">{{< fa users-line >}}</span>max. {{< var course.students >}} students</li>
+    <li><span class="fa-li">{{< fa lightbulb >}}</span>Learn about innovation</li>
+    <li><span class="fa-li">{{< fa laptop-code >}}</span>Improve your R coding skills</li>
+    <li><span class="fa-li">{{< fa chart-simple >}}</span>Visualize with exlusive data</li>
+</ul>
 :::
 
 :::
@@ -62,19 +68,21 @@ After completing this course, students will:
 - have basic knowledge of important principles of data visualization
 - be able to create charts to enrich their academic articles
 
+::: {.grading}
 #### Grading
 
-::: { .grading }
- | 
--|---------------------------------------------
- {{< fa home >}} | Assignments: 30\% (0-10 points for each visualization) 
- {{< fa person-chalkboard >}}  | Chart presentation: 30\% (0-20 points for the quality of the presentation, 0-10 for the preliminary chart) 
- {{< fa file-pen >}}  | Written report: 40\% (0-40 points for the report and the final chart) 
+<ul class="fa-ul" style="padding-left: 0; margin-bottom: 10px;">
+ <li><span class="fa-li">{{< fa home >}}</span>Assignments: 30\% (0-10 points for each visualization)</li>
+ <li><span class="fa-li">{{< fa person-chalkboard >}}</span>Chart presentation: 30\% (0-20 points for the quality of the presentation, 0-10 for the preliminary chart)</li>
+ <li><span class="fa-li">{{< fa file-pen >}}</span>Written report: 40\% (0-40 points for the report and the final chart)</li>
+</ul>
 :::
 
+::: {style="margin-top:2rem;"}
 {{< fa regular face-grin-stars >}} &nbsp; 100-90: Excellent &emsp;
 {{< fa regular face-smile >}} &nbsp; 89-80: Good &emsp;
 {{< fa regular face-meh >}} &nbsp; 79-65: Satisfactory &emsp;
 {{< fa regular face-rolling-eyes >}} &nbsp; 64-50: Sufficient
+:::
 
 **All single tasks have to be passed** (50\% threshold each).

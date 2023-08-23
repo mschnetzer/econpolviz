@@ -293,24 +293,19 @@ h4, h5, h6 {
   border: none!important;
 }
 
-.grading {
+.grading ul li {
   font-weight: 100;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
-.grading td, tr, th, tbody {
-  border: none!important;
-  border-spacing:0 !important;
-  padding-bottom: 0;
-  padding-top: 0;
-  font-size: 1rem;
-}
 
 @media(min-width:768px) {
   .course-info-syllabus ul {
     font-size: 0.8rem;
   }
   
-  .grading td, tr, th, tbody {
+  .grading ul li {
     font-size: 1.1rem;
   }
 }
@@ -320,7 +315,7 @@ h4, h5, h6 {
     font-size: 1rem;
   }
   
-  .grading td, tr, th, tbody {
+  .grading ul li {
     font-size: 1.2rem;
   }
 }

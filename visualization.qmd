@@ -14,13 +14,23 @@ The Austrian Patent Office will exclusively provide internal data to create data
 
 #### RMarkdown report
 
-Students are required to draft a short report around the chart, containing the most important information of chart creation and the entire R code. **The final version of the report is due on January 31, 2024.** You should work with [RMarkdown](https://rmarkdown.rstudio.com/index.html) which is a handy and simple tool to compose reports based on R code. It is recommended to edit the document in [RStudio](https://posit.co) and compile it as HTML file. The final report should be structured as follows:
+Students are required to draft a short report around the chart, containing the most important information of chart creation and the entire R code. **The final version of the report is due on January 31, 2024.** You should work with [RMarkdown](https://rmarkdown.rstudio.com/index.html) which is a handy and simple tool to compose reports based on R code. It is recommended to edit the document in [RStudio](https://posit.co). The final report will be an HTML file and should be structured as follows:
 
 - *Research question:* What is the specific research question that you want to address with your visualization?
 - *Data:* What data was available and what did you actually use? If helpful, you might want to include some descriptive statistics as a table.
 - *Result:* Present and describe the chart that you have created.
 - *Conclusion*: What are the main conclusions from your chart? 
 - *Code:* Provide the full code for your data visualization as a code block in the appendix of the report.
+
+The charts and the report will be published under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/deed.de). The Austrian Patent Office will be authorized to (re-)use and edit visualizations and code for non-commercial purposes.
+
+#### Visualization Awards
+
+The Austrian Patent Office will award the best three data visualizations. The winning project receives €300, the second place €150, and the third place €50. Selected figures might also be published in the annual report of the Patent Office and thus made available to a broader audience.
+
+#### Topics
+
+The topics for the visualization projects will be announced in due time. For technical questions regarding the data from the Austrian Patent Office, please contact [Renate Spring](mailto:renate<dot>spring<at>patentamt<dot>at) or [Erwin Auer](mailto:erwin<dot>auer<at>patentamt<dot>at) via eMail.
 
 #### Cheatsheets
 
