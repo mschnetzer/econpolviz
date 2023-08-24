@@ -12,6 +12,8 @@ The Austrian Patent Office will exclusively provide internal data to create data
 - *Data*: What data did you use?
 - *Chart*: What does the chart show? What were your thoughts when choosing this style?
 
+Please also carefully read the **accompanying information document** provided by the Austrian Patent Office: <a href = "data/assignments/information_patents.docx">{{< fa file-word >}}</a>
+
 #### RMarkdown report
 
 Students are required to draft a short report around the chart, containing the most important information of chart creation and the entire R code. **The final version of the report is due on January 31, 2024.** You should work with [RMarkdown](https://rmarkdown.rstudio.com/index.html) which is a handy and simple tool to compose reports based on R code. It is recommended to edit the document in [RStudio](https://posit.co). The final report will be an HTML file and should be structured as follows:
@@ -24,13 +26,56 @@ Students are required to draft a short report around the chart, containing the m
 
 The charts and the report will be published under the [CC BY-NC 4.0 license](https://creativecommons.org/licenses/by-nc/4.0/deed.de). The Austrian Patent Office will be authorized to (re-)use and edit visualizations and code for non-commercial purposes.
 
+#### Topics
+
+```{r packages, include=FALSE, cache=FALSE}
+library(tidyverse)
+library(readxl)
+library(glue)
+library(gt)
+
+Sys.setlocale(locale="en_US.UTF-8")
+topics <- read_xlsx(here::here("data/assignments/overview_patents.xlsx"), skip=3)
+```
+
+```{r topics}
+#| echo: false
+#| results: 'asis'
+topics |> rename("Topic" = `Topic/Doc name`, 
+                "Data" = `Data/Indicator`, "Contact" = `Contact Person`) |> 
+        drop_na() |> 
+        mutate(maillink = glue('<a href="mailto:{Contact}">
+                            <i class="fa-regular fa-envelope fa-lg"></i></a>'),
+                `#` = row_number()) |>
+        mutate(across(c(maillink), ~map(., gt::html))) |> 
+        select(`#`, Topic, Source, Categories, Contact=maillink) |>   
+        gt() |>
+#          opt_table_font(font = google_font("Roboto Condensed")) |>
+          tab_options(
+               column_labels.font.size = "18px",
+               column_labels.font.weight = "bolder",
+               data_row.padding = px(10),
+          ) |>
+          tab_style(location = cells_body(),
+                    style = cell_text(size = "16px", weight = 100)) |>
+          tab_style(style = cell_borders(sides = "bottom", 
+                                        color = "gray200", weight = px(0.2)),
+                    locations = cells_body(columns = everything(),
+                                           rows = everything())
+          ) |>
+          cols_width(`#` ~ pct(3),
+                    Topic ~ pct(30),
+                    Source ~ pct(10),
+                    Categories ~ pct(50),
+                    Contact ~ pct(7)) |>
+          cols_align(align = "left") |>
+          cols_align(align = "center", columns = "Contact") |> 
+          as_raw_html(inline_css = FALSE) 
+```
+
 #### Visualization Awards
 
 The Austrian Patent Office will award the best three data visualizations. The winning project receives €300, the second place €150, and the third place €50. Selected figures might also be published in the annual report of the Patent Office and thus made available to a broader audience.
-
-#### Topics
-
-The topics for the visualization projects will be announced in due time. For technical questions regarding the data from the Austrian Patent Office, please contact [Renate Spring](mailto:renate<dot>spring<at>patentamt<dot>at) or [Erwin Auer](mailto:erwin<dot>auer<at>patentamt<dot>at) via eMail.
 
 #### Cheatsheets
 

@@ -11,7 +11,7 @@ bibliography: data/lit/wipol_advanced.bib
 csl: data/lit/wipol.csl
 
 website:
-  title: "PI 0822 Economic Policy (Applied Track)"
+  title: "PI 0822 Economic Policy"
   site-url: "https://mschnetzer.github.io/econpolviz/"
   
   navbar:
