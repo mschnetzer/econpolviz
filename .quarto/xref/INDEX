@@ -43,5 +43,8 @@
   },
   "schedule.qmd": {
     "schedule.html": "ad40170b"
+  },
+  "slides/02_visualization/index.qmd": {
+    "index.html": "13165afd"
   }
 }

@@ -9,7 +9,7 @@ title: |
     {{< var course.subtitle >}}
 author: "{{< var instructor.name >}}"  
 subtitle: Introduction
-date: March 06, 2023
+date: October 09, 2023
 date-format: long
 from: markdown+emoji
 bibliography: ../../data/lit/wipol_advanced.bib
@@ -72,13 +72,24 @@ format:
 "A picture is worth a thousand words"
 :::
 
-This course approaches contemporary issues of economic policy by analyzing innovative or iconic data visualizations. We analyse selected illustrations, discuss the underlying data, the theoretical background and policy implications. We will assemble plots in class and study the basics of data visualization.
+This course focuses on data visualization techniques with reference to contemporary issues of economic policy. Students will acquire data visualization skills in in-class coding sessions and home assignments. 
 
 You will gain:
 
 - an overview of [contemporary debates in economic policy]{.marker-hl} 
 - a basic understanding of [principles of data visualization]{.marker-hl}
 - knowledge how to [enrich academic publications]{.marker-hl} with informative graphs
+
+
+## Cooperation with Austrian Patent Office {.medium}
+
+As a special feature, the [Austrian Patent Office]{.marker-hl} will exclusively provide internal data to create data visualizations and illustrate the process of private innovation in Austria.
+
+<center>
+![](../../data/img/patentamt.png){height="100px"}
+</center>
+
+Two units will be organized by the experts from the Patent Office to talk about innovation and patents, and introduce the data and topics for the final assignment.
 
 ## Who are you?
 
@@ -93,11 +104,9 @@ You will gain:
 
 ```{r packages}
 #| include: false
-library(tidyverse)
-library(readxl)
-library(glue)
-library(gt)
+librarian::shelf(tidyverse, readxl, glue, gt, knitr, kableExtra, msthemes, datasauRus)
 
+options(knitr.kable.NA = '')
 Sys.setlocale(locale="en_US.UTF-8")
 schedule <- read_xlsx("../../data/schedule/schedule.xlsx")
 ```
@@ -137,22 +146,21 @@ Assignments 2 to 4 are recreations of examplary figures. These examples are rela
 The raw data for the figures are available as CSV files. The charts should then be uploaded to the [learning platform](https://learn.wu.ac.at) [**before 9 a.m.**]{.marker-hl} on the day of the deadline.
 
 
-## Chart & Report {.smaller}
+## Visualization & Report {.smaller}
 
 ::: columns
 ::: {.column width="50%"}
 ### Chart presentation
 ::: {.altlist}
-- Research question [Which economic policy question do you want to answer with your chart?]{style="font-size:1.3rem"}
+- Research question [[What do you aim to show with the visualization?]]{style="font-size:1.3rem"}
 - Data
-- Chart 
-- Conclusion [What can we learn from the data visualization for economic policy?]{style="font-size:1.3rem"}
+- Chart [[What is the main takeaway?]]{style="font-size:1.3rem"}
 :::
 [**Deadline: Date of the presentation**]{.marker-hl}
 :::
 
 ::: {.column width="50%"}
-### RMarkdown (or Quarto) Report
+### RMarkdown report
 ::: {.altlist}
 - Title 
 - Author 
@@ -163,7 +171,7 @@ The raw data for the figures are available as CSV files. The charts should then 
 - Conclusion
 - Code
 :::
-[**Deadline: June 30, 2023**]{.marker-hl}
+[**Deadline: January 31, 2024**]{.marker-hl}
 :::
 :::
 
@@ -198,7 +206,7 @@ The raw data for the figures are available as CSV files. The charts should then 
 
 ## Feedback, cooperation and help {.smaller}
 
-Let me know your [feedback]{.marker-hl} on the course anytime. If possible, I will try to incorporate your feedback immediately. At least, I will consider it for future courses. 
+Let me know your [feedback]{.marker-hl} on the course anytime. If possible, I will try to incorporate your feedback immediately. At least, I will consider it for future courses. At the end of semester, we will have a student evaluation.
 
 As some of you might already have advanced coding skills in R, please support each other and collaborate. This does not mean that one person does all the coding and shares with all colleagues. Students should have an intrinsic motivation to improve their coding skills but [cooperate to learn from each other]{.marker-hl}. 
 
@@ -216,4 +224,346 @@ There is a forum on the learning platform for exchange among students. Please al
 | ![](../../data/img/schwabish.jpg) | **Jonathan Schwabish** <br> *Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks* <br> Columbia University Press <br> ISBN-13: 9780231193115 |
 | ![](../../data/img/spiegelhalter.jpeg) | **David Spiegelhalter** <br> *The Art of Statistics: Learning from Data* <br> Penguin Books UK <br> ISBN-13: 9780241258767 |
 : {tbl-colwidths="[20,80]"}
+:::
+
+# Data
+
+<center>
+![](../../data/img/avatar_laptop.png){height=350}
+</center>
+
+::: footer
+:::
+
+## The era of evidence in economics {.smaller}
+
+![](img/era_of_evidence.png){fig-align="center" height="390"}
+
+::: {style="font-size:1.5rem;font-weight:100;" .secfont}
+The figure shows the evolution of economics literature by text mining the 500 most-cited titles in top journals by decade. There is a shift from advancing theory towards [empirical evidence]{.hl .hl-dred}.
+:::
+
+::: {.aside}
+Source: @brice:2019
+:::
+
+## The rise of empirical articles {.smaller}
+
+::: {.tbl-larger .recommended-lit}
+|   |   |
+|---|---|
+| ![](img/empirical.png) | There is a distinct [rise of empirical papers]{.hl .hl-dred} in economics. In the 1980s, around one third of publications was empirical. Today, it's more than half. This trend is present in all sub-fields of the discipline (labor, finance, macro, etc.). <br><br> The analyis is based on 134,892 papers published in 80 journals between 1980 and 2015. Papers are labeled as empirical if they use data to estimate economically meaningful parameters. |
+: {tbl-colwidths="[50,50]"}
+:::
+
+::: {.aside}
+Source: @angrist:2017
+:::
+
+## Evidence-based economic policy {.smaller}
+
+::: {.incremental}
+- [Data collection:]{.secfont .hl .hl-blue} Collection of relevant and high-quality data (administrative data, surveys, interviews, observations, etc.). Researchers should be aware of the qualities but also of the flaws of the data.
+- [Data analysis:]{.secfont .hl .hl-blue} The design and type of analysis depends on the question being asked and resources available. The methods range from qualitative to quantitative analysis. The choice of application might unwittingly involve normative reflections by the researcher.
+- [Policy suggestions:]{.secfont .hl .hl-blue} A major goal of empirical economics is to serve and improve policy making. The findings should, however, be carefully interpreted with regard to the limitations of empirical analyis. Economic policy, even if it's evidence-based, is affected by norms, beliefs, etc.
+:::
+
+# Mind the (data) gap!
+
+<center>
+![](../../data/img/avatar_finger.png){height=350}
+</center>
+
+::: footer
+:::
+
+## The limits of data {.medium}
+
+::: {.columns}
+::: {.column width=30%}
+![](img/bias.png)
+:::
+::: {.column width=70%}
+- Data is never a perfect reflection of the world!
+- It's only a subset: not crime but [reported]{.hl .hl-dred} crime
+- Information is collected by humans and processed by machines: imprecisions and errors are [inevitable]{.hl .hl-blue}!
+- Be aware of potential (cognitive and statistical) biases!
+:::
+:::
+
+::: {.aside}
+Source: [XKCD](https://xkcd.com/2618/)
+:::
+
+## Invisible women
+
+::: {.tbl-larger .recommended-lit}
+|   |   |
+|---|---|
+| ![](img/perez.jpg) | **Caroline Criado Perez** <br> *Exposing Data Bias in a World Designed for Men* <br> Random House Uk <br> ISBN: 978-1-78470-628-9 <br><br> The world we live in is built around male data, preferences, and assumptions. There are numerous examples of how the [gender data gap]{.hl .hl-dred} has led to women being overlooked and undervalued in areas ranging from medicine to urban planning. To create a more just and equal society, we need to take into account the different experiences and needs of women and other marginalized groups in our data collection and decision-making processes. |
+: {tbl-colwidths="[20,80]"}
+:::
+
+## Invisible rich {.smaller}
+
+::: {.tbl-larger .recommended-lit}
+|   |   |
+|---|---|
+| ![](img/rlmap_col.png) | Survey data are based on representative samples drawn from total population. However, the probability of drawing one of the few very rich households into the sample is infinitesimal. Moreover, participation in surveys is mostly voluntary and there is a higher refusal rate at the top. This [poor coverage of the top]{.hl .hl-dred} in wealth and income surveys conceals the extent of inequality. <br><br> The figure shows the gap between the richest observation in wealth survey data (HFCS) and the "poorest" observation in national rich lists created by magazines. |
+: {tbl-colwidths="[50,50]"}
+:::
+
+::: {.aside}
+Source: @disslbacher:2020
+:::
+
+## Discuss with your neighbour {.smaller}
+
+[What other potential flaws and challenges of data collection come to your mind?]{.bubble .bubble-bottom-left .absolute top="20%" left="25%" style="max-width:500px;--bubcol: var(--bubcol-blue);font-size:1.5rem;"}
+
+[How could these flaws be tackled by the researcher?]{.bubble .bubble-bottom-right .absolute top="40%" left="35%" style="max-width:350px;--bubcol: var(--bubcol-dred);font-size:1.5rem;"}
+
+![](img/discuss1.png){.absolute bottom="0px" left="5%" height="450px"}
+![](img/discuss2.png){.absolute bottom="0px" right="5%" height="450px" style="transform: rotateY(180deg);"}
+
+::: footer
+Illustrations by [https://openpeeps.com](https://openpeeps.com).
+:::
+
+# Be aware of differences between data sources!
+
+<center>
+![](../../data/img/avatar_read.png){height=350}
+</center>
+
+::: footer
+:::
+
+## Income data in EU-SILC {.smaller}
+
+::: columns
+::: {.column style="font-size:1.4rem"}
+[**Individual level:**]{.red style="font-size:1.7rem"}
+
+- [employee cash or near cash income]{.hl .hl-blue}
+- cash benefits or losses from self-employment
+- pension from individual private plans
+- [unemployment benefits]{.hl .hl-blue}
+- [old-age benefits]{.hl .hl-blue}
+- [survivor benefits]{.hl .hl-blue}
+- [sickness benefits]{.hl .hl-blue}
+- [disability benefits]{.hl .hl-blue}
+- [education-related allowances]{.hl .hl-blue}
+:::
+
+::: {.column style="font-size:1.4rem"}
+[**Household level:**]{.red style="font-size:1.7rem"}
+
+- income from rental of a property or land
+- [family/children related allowances]{.hl .hl-blue}
+- social exclusion not elsewhere classified
+- housing allowances
+- regular inter-household cash transfers received
+- alimonies received
+- interest, dividends, profit from capital investments in incorporated business
+- [income received by people aged under 16]{.hl .hl-blue}
+:::
+:::
+
+::: aside
+Note: Variables that use [administrative data]{.hl .hl-blue} are highlighted.
+:::
+
+## Administrative versus survey data {.smaller}
+
+::: {.absolute top="10%" left="0"}
+![](img/admsvy1.png)
+:::
+
+::: {.absolute top="30%" left="27%" .textbox .fragment .fade-up}
+::: columns
+::: {.column width="75%" .altlist}
+### Impact on response behavior:
+
+- Social desirability
+- Sociodemographic characteristics
+- Survey design
+- Learning effect
+:::
+
+:::{.column width="25%"}
+<br />
+{{< li zpxybbhl trigger=loop delay=1000 colors=secondary:#e76254 >}}
+:::
+:::
+:::
+
+::: aside
+Source: @angel:2019
+:::
+
+## Mean reverting errors {.smaller}
+
+![](img/admsvy2.png)
+
+::: aside
+Source: @angel:2019
+:::
+
+## How do we explain the mismatch? {.smaller}
+
+![](img/admsvy3.png)
+
+::: aside
+Source: @angel:2019
+:::
+
+# Why should we plot data?
+
+<center>
+![](../../data/img/avatar_shrug.png){height=350}
+</center>
+
+::: footer
+:::
+
+
+## Anscombe's quartet
+
+```{r anscomedata}
+#| echo: false
+anscombe_m <- data.frame()
+
+for(i in 1:4) {
+  anscombe_m <- rbind(anscombe_m, data.frame(x=anscombe[,i], y=anscombe[,i+4]))}
+  
+anscombe_m <- anscombe_m |> 
+  mutate(set = c(rep("I",11),rep("II",11),rep("III",11),rep("IV",11)))
+
+means <- anscombe |> 
+  select(x1,y1,x2,y2,x3,y3,x4,y4) |> 
+  summarise(across(everything(), mean))
+
+sd <- anscombe |> 
+  select(x1,y1,x2,y2,x3,y3,x4,y4) |> 
+  summarise(across(everything(), sd))
+
+cor <- anscombe |>
+  summarise(x1=cor(x1,y1), x2=cor(x2,y2), x3=cor(x3,y3), x4=cor(x4,y4))
+
+anscombe |> 
+  mutate(obs = as.character(1:n())) |> 
+  select(obs,x1,y1,x2,y2,x3,y3,x4,y4) |>
+  add_row(obs="Mean",round(means,2)) |>
+  add_row(obs="SD",round(sd,2)) |>
+  add_row(obs="Corr",round(cor,2)) |>
+  kbl(escape = FALSE, col.names = c("Obs.", rep(c("X","Y"),4)), align="rcccccccc") |>
+  column_spec(1, border_right = T, bold = T) |>
+  column_spec(seq(3,7,2), border_right = T) |>
+  row_spec(11, extra_css = "border-bottom: 3px solid") |>
+  add_header_above(c(" " = 1, "I" = 2, "II"=2, "III"=2, "IV"=2)) |>
+  kable_classic(full_width = F)
+```
+
+
+## What do we learn when plotting the data?
+
+```{r anscombe}
+#| echo: false
+ggplot(anscombe_m, aes(x, y)) +  
+geom_text(aes(x = 15, y = 5, label=set), family = "Alfa Slab One", size=36, color = "gray95") + 
+geom_smooth(method="lm", fill=NA, fullrange=TRUE, color = "black", linewidth=0.5) + 
+geom_point(size=3.5, color="black", fill="red", alpha=0.8, shape=21) +
+facet_wrap(~set, ncol=2, scales = "free") +
+scale_x_continuous(limits = c(0,20)) +
+scale_y_continuous(limits = c(0,15)) +
+labs(x = NULL, y = NULL) +
+coord_cartesian(expand = F) +
+theme_ms() +
+theme(strip.text = element_blank(),
+axis.text = element_blank(),
+panel.border = element_rect(linewidth = 0.1, fill = NA))
+```
+
+## Do you see correlation?
+
+```{r datasaurus}
+#| echo: false
+#| fig-align: center
+datasaurus_dozen |>
+  filter(dataset %in% c("slant_down", "dino")) |>
+  mutate(dataset = ifelse(dataset == "dino", "B", "A")) |>
+  ggplot(aes(x = x, y = y, colour = dataset))+
+  geom_point() +
+  scale_color_manual(values = c("#C32402", "#0234C3")) +
+  facet_wrap(~dataset, ncol = 2) +
+  labs(x=NULL, y=NULL) +
+  theme_ms() +
+  theme(legend.position = "none",
+  strip.text = element_blank(),
+  panel.border = element_rect(linewidth = 0.1, fill = NA))
+```
+
+. . .
+
+::: {.columns}
+::: {.column style="text-align:center;"}
+[Correlation: -0.07]{.secfont style="font-size:1.5rem;color:#C32402;"}
+:::
+::: {.column style="text-align:center;"}
+[Correlation: -0.07]{.secfont style="font-size:1.5rem;color:#0234C3;"}
+:::
+:::
+
+
+## Same same but different
+
+```{r dinolpots}
+#| echo: false
+#| fig-align: center
+datasaurus_dozen |>
+  filter(!dataset == "dino") |>
+  ggplot(aes(x = x, y = y, colour = dataset))+
+  geom_point() +
+  geom_text(aes(x = 50, y = -10, label = glue::glue("Cor.: {round(cor(x,y),2)}")), hjust = 0.5) +
+  facet_wrap(~dataset, nrow = 2) +
+  labs(x=NULL, y=NULL) +
+  theme_ms() +
+  theme(legend.position = "none",
+  strip.text = element_blank(),
+  axis.text = element_blank(),
+  panel.border = element_rect(linewidth = 0.1, fill = NA))
+```
+
+# Let's start coding with the penguins
+
+<center>
+![](img/penguins.png)
+</center>
+
+::: footer
+:::
+
+## The Palmer Penguins {.smaller}
+
+::: {.columns}
+::: {.column}
+![](img/penguins1.png)
+:::
+::: {.column}
+![](img/penguins2.png)
+:::
+:::
+
+::: {style="font-size:1.5rem;font-weight:100;" .secfont}
+The [data](https://allisonhorst.github.io/palmerpenguins/index.html) was collected from 2007-2009 by Dr. Kristen Gorman with the Palmer Station Long Term Ecological Research Program. The dataset contains data for 344 penguins. There are 3 different species of penguins, collected from 3 islands in the Palmer Archipelago, Antarctica.
+:::
+
+::: {.aside}
+Source: @gorman:2014
+:::
+
+## Bibliography {.bibstyle}
+
+:::footer
 :::

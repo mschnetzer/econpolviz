@@ -9,7 +9,7 @@ title: |
     {{< var course.subtitle >}}
 author: "{{< var instructor.name >}}"  
 subtitle: Visualization
-date: March 20, 2023
+date: October 16, 2023
 date-format: long
 from: markdown+emoji
 bibliography: ../../data/lit/wipol_advanced.bib
@@ -70,6 +70,14 @@ format:
 
 ::: {.aside}
 [created: 1854]
+:::
+
+## Florence Nightingale (1820-1910) {.medium}
+
+![](img/nightingale.jpg){fig-align="center" height="500"}
+
+::: {.aside}
+[created: 1859]
 :::
 
 ## Charles Joseph Minard (1781-1870) {.medium}
