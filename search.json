@@ -1096,7 +1096,154 @@
     "href": "slides/01_introduction/index.html#recommended-literature",
     "title": "    Visualizing Innovation",
     "section": "Recommended Literature",
-    "text": "Recommended Literature\n\n\n\n\n\n\n\n\n\nJonathan Schwabish  Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks  Columbia University Press  ISBN-13: 9780231193115\n\n\n\nDavid Spiegelhalter  The Art of Statistics: Learning from Data  Penguin Books UK  ISBN-13: 9780241258767\n\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023"
+    "text": "Recommended Literature\n\n\n\n\n\n\n\n\n\nJonathan Schwabish  Better Data Visualizations: A Guide for Scholars, Researchers, and Wonks  Columbia University Press  ISBN-13: 9780231193115\n\n\n\nDavid Spiegelhalter  The Art of Statistics: Learning from Data  Penguin Books UK  ISBN-13: 9780241258767"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#the-era-of-evidence-in-economics",
+    "href": "slides/01_introduction/index.html#the-era-of-evidence-in-economics",
+    "title": "    Visualizing Innovation",
+    "section": "The era of evidence in economics",
+    "text": "The era of evidence in economics\n\n\n\n\n\n\nThe figure shows the evolution of economics literature by text mining the 500 most-cited titles in top journals by decade. There is a shift from advancing theory towards empirical evidence.\n\n\n\nSource: Brice/Montesinos-Yufa (2019)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#the-rise-of-empirical-articles",
+    "href": "slides/01_introduction/index.html#the-rise-of-empirical-articles",
+    "title": "    Visualizing Innovation",
+    "section": "The rise of empirical articles",
+    "text": "The rise of empirical articles\n\n\n\n\n\n\n\n\n\nThere is a distinct rise of empirical papers in economics. In the 1980s, around one third of publications was empirical. Today, it’s more than half. This trend is present in all sub-fields of the discipline (labor, finance, macro, etc.).  The analyis is based on 134,892 papers published in 80 journals between 1980 and 2015. Papers are labeled as empirical if they use data to estimate economically meaningful parameters.\n\n\n\n\n\n\nSource: Angrist et al. (2017)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#evidence-based-economic-policy",
+    "href": "slides/01_introduction/index.html#evidence-based-economic-policy",
+    "title": "    Visualizing Innovation",
+    "section": "Evidence-based economic policy",
+    "text": "Evidence-based economic policy\n\n\nData collection: Collection of relevant and high-quality data (administrative data, surveys, interviews, observations, etc.). Researchers should be aware of the qualities but also of the flaws of the data.\nData analysis: The design and type of analysis depends on the question being asked and resources available. The methods range from qualitative to quantitative analysis. The choice of application might unwittingly involve normative reflections by the researcher.\nPolicy suggestions: A major goal of empirical economics is to serve and improve policy making. The findings should, however, be carefully interpreted with regard to the limitations of empirical analyis. Economic policy, even if it’s evidence-based, is affected by norms, beliefs, etc."
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#the-limits-of-data",
+    "href": "slides/01_introduction/index.html#the-limits-of-data",
+    "title": "    Visualizing Innovation",
+    "section": "The limits of data",
+    "text": "The limits of data\n\n\n\n\n\nData is never a perfect reflection of the world!\nIt’s only a subset: not crime but reported crime\nInformation is collected by humans and processed by machines: imprecisions and errors are inevitable!\nBe aware of potential (cognitive and statistical) biases!\n\n\n\n\n\nSource: XKCD"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#invisible-women",
+    "href": "slides/01_introduction/index.html#invisible-women",
+    "title": "    Visualizing Innovation",
+    "section": "Invisible women",
+    "text": "Invisible women\n\n\n\n\n\n\n\n\n\nCaroline Criado Perez  Exposing Data Bias in a World Designed for Men  Random House Uk  ISBN: 978-1-78470-628-9  The world we live in is built around male data, preferences, and assumptions. There are numerous examples of how the gender data gap has led to women being overlooked and undervalued in areas ranging from medicine to urban planning. To create a more just and equal society, we need to take into account the different experiences and needs of women and other marginalized groups in our data collection and decision-making processes."
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#invisible-rich",
+    "href": "slides/01_introduction/index.html#invisible-rich",
+    "title": "    Visualizing Innovation",
+    "section": "Invisible rich",
+    "text": "Invisible rich\n\n\n\n\n\n\n\n\n\nSurvey data are based on representative samples drawn from total population. However, the probability of drawing one of the few very rich households into the sample is infinitesimal. Moreover, participation in surveys is mostly voluntary and there is a higher refusal rate at the top. This poor coverage of the top in wealth and income surveys conceals the extent of inequality.  The figure shows the gap between the richest observation in wealth survey data (HFCS) and the “poorest” observation in national rich lists created by magazines.\n\n\n\n\n\n\nSource: Disslbacher et al. (2020)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#discuss-with-your-neighbour",
+    "href": "slides/01_introduction/index.html#discuss-with-your-neighbour",
+    "title": "    Visualizing Innovation",
+    "section": "Discuss with your neighbour",
+    "text": "Discuss with your neighbour\nWhat other potential flaws and challenges of data collection come to your mind?\nHow could these flaws be tackled by the researcher?\n \n\nIllustrations by https://openpeeps.com."
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#income-according-to-canberra-group",
+    "href": "slides/01_introduction/index.html#income-according-to-canberra-group",
+    "title": "    Visualizing Innovation",
+    "section": "Income according to Canberra Group",
+    "text": "Income according to Canberra Group\n\n\n\n\n\nID\nConcept\nAggregate\n\n\n\n\n1\nIncome from employment\n1a + 1b\n\n\n  1a\nEmployee income\n\n\n\n  1b\nIncome from self-employment\n\n\n\n2\nProperty income\n\n\n\n3\nIncome from household production\n\n\n\n4\nCurrent transfers received\n\n\n\n5\nIncome from production\n1 + 3\n\n\n6\nPrimary income\n1 + 2 + 3\n\n\n7\nCurrent transfers paid (taxes, fees, etc.)\n\n\n\n8\nDisposable income\n6 + 4 - 7\n\n\n\n\n\n\n\n\n\nSource: United Nations (2011), 11"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#income-according-to-the-national-accounts",
+    "href": "slides/01_introduction/index.html#income-according-to-the-national-accounts",
+    "title": "    Visualizing Innovation",
+    "section": "Income according to the National Accounts",
+    "text": "Income according to the National Accounts\n\n\n\n\n\nID\nConcept\n\n\n\n\nD.1\nCompensation of employees\n\n\n  D.11\nWages and salaries\n\n\n  D.12\nEmployers social contributions\n\n\nB.2G\nOperating surplus, gross\n\n\nB.3G\nMixed income, gross\n\n\nD.4\nProperty income\n\n\n  D.41\nInterest\n\n\n  D.42\nDistributed income of corporations\n\n\n  D.43\nReinvested earnings on foreign direct investment\n\n\n  D.44\nInvestment income disbursements (e.g. insurances)\n\n\n  D.45\nRent"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#income-according-to-the-austrian-tax-law",
+    "href": "slides/01_introduction/index.html#income-according-to-the-austrian-tax-law",
+    "title": "    Visualizing Innovation",
+    "section": "Income according to the Austrian tax law",
+    "text": "Income according to the Austrian tax law\n\n\n\n\n\nID\nConcept\nDescription\n\n\n\n\n1\nIncome from agriculture and forestry\nFarmers, forest managers\n\n\n2\nIncome from self-employment\nE.g. Freelancers, Architects, Lawyer, Doctors, Consultants, CEO if she holds &gt; 25%\n\n\n3\nBusiness income\nAll other self-employed activities\n\n\n4\nEmployee income\nEmployees, retirees\n\n\n5\nRenting and lease of land\nParticularly renting of real estate properties\n\n\n6\nProperty income\nSavings accounts, dividends (final taxation with capital income tax)\n\n\n7\nOther income\nIncome from speculation, income from selling private property, etc."
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#income-data-sources-in-austria",
+    "href": "slides/01_introduction/index.html#income-data-sources-in-austria",
+    "title": "    Visualizing Innovation",
+    "section": "Income data sources in Austria",
+    "text": "Income data sources in Austria\n\n\n\n\n\n\n\n\n\n\nIncome Type\nAggregate time series\nLong-term distribution\nShort-term distribution\n\n\n\n\nEmployee income\nWTD SSD\nWTD SSD\nWTD SSD SES EU-SILC HFCS\n\n\nSelf-employed\nITD (IWITD)\n\nITD (IWITD) EU-SILC HFCS\n\n\nProperty income\nCGT (ITD)\n\nEU-SILC HFCS\n\n\nTransfers\nVarious admin. sources\n\nEU-SILC HFCS\n\n\nDisposable household income\nSNA\n\nHBS EU-SILC HFCS\n\n\n\n\n\nAdministrative and survey data sources: Wage tax data (WTD), Income tax data (ITD), Integrated wage and income tax data (IWITD), Social security data (SSD), Capital gains tax data (CGT), System of National Accounts (SNA), European Survey of Income and Living Conditions (EU-SILC), Household Finance and Consumption Survey (HFCS), Household Budgetary Survey (HBS), Structure of Earnings Survey (SES)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#income-data-in-eu-silc",
+    "href": "slides/01_introduction/index.html#income-data-in-eu-silc",
+    "title": "    Visualizing Innovation",
+    "section": "Income data in EU-SILC",
+    "text": "Income data in EU-SILC\n\n\nIndividual level:\n\nemployee cash or near cash income\ncash benefits or losses from self-employment\npension from individual private plans\nunemployment benefits\nold-age benefits\nsurvivor benefits\nsickness benefits\ndisability benefits\neducation-related allowances\n\n\nHousehold level:\n\nincome from rental of a property or land\nfamily/children related allowances\nsocial exclusion not elsewhere classified\nhousing allowances\nregular inter-household cash transfers received\nalimonies received\ninterest, dividends, profit from capital investments in incorporated business\nincome received by people aged under 16\n\n\n\n\n\nNote: Variables that use administrative data are highlighted."
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#administrative-versus-survey-data",
+    "href": "slides/01_introduction/index.html#administrative-versus-survey-data",
+    "title": "    Visualizing Innovation",
+    "section": "Administrative versus survey data",
+    "text": "Administrative versus survey data\n\n\n\n\n\n\nImpact on response behavior:\n\nSocial desirability\nSociodemographic characteristics\nSurvey design\nLearning effect\n\n\n\n\n\n\n\n\n\nSource: Angel et al. (2019)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#mean-reverting-errors",
+    "href": "slides/01_introduction/index.html#mean-reverting-errors",
+    "title": "    Visualizing Innovation",
+    "section": "Mean reverting errors",
+    "text": "Mean reverting errors\n\n\n\nSource: Angel et al. (2019)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#how-do-we-explain-the-mismatch",
+    "href": "slides/01_introduction/index.html#how-do-we-explain-the-mismatch",
+    "title": "    Visualizing Innovation",
+    "section": "How do we explain the mismatch?",
+    "text": "How do we explain the mismatch?\n\n\n\nSource: Angel et al. (2019)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#anscombes-quartet",
+    "href": "slides/01_introduction/index.html#anscombes-quartet",
+    "title": "    Visualizing Innovation",
+    "section": "Anscombe’s quartet",
+    "text": "Anscombe’s quartet\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nI\n\n\nII\n\n\nIII\n\n\nIV\n\n\n\nObs.\nX\nY\nX\nY\nX\nY\nX\nY\n\n\n\n\n1\n10.00\n8.04\n10.00\n9.14\n10.00\n7.46\n8.00\n6.58\n\n\n2\n8.00\n6.95\n8.00\n8.14\n8.00\n6.77\n8.00\n5.76\n\n\n3\n13.00\n7.58\n13.00\n8.74\n13.00\n12.74\n8.00\n7.71\n\n\n4\n9.00\n8.81\n9.00\n8.77\n9.00\n7.11\n8.00\n8.84\n\n\n5\n11.00\n8.33\n11.00\n9.26\n11.00\n7.81\n8.00\n8.47\n\n\n6\n14.00\n9.96\n14.00\n8.10\n14.00\n8.84\n8.00\n7.04\n\n\n7\n6.00\n7.24\n6.00\n6.13\n6.00\n6.08\n8.00\n5.25\n\n\n8\n4.00\n4.26\n4.00\n3.10\n4.00\n5.39\n19.00\n12.50\n\n\n9\n12.00\n10.84\n12.00\n9.13\n12.00\n8.15\n8.00\n5.56\n\n\n10\n7.00\n4.82\n7.00\n7.26\n7.00\n6.42\n8.00\n7.91\n\n\n11\n5.00\n5.68\n5.00\n4.74\n5.00\n5.73\n8.00\n6.89\n\n\nMean\n9.00\n7.50\n9.00\n7.50\n9.00\n7.50\n9.00\n7.50\n\n\nSD\n3.32\n2.03\n3.32\n2.03\n3.32\n2.03\n3.32\n2.03\n\n\nCorr\n0.82\n\n0.82\n\n0.82\n\n0.82"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#what-do-we-learn-when-plotting-the-data",
+    "href": "slides/01_introduction/index.html#what-do-we-learn-when-plotting-the-data",
+    "title": "    Visualizing Innovation",
+    "section": "What do we learn when plotting the data?",
+    "text": "What do we learn when plotting the data?"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#do-you-see-correlation",
+    "href": "slides/01_introduction/index.html#do-you-see-correlation",
+    "title": "    Visualizing Innovation",
+    "section": "Do you see correlation?",
+    "text": "Do you see correlation?\n\n\n\n\nCorrelation: -0.07\n\nCorrelation: -0.07"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#same-same-but-different",
+    "href": "slides/01_introduction/index.html#same-same-but-different",
+    "title": "    Visualizing Innovation",
+    "section": "Same same but different",
+    "text": "Same same but different"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#the-palmer-penguins",
+    "href": "slides/01_introduction/index.html#the-palmer-penguins",
+    "title": "    Visualizing Innovation",
+    "section": "The Palmer Penguins",
+    "text": "The Palmer Penguins\n\n\n\n\n\n\n\n\nThe data was collected from 2007-2009 by Dr. Kristen Gorman with the Palmer Station Long Term Ecological Research Program. The dataset contains data for 344 penguins. There are 3 different species of penguins, collected from 3 islands in the Palmer Archipelago, Antarctica.\n\n\n\nSource: Gorman et al. (2014)"
+  },
+  {
+    "objectID": "slides/01_introduction/index.html#bibliography",
+    "href": "slides/01_introduction/index.html#bibliography",
+    "title": "    Visualizing Innovation",
+    "section": "Bibliography",
+    "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nAngel, Stefan/Disslbacher, Franziska/Humer, Stefan/Schnetzer, Matthias (2019). What did you really earn last year?: Explaining measurement error in survey income data. Journal of the Royal Statistical Society: Series A (Statistics in Society). DOI: 10.1111/rssa.12463\n\n\nAngrist, Joshua/Azoulay, Pierre/Ellison, Glenn/Hill, Ryan/Lu, Susan Feng (2017). Economic research evolves: Fields and styles. American Economic Review, 107(5), 293–297. DOI: 10.1257/aer.p20171117\n\n\nBrice, Brandon D./Montesinos-Yufa, Hugo M. (2019). The era of empirical evidence. Mimeo.\n\n\nDisslbacher, Franziska/Ertl, Michael/List, Emanuel/Mokre, Patrick/Schnetzer, Matthias (2020). On top of the top - adjusting wealth distributions using national rich lists (Working Paper Series No. 20). INEQ.\n\n\nGorman, Kristen B./Williams, Tony D./Fraser, William R. (2014). Ecological sexual dimorphism and environmental variability within a community of antarctic penguins (genus pygoscelis). PLoS ONE, 9(3), e90081. DOI: 10.1371/journal.pone.0090081\n\n\nUnited Nations (2011). Canberra group handbook on household income statistics (2nd ed.). Geneva: United Nations."
   },
   {
     "objectID": "slides/02_data/index.html#the-era-of-evidence-in-economics",
