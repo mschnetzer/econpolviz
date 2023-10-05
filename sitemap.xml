@@ -2,58 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://mschnetzer.github.io/econpolviz/schedule.html</loc>
-    <lastmod>2023-10-04T19:55:49.348Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/syllabus.html</loc>
-    <lastmod>2023-10-04T19:55:41.787Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/09_mobility/index.html</loc>
-    <lastmod>2023-10-04T19:55:38.433Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/01_introduction/index.html</loc>
-    <lastmod>2023-10-04T19:55:36.659Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/04_growth/index.html</loc>
-    <lastmod>2023-10-04T19:55:28.843Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/02_visualization/index.html</loc>
-    <lastmod>2023-10-04T19:55:27.313Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/05_inflation/index.html</loc>
-    <lastmod>2023-10-04T19:55:24.958Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/index.html</loc>
-    <lastmod>2023-10-04T19:55:23.722Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/08_wealth/index.html</loc>
-    <lastmod>2023-10-04T19:55:26.105Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/06_labour/index.html</loc>
-    <lastmod>2023-10-04T19:55:28.075Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/10_climate/index.html</loc>
-    <lastmod>2023-10-04T19:55:29.689Z</lastmod>
-  </url>
-  <url>
-    <loc>https://mschnetzer.github.io/econpolviz/slides/07_income/index.html</loc>
-    <lastmod>2023-10-04T19:55:37.545Z</lastmod>
+    <lastmod>2023-10-05T07:44:31.027Z</lastmod>
   </url>
   <url>
     <loc>https://mschnetzer.github.io/econpolviz/visualization.html</loc>
-    <lastmod>2023-10-04T19:55:41.280Z</lastmod>
+    <lastmod>2023-10-05T07:44:27.879Z</lastmod>
   </url>
   <url>
-    <loc>https://mschnetzer.github.io/econpolviz/data/code/07_income.html</loc>
-    <lastmod>2023-10-04T19:55:46.788Z</lastmod>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/07_income/index.html</loc>
+    <lastmod>2023-10-05T07:44:24.413Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/10_climate/index.html</loc>
+    <lastmod>2023-10-05T07:44:17.178Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/06_labour/index.html</loc>
+    <lastmod>2023-10-05T07:44:15.588Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/08_wealth/index.html</loc>
+    <lastmod>2023-10-05T07:44:13.696Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/index.html</loc>
+    <lastmod>2023-10-05T07:44:11.044Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/05_inflation/index.html</loc>
+    <lastmod>2023-10-05T07:44:12.648Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/02_visualization/index.html</loc>
+    <lastmod>2023-10-05T07:44:14.893Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/04_growth/index.html</loc>
+    <lastmod>2023-10-05T07:44:16.352Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/01_introduction/index.html</loc>
+    <lastmod>2023-10-05T07:44:23.554Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/slides/09_mobility/index.html</loc>
+    <lastmod>2023-10-05T07:44:25.248Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mschnetzer.github.io/econpolviz/syllabus.html</loc>
+    <lastmod>2023-10-05T07:44:28.356Z</lastmod>
   </url>
 </urlset>
