@@ -1,6 +1,6 @@
-########################
-## 09 MOBILITY · MAPS ##
-########################
+#############
+## 09 MAPS ##
+#############
 
 librarian::shelf(tidyverse, eurostat, ggtext, showtext)
 

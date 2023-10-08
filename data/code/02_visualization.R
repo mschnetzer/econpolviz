@@ -1,5 +1,5 @@
 ###########################
-## 03 DATA VISUALIZATION ##
+## 02 DATA VISUALIZATION ##
 ###########################
 
 # Load general packages

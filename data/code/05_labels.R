@@ -1,6 +1,6 @@
-########################
-## 06 LABOUR · LABELS ##
-########################
+###############
+## 05 LABELS ##
+###############
 
 librarian::shelf(tidyverse, ggtext, eurostat, MetBrewer)
 

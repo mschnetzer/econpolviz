@@ -1,6 +1,6 @@
-###########################
-## 05 INFLATION · COLORS ##
-###########################
+###############
+## 04 COLORS ##
+###############
 
 # Let's learn a new way to load multiple packages
 librarian::shelf(tidyverse, janitor, ggstream, ggtext)

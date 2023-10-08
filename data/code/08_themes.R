@@ -1,6 +1,6 @@
-########################
-## 08 WEALTH · THEMES ##
-########################
+###############
+## 08 THEMES ##
+###############
 
 librarian::shelf(tidyverse, readxl, countrycode, ggtext, MetBrewer)
 
