@@ -104,7 +104,7 @@ gdpgrowth |> ggplot(aes(x = time, y = values, fill = geo)) +
 
 # 5. Lollipop chart 
 gdpgrowth |> ggplot(aes(x = time, y = values)) + 
-  geom_segment(aes(xend = time, yend = 0), color = "gray90", size = 2.5) + 
+  geom_segment(aes(xend = time, yend = 0), color = "gray90", linewidth = 2.5) + 
   geom_hline(yintercept = 0, color = "black", size = 0.3) + 
   geom_point(aes(color = ifelse(values > 0, "pos", "neg")), size = 2.5) +
   facet_wrap(~geo) +

@@ -119,7 +119,7 @@ library(ggflags)
 library(gghighlight)
 
 # Load local data
-load("05_inflation.RData")
+load("04_colors.RData")
 
 euinfdata |> filter(time >= "2020-01-01") |> 
   ggplot(aes(x = time, y= values, color = geo.de)) +
