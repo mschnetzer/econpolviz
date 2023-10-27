@@ -1,7 +1,7 @@
 {
     "id": "93F0329A",
     "path": "~/Daten/Lehre/wipol_advanced_BA/data/code/04_growth.R",
-    "project_path": "04_growth.R",
+    "project_path": null,
     "type": "r_source",
     "hash": "3260236625",
     "contents": "",
@@ -14,7 +14,7 @@
         "source_window_id": "",
         "Source": "Source",
         "cursorPosition": "26,11",
-        "scrollLine": "6"
+        "scrollLine": "0"
     },
     "folds": "",
     "lastKnownWriteTime": 1679927942,

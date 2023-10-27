@@ -435,6 +435,17 @@ Dr.&nbsp;Matthias Schnetzer
 
 </div>
 </section>
+<section id="milestones-in-data-visualization" class="slide level2 medium">
+<h2>Milestones in data visualization</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="img/timeline.png" height="500"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Source: <span class="citation" data-cites="friendly:2008">Friendly (<a href="#/bibliography" role="doc-biblioref" onclick="">2008</a>)</span></p>
+</div></aside></section>
 <section id="william-playfair-1759-1823" class="slide level2 medium">
 <h2>William Playfair (1759-1823)</h2>
 <div class="quarto-figure quarto-figure-center">
@@ -892,7 +903,7 @@ Dr.&nbsp;Matthias Schnetzer
 <section id="geometries-and-aesthetic-mapping" class="slide level2 medium">
 <h2>Geometries and aesthetic mapping</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="1|2|3|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>data <span class="sc">+</span> </span>
+<div class="sourceCode cell-code" id="cb1" data-code-line-numbers="1|2|3|4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>data <span class="sc">|&gt;</span>  </span>
 <span id="cb1-2"><a href="#cb1-2"></a>  <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> year, <span class="at">y =</span> value, <span class="at">color =</span> category)) <span class="sc">+</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">shape =</span> <span class="dv">21</span>) <span class="sc">+</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a>  <span class="fu">scale_color_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"red"</span>, <span class="st">"blue"</span>, <span class="st">"yellow"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1175,6 +1186,9 @@ Dr.&nbsp;Matthias Schnetzer
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-dougherty:2021" class="csl-entry" role="listitem">
 Dougherty, Jack/Ilyankou, Ilya (2021). <em>Hands-on data visualization: Interactive storytelling from spreadsheets to code</em>. O’Reilly Media.
+</div>
+<div id="ref-friendly:2008" class="csl-entry" role="listitem">
+Friendly, Michael (2008). A brief history of data visualization. In Chen, C./Härdle, W./Unwin, A. (Eds.), <em>Handbook of computational statistics: Data visualization</em> (Vol. III, 15–56). Springer, Berlin.
 </div>
 <div id="ref-healy:2018" class="csl-entry" role="listitem">
 Healy, Kieran (2018). <em>Data visualization: A practical introduction</em>. Princeton University Press.

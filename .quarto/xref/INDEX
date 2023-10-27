@@ -46,5 +46,11 @@
   },
   "slides/02_visualization/index.qmd": {
     "index.html": "13165afd"
+  },
+  "slides/03_geometries/index.qmd": {
+    "index.html": "9c062ed3"
+  },
+  "slides/04_colors/index.qmd": {
+    "index.html": "f57decee"
   }
 }

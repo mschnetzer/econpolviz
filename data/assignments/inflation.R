@@ -1,5 +1,4 @@
 library(tidyverse)
-library(lubridate)
 library(MetBrewer)
 library(ggrepel)
 library(gghighlight)
@@ -48,4 +47,4 @@ inflation |>
         panel.grid.minor = element_blank(),
         panel.grid.major = element_line(linewidth = 0.2))
 
-ggsave("inflation.png", dpi = 320, width = 8, height = 5)
+ggsave("inflation.png", width = 8, height = 5, dpi = 320, bg = "white")

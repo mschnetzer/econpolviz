@@ -48,6 +48,14 @@ format:
 ::: footer
 :::
 
+## Milestones in data visualization {.medium}
+
+![](img/timeline.png){height="500" fig-align="center"}
+
+::: {.aside}
+Source: @friendly:2008
+:::
+
 ## William Playfair (1759-1823) {.medium}
 
 ![](img/playfair.png){height="500" fig-align="center"}
@@ -567,7 +575,7 @@ Source: @scherer:2022
 #| eval: false
 #| echo: true
 #| code-line-numbers: "1|2|3|4"
-data + 
+data |>  
   ggplot(aes(x = year, y = value, color = category)) +
   geom_point(alpha = 0.5, shape = 21) +
   scale_color_manual(values = c("red", "blue", "yellow"))

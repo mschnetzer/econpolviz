@@ -1,6 +1,512 @@
 {
     "sources": [
         {
+            "author": [
+                {
+                    "family": "Meadows",
+                    "given": "Dennis L."
+                },
+                {
+                    "family": "Meadows",
+                    "given": "Donella"
+                },
+                {
+                    "family": "Randers",
+                    "given": "Jørgen"
+                },
+                {
+                    "family": "Behrens",
+                    "given": "William W."
+                }
+            ],
+            "id": "meadows:1972",
+            "issued": {
+                "date-parts": [
+                    [
+                        1972
+                    ]
+                ]
+            },
+            "publisher": "Universe Books, New York",
+            "title": "The limits to growth",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Chancel",
+                    "given": "Lucas"
+                },
+                {
+                    "family": "Bothe",
+                    "given": "Philipp"
+                },
+                {
+                    "family": "Voituriez",
+                    "given": "Tancrède"
+                }
+            ],
+            "id": "chancel:2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "publisher": "World Inequality Lab Study 2023/1",
+            "title": "Climate inequality report",
+            "type": "report"
+        },
+        {
+            "DOI": "10.1017/sus.2020.12",
+            "author": [
+                {
+                    "family": "Ivanova",
+                    "given": "Diana"
+                },
+                {
+                    "family": "Wood",
+                    "given": "Richard"
+                }
+            ],
+            "container-title": "Global Sustainability",
+            "id": "ivanova:2020",
+            "issue": "e18",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "1-12",
+            "title": "The unequal distribution of household carbon footprints in europe and its link to sustainability",
+            "type": "article-journal",
+            "volume": "3"
+        },
+        {
+            "DOI": "10.1016/j.ecolecon.2022.107435",
+            "author": [
+                {
+                    "family": "Theine",
+                    "given": "Hendrik"
+                },
+                {
+                    "family": "Humer",
+                    "given": "Stefan"
+                },
+                {
+                    "family": "Moser",
+                    "given": "Mathias"
+                },
+                {
+                    "family": "Schnetzer",
+                    "given": "Matthias"
+                }
+            ],
+            "container-title": "Ecological Economics",
+            "id": "theine:2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "107435",
+            "title": "Emissions inequality: Disparities in income, expenditure, and the carbon footprint in austria",
+            "title-short": "Emissions inequality",
+            "type": "article-journal",
+            "volume": "197"
+        },
+        {
+            "DOI": "10.1080/15487733.2021.1949847",
+            "author": [
+                {
+                    "family": "Barros",
+                    "given": "Beatriz"
+                },
+                {
+                    "family": "Wilk",
+                    "given": "Richard"
+                }
+            ],
+            "container-title": "Sustainability: Science, Practice and Policy",
+            "id": "barros:2021",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "316-322",
+            "title": "The outsized carbon footprints of the super-rich",
+            "type": "article-journal",
+            "volume": "17"
+        },
+        {
+            "DOI": "10.1016/j.ecolecon.2004.02.012",
+            "author": [
+                {
+                    "family": "Røpke",
+                    "given": "Inge"
+                }
+            ],
+            "container-title": "Ecological Economics",
+            "id": "ropke:2004",
+            "issue": "3-4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004
+                    ]
+                ]
+            },
+            "page": "293-314",
+            "title": "The early history of modern ecological economics",
+            "type": "article-journal",
+            "volume": "50"
+        },
+        {
+            "DOI": "10.1787/9789264301085-en",
+            "author": [
+                {
+                    "literal": "OECD"
+                }
+            ],
+            "id": "oecd:2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "publisher": "OECD Publishing",
+            "title": "A broken social elevator? How to promote social mobility",
+            "type": "book"
+        },
+        {
+            "DOI": "10.4337/9781849805582.00010",
+            "author": [
+                {
+                    "family": "Kurz",
+                    "given": "Heinz D."
+                },
+                {
+                    "family": "Salvadori",
+                    "given": "Neri"
+                }
+            ],
+            "container-title": "Handbook of alternative theories of economic growth",
+            "editor": [
+                {
+                    "family": "Setterfield",
+                    "given": "Mark"
+                }
+            ],
+            "id": "kurz:2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "publisher": "Edward Elgar Publishing",
+            "title": "The post-keynesian theories of growth and distribution: A survey",
+            "title-short": "The post-keynesian theories of growth and distribution",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.2298/pan1803319j",
+            "author": [
+                {
+                    "family": "Josifidis",
+                    "given": "Kosta"
+                },
+                {
+                    "family": "Supic",
+                    "given": "Novica"
+                }
+            ],
+            "container-title": "Panoeconomicus",
+            "id": "josifidis:2018",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "319-337",
+            "title": "Institutionalist versus neoclassical view on income distribution and economic progress: The OECD panel evidence",
+            "title-short": "Institutionalist versus neoclassical view on income distribution and economic progress",
+            "type": "article-journal",
+            "volume": "65"
+        },
+        {
+            "author": [
+                {
+                    "literal": "WuG Editorial board"
+                }
+            ],
+            "container-title": "Wirtschaft und Gesellschaft",
+            "id": "wug:2022",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "497-518",
+            "title": "How to tackle the inflation crisis? Learnings from european case studies",
+            "type": "article-journal",
+            "volume": "48"
+        },
+        {
+            "author": [
+                {
+                    "family": "Zuckerstätter",
+                    "given": "Sepp"
+                },
+                {
+                    "family": "Kafenda",
+                    "given": "Lukas"
+                },
+                {
+                    "family": "Muckenhuber",
+                    "given": "Mattias"
+                },
+                {
+                    "family": "Russinger",
+                    "given": "Reinhold"
+                }
+            ],
+            "container-title": "Wirtschaft und Gesellschaft",
+            "id": "zuckerstatter:2022",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "page": "578-598",
+            "title": "Austria: Policies dealing with the inflation crisis",
+            "title-short": "Austria",
+            "type": "article-journal",
+            "volume": "48"
+        },
+        {
+            "DOI": "10.1016/j.worlddev.2014.09.029",
+            "author": [
+                {
+                    "family": "Ravi",
+                    "given": "Shamika"
+                },
+                {
+                    "family": "Engler",
+                    "given": "Monika"
+                }
+            ],
+            "container-title": "World Development",
+            "id": "ravi:2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "page": "57-71",
+            "title": "Workfare as an effective way to fight poverty: The case of india’s NREGS",
+            "title-short": "Workfare as an effective way to fight poverty",
+            "type": "article-journal",
+            "volume": "67"
+        },
+        {
+            "DOI": "10.1093/sf/sos071",
+            "author": [
+                {
+                    "family": "Young",
+                    "given": "Cristobal"
+                }
+            ],
+            "container-title": "Social Forces",
+            "id": "young:2012",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "page": "609-634",
+            "title": "Losing a job: The nonpecuniary cost of unemployment in the united states",
+            "title-short": "Losing a job",
+            "type": "article-journal",
+            "volume": "91"
+        },
+        {
+            "DOI": "10.1093/jeea/jvx028",
+            "author": [
+                {
+                    "family": "Card",
+                    "given": "David"
+                },
+                {
+                    "family": "Kluve",
+                    "given": "Jochen"
+                },
+                {
+                    "family": "Weber",
+                    "given": "Andrea"
+                }
+            ],
+            "container-title": "Journal of the European Economic Association",
+            "id": "card:2017",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "page": "894-931",
+            "title": "What works? A meta analysis of recent active labor market program evaluations",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "author": [
+                {
+                    "family": "Kasy",
+                    "given": "Maximilian"
+                },
+                {
+                    "family": "Lehner",
+                    "given": "Lukas"
+                }
+            ],
+            "genre": "Working Paper",
+            "id": "kasy:2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "number": "2022-29",
+            "publisher": "INET Oxford",
+            "title": "Employing the unemployed of marienthal: Evaluation of a guaranteed job program",
+            "title-short": "Employing the unemployed of marienthal",
+            "type": "report"
+        },
+        {
+            "DOI": "10.1111/j.1467-923x.1943.tb01016.x",
+            "author": [
+                {
+                    "family": "Kalecki",
+                    "given": "Michal"
+                }
+            ],
+            "container-title": "The Political Quarterly",
+            "id": "kalecki:1943",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        1943
+                    ]
+                ]
+            },
+            "page": "322-330",
+            "title": "Political aspects of full employment",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "DOI": "https://doi.org/10.4337/roke.2023.02.05",
+            "author": [
+                {
+                    "family": "Weber",
+                    "given": "Isabella M."
+                },
+                {
+                    "family": "Wasner",
+                    "given": "Evan"
+                }
+            ],
+            "container-title": "Review of Keynesian Economics",
+            "id": "weber:2023",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "page": "183-213",
+            "title": "Sellers’ inflation, profits and conflict: Why can large firms hike prices in an emergency?",
+            "title-short": "Sellers’ inflation, profits and conflict",
+            "type": "article-journal",
+            "volume": "11"
+        },
+        {
+            "DOI": "10.1057/s41599-020-0417-4",
+            "author": [
+                {
+                    "family": "Cuaresma",
+                    "given": "Jesús Crespo"
+                },
+                {
+                    "family": "Danylo",
+                    "given": "Olha"
+                },
+                {
+                    "family": "Fritz",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Hofer",
+                    "given": "Martin"
+                },
+                {
+                    "family": "Kharas",
+                    "given": "Homi"
+                },
+                {
+                    "family": "Bayas",
+                    "given": "Juan Carlos Laso"
+                }
+            ],
+            "container-title": "Palgrave Communications",
+            "id": "crespo:2020",
+            "issue": "40",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "title": "What do we know about poverty in north korea?",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
             "DOI": "10.1086/700936",
             "author": [
                 {

@@ -1,9 +1,9 @@
 {
     "id": "126E101B",
     "path": "~/Daten/Lehre/wipol_advanced_BA/data/code/05_inflation.R",
-    "project_path": "05_inflation.R",
+    "project_path": null,
     "type": "r_source",
-    "hash": "1173831354",
+    "hash": "1190332114",
     "contents": "",
     "dirty": false,
     "created": 1678289670491.0,
@@ -17,11 +17,11 @@
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1678649826,
+    "lastKnownWriteTime": 1688421636,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1678649826,
+    "last_content_update": 1688421636,
     "read_only": false,
     "read_only_alternatives": []
 }
