@@ -4,6 +4,7 @@ library(tidyverse)
 raw <- read_csv("incomeineq.csv")
 
 # Show all available countries, but we don't want country groups (EA18, EU15, etc.) 
+# Filter all countries that have a 2-digit code
 unique(raw$geo)
 filtered <- raw |> filter(str_length(geo) < 3, time %in% c(2000,2022))
 
