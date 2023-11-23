@@ -8,7 +8,7 @@ librarian::shelf(tidyverse, ggtext, eurostat, MetBrewer)
 # remotes::install_github("https://github.com/jimjam-slam/ggflags")
 librarian::shelf(ggflags, countrycode, sysfonts, showtext, ggrepel)
 
-# Load data directly from Eurostat or load("06_labour.RData")
+# Load data directly from Eurostat or load("05_labels.RData")
 rawdat <- get_eurostat("une_rt_m", 
                        filters = list(geo = c("AT","DE","FR","ES","IT"), 
                                       age = "TOTAL", 
