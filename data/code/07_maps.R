@@ -14,13 +14,13 @@ showtext_auto()
 showtext_opts(dpi = 320)
 
 # MAP 1: Social mobility in European OECD countries
-load("09_mobility.RData")
+load("07_maps.RData")
  
-# Load map for Europe from naturalearth
-map <- ne_countries(continent = "Europe", scale = "medium", returnclass = "sf")
+# Load map from Eurostat via giscoR
+map <- gisco_get_countries(region = "Europe", resolution = "10", epsg = 4326)
 
-# Alternatively, get map from Eurostat
-# map <- gisco_get_countries(region = "Europe", resolution = "10", epsg = 4326)
+# Alternatively, get map for Europe from naturalearth
+# map <- ne_countries(continent = "Europe", scale = "medium", returnclass = "sf")
 
 # Set limits for Continental Europe
 map |> ggplot() + geom_sf() + 

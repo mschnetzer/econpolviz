@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "In this table you find the dates and contents of all classes.\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Time\n      Room\n      Content\n      Slides\n      Code\n      Data\n      Assignment\n    \n  \n  \n    Oct 09, 2023\n10:00-12:00\nTC.3.10\nData\n\n\n\n\n\n\n\n    Oct 16, 2023\n10:00-12:00\nTC.3.10\nVisualization\n\n\n\n\n\n\n\n    Oct 23, 2023\n10:00-12:00\nTC.3.10\nGeometries\n\n\n\n\n\n\n\n    Oct 30, 2023\n10:00-12:00\nOnline\nColors\n\n\n\n\n\n\n\n    Nov 06, 2023\n10:00-12:00\nTC.3.10\nLabels\n\n\n\n\n\n\n\n    Nov 13, 2023\n10:00-12:00\nTC.3.10\nPatents\n\n\n\n\n\n    Nov 20, 2023\n10:00-12:00\nTC.3.10\nPatent Data\n\n\n\n\n    Nov 27, 2023\n10:00-12:00\nTC.3.10\nThemes\n\n\n\n\n\n\n\n    Dec 04, 2023\n10:00-12:00\nTC.3.08\nMaps\n\n\n\n\n\n\n    Dec 11, 2023\n10:00-12:00\nTC.3.06\nPresentations (1-4, 13, 15-20)\n\n\n\n\n    Dec 18, 2023\n10:00-12:00\nTC.3.06\nPresentations (5-12, 14)\n\n\n\n\n  \n  \n  \n\n\n\n\nAssignments\nAssignment [1] provides the setup of the R infrastructure that is required in this course. There are no points for this assignment. Assignments [2] to [4] are recreations of examplary figures provided below. These examples are related to figures that are discussed in class. Students should then try to reproduce the plots at home and improve their individual coding skills. The raw data for the figures are available as *.csv files below. You should be able to save your chart as PNG file via ggsave(\"assignment.png\", width = 8, height = 5, dpi = 320, bg = \"white\") and adapt the parameters according to your needs.\n\nHomework 1\n\n\n\n\n\n\n\n\n\n\n\nInstall the latest R version (v4.2.2)\nInstall the latest version of RStudio Desktop\nOpen RStudio, copy the following code into the console and execute: install.packages(c(\"tidyverse\", \"rmarkdown\", \"scales\", \"lubridate\", \"colorspace\", \"devtools\")); sessionInfo()\nClick on Help &gt; About RStudio\nMake sure that both the R version (Console) and the RStudio version are visible, take a screenshot and upload it to the learning platform before October 16, 2023 at 9 a.m.\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\n\n\nPlease submit your chart before October 23, 2023 at 9 a.m. The data for this assignment is available here: \n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\n\n\nPlease submit your chart before October 30, 2023 at 9 a.m. The data for this assignment is available here: \n\n\n\n\nHomework 4\n\n\n\n\n\n\n\n\n\n\nPlease submit your chart before November 06, 2023 at 9 a.m. The data for this assignment is available here:"
+    "text": "In this table you find the dates and contents of all classes.\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n    \n    \n      Date\n      Time\n      Room\n      Content\n      Slides\n      Code\n      Data\n      Assignment\n    \n  \n  \n    Oct 09, 2023\n10:00-12:00\nTC.3.10\nData\n\n\n\n\n\n\n\n    Oct 16, 2023\n10:00-12:00\nTC.3.10\nVisualization\n\n\n\n\n\n\n\n    Oct 23, 2023\n10:00-12:00\nTC.3.10\nGeometries\n\n\n\n\n\n\n\n    Oct 30, 2023\n10:00-12:00\nOnline\nColors\n\n\n\n\n\n\n\n    Nov 06, 2023\n10:00-12:00\nTC.3.10\nLabels\n\n\n\n\n\n\n\n    Nov 13, 2023\n10:00-12:00\nTC.3.10\nPatents\n\n\n\n\n\n    Nov 20, 2023\n10:00-12:00\nTC.3.10\nPatent Data\n\n\n\n\n    Nov 27, 2023\n10:00-12:00\nTC.3.10\nThemes\n\n\n\n\n\n\n\n    Dec 04, 2023\n10:00-12:00\nTC.3.08\nMaps\n\n\n\n\n\n\n\n    Dec 11, 2023\n10:00-12:00\nTC.3.06\nPresentations (1-4, 13, 15-20)\n\n\n\n\n    Dec 18, 2023\n10:00-12:00\nTC.3.06\nPresentations (5-12, 14)\n\n\n\n\n  \n  \n  \n\n\n\n\nAssignments\nAssignment [1] provides the setup of the R infrastructure that is required in this course. There are no points for this assignment. Assignments [2] to [4] are recreations of examplary figures provided below. These examples are related to figures that are discussed in class. Students should then try to reproduce the plots at home and improve their individual coding skills. The raw data for the figures are available as *.csv files below. You should be able to save your chart as PNG file via ggsave(\"assignment.png\", width = 8, height = 5, dpi = 320, bg = \"white\") and adapt the parameters according to your needs.\n\nHomework 1\n\n\n\n\n\n\n\n\n\n\n\nInstall the latest R version (v4.2.2)\nInstall the latest version of RStudio Desktop\nOpen RStudio, copy the following code into the console and execute: install.packages(c(\"tidyverse\", \"rmarkdown\", \"scales\", \"lubridate\", \"colorspace\", \"devtools\")); sessionInfo()\nClick on Help &gt; About RStudio\nMake sure that both the R version (Console) and the RStudio version are visible, take a screenshot and upload it to the learning platform before October 16, 2023 at 9 a.m.\n\n\n\n\n\nHomework 2\n\n\n\n\n\n\n\n\n\n\nPlease submit your chart before October 23, 2023 at 9 a.m. The data for this assignment is available here: \n\n\n\n\nHomework 3\n\n\n\n\n\n\n\n\n\n\nPlease submit your chart before October 30, 2023 at 9 a.m. The data for this assignment is available here: \n\n\n\n\nHomework 4\n\n\n\n\n\n\n\n\n\n\nPlease submit your chart before November 06, 2023 at 9 a.m. The data for this assignment is available here:"
   },
   {
     "objectID": "visualization.html",
@@ -14,340 +14,74 @@
     "text": "Data visualization\nThe Austrian Patent Office will exclusively provide internal data to create data visualizations and illustrate the process of private innovation in Austria. You will be able to select a topic and obtain a ready-made dataset from the agency. You have to create a preliminary chart for a presentation in one of the two final sessions. The presentation should contain the research question, an intuition of the underlying data and, most important, your considerations behind the style of the chart. Your time slot for the presentation is five minutes. Afterwards we will have a brief Q&A in class together with an evaluation of the lecturer and representatives of the Patent Office. The presentation should only have a small number of slides with little text to lead the audience through the process of chart creation, e.g.\n\nResearch question: What do you want to answer with your chart?\nData: What data did you use?\nChart: What does the chart show? What were your thoughts when choosing this style?\n\nPlease also carefully read the accompanying information document provided by the Austrian Patent Office: \n\n\nRMarkdown report\nStudents are required to draft a short report around the chart, containing the most important information of chart creation and the entire R code. The final version of the report is due on January 31, 2024. You should work with RMarkdown which is a handy and simple tool to compose reports based on R code. It is recommended to edit the document in RStudio. The final report will be an HTML file and should be structured as follows:\n\nResearch question: What is the specific research question that you want to address with your visualization?\nData: What data was available and what did you actually use? If helpful, you might want to include some descriptive statistics as a table.\nResult: Present and describe the chart that you have created.\nConclusion: What are the main conclusions from your chart?\nCode: Provide the full code for your data visualization as a code block in the appendix of the report.\n\nThe charts and the report will be published under the CC BY-NC 4.0 license. The Austrian Patent Office will be authorized to (re-)use and edit visualizations and code for non-commercial purposes.\n\n\nTopics\n\n\n\n  \n  \n  \n    \n    \n    \n    \n    \n  \n  \n    \n    \n      #\n      Topic\n      Source\n      Categories\n      Contact\n    \n  \n  \n    1\nR&D quota\nEurostat\nTime and country comparison\n\n\n    2\nR&D expenditures per million inhabitants\nEurostat\nTime and country comparison\n\n\n    3\nR&D financing sources\nStatAT\nFinancing sources (sectors), time\n\n\n    4\nInnovation Investments\nOECD\ndifferent asset forms, AT and EU (over time)\n\n\n    5\nInnovation - European Innovation Scoreboard (EIS) - 12 Pillars\nEC\n12 pillars and country comparison (over time)\n\n\n    6\nInnovation - European Innovation Scoreboard (EIS) - pillar: Intellectual Assets\nEC\nPillar: Intellectual Asstes (3.3); 3 Subindicators, time and country comparsion\n\n\n    7\nNational Property Rights\nÖPA\n4 categories (patents, utility models, trademarks, designs) and time\n\n\n    8\nNational Property Rights\nÖPA\n5 categories, several sublevels, time\n\n\n    9\nNational Property Rights\nÖPA/EPO\nTechnology fields (patents, utility models) and time\n\n\n    10\nProperty Rights EPO\nÖPA/EPO\nTechnology fields (patents) and time\n\n\n    11\nGreen Patents (Project 1, 1A [temporal development])\nEPO/OECD\nhierachical domains (green patents), origin of applicant, first publication date, NUTS\n\n\n    12\nGreen Patents (Project 2, 2A [temporal development])\nEPO/OECD\nsame as 11 + yearly total-publications for comparison\n\n\n    13\nFemale inventors and female researchers\nOECD/EPO\nWomen inventor's rate and female researchers - country comparison\n\n\n    14\nMitigation against climate change\nEPO\npatent areas (Y02-tags and weighting per document), first-applicant-country, time\n\n\n    15\nSurvey on low female inventor's rate - reasons\nÖPA\n7 main categories and different number of subcategories\n\n\n    16\nSurvey on  low female inventor rate -  characteristics of participants\nÖPA\ncharacteristics of persons participating at the survey\n\n\n    17\nWomen's inventor rate (WIR) - technical areas\nEPO\n5 technical areas, time, country comparisons\n\n\n    18\nWomen's inventor rate (WIR) -  regional perspective\nEPO\nNUTS2 regions, time, country perspective\n\n\n    19\nWomen's inventor rate (WIR) - residents and non-residents\nEPO\nresidents and non-residents, countries\n\n\n    20\nWomen's inventor rate (WIR) - development over time\nEPO\nTime and country comparison\n\n\n  \n  \n  \n\n\n\n\n\nVisualization Awards\nThe Austrian Patent Office will award the best three data visualizations. The winning project receives €300, the second place €150, and the third place €50. Selected figures might also be published in the annual report of the Patent Office and thus made available to a broader audience.\n\n\nCheatsheets\n   \n\n\nAdditional online resources\n\n\n\n\n\n\n\n\n\nKieran Healy  Data Visualization: A Practical Introduction  Princeton University Press  ISBN-13: 9780691181622  Link\n\n\n\nClaus O. Wilke  Fundamentals of Data Visualization: A Primer on Making Informative and Compelling Figures  O’Reilly Media  ISBN-13: 9781492031086  Link\n\n\n\nJack Dougherty and Ilya Ilyankou  Hands-On Data Visualization: Interactive Storytelling from Spreadsheets to Code  O’Reilly Media  ISBN-13: 9781492086000  Link"
   },
   {
-    "objectID": "slides/09_mobility/index.html#discuss-with-your-neighbour",
-    "href": "slides/09_mobility/index.html#discuss-with-your-neighbour",
+    "objectID": "slides/06_themes/index.html#themes-1",
+    "href": "slides/06_themes/index.html#themes-1",
     "title": "    Visualizing Innovation",
-    "section": "Discuss with your neighbour",
-    "text": "Discuss with your neighbour\nHow would you describe the state of intergenerational social mobility in your country?\nWhich channels do you know where parents exert influence on the socio-economic outcomes of children?\n \n\nIllustrations by https://openpeeps.com."
+    "section": "Themes",
+    "text": "Themes"
   },
   {
-    "objectID": "slides/09_mobility/index.html#selected-channels-of-intergenerational-persistence",
-    "href": "slides/09_mobility/index.html#selected-channels-of-intergenerational-persistence",
+    "objectID": "slides/06_themes/index.html#theme-elements",
+    "href": "slides/06_themes/index.html#theme-elements",
     "title": "    Visualizing Innovation",
-    "section": "Selected channels of intergenerational persistence",
-    "text": "Selected channels of intergenerational persistence\n\n\nChildren of well-off families attend better educational institutions, which results in higher incomes later on.\nFamily background shapes individual labor market-related characteristics (Habitus, social and cultural capital, health, etc.)\nChildren of poorer families face higher opportunity costs at their job search and tend to accept the first job opportunity\nSocial networks of the well-off facilitate job search substantially\n\n\n\n\nSource: Franzini/Raitano (2009)"
+    "section": "Theme elements",
+    "text": "Theme elements\n\n\n\n\n\n\n\nSource: Henry Wang"
   },
   {
-    "objectID": "slides/09_mobility/index.html#glass-ceiling",
-    "href": "slides/09_mobility/index.html#glass-ceiling",
+    "objectID": "slides/06_themes/index.html#main-theme-components",
+    "href": "slides/06_themes/index.html#main-theme-components",
     "title": "    Visualizing Innovation",
-    "section": "Glass ceiling",
-    "text": "Glass ceiling\n\nThat room [at the top] rarely opens up because those mediocrities are too well-screened by parents who hire private tutors, buy cultural enrichment, teach etiquette, set expectations, stand as personal examples of success, coach interview technique, navigate any bureaucratic maze put before them, set up home in nice areas, arrange internships via friends and, just to rub in their supremacy, make direct gifts of cash and assets. To fail under these conditions is a kind of achievement in itself.\n\n\nJanan GaneshFinancial Times (December 9, 2016)"
+    "section": "Main theme components",
+    "text": "Main theme components\n\ndata |&gt; ggplot(aes(x = var1, y = var2)) |&gt;\n  geom_line() +\n  theme_minimal() +\n  theme(plot.background = element_rect(fill = \"red\"),\n        panel.grid.x = element_blank(),\n        axis.line.x = element_line(linewidth = 1.2),\n        legend.text = element_text(size = 7),\n        legend.position = \"top\")\n\n\n\n\n\n\nPlot\nPanel\nAxis\nLegend\nStrip\n\n\n\n\nbackground\nbackground\ntitle\nbackground\nbackground\n\n\ntitle\nborder\ntext\nkey\nplacement\n\n\nsubtitle\ngrid\nticks\ntitle\ntext\n\n\ncaption\nspacing\nline\ntext\n\n\n\nmargin\n\n\nposition"
   },
   {
-    "objectID": "slides/09_mobility/index.html#traditional-theory",
-    "href": "slides/09_mobility/index.html#traditional-theory",
+    "objectID": "slides/06_themes/index.html#add-a-logo-to-your-plot",
+    "href": "slides/06_themes/index.html#add-a-logo-to-your-plot",
     "title": "    Visualizing Innovation",
-    "section": "Traditional theory",
-    "text": "Traditional theory\nBecker/Tomes (1979), Becker/Tomes (1986):\n\n\nOptimization problem for parental investments into the human capital of descendants (utility of parents is maximized)\nStochastic term for “birth lottery” (genetic abilities, talents): Nature versus Nurture\nParental utility does not only depend on the life-cycle income of the descendant, but there is dynastic utility\n\n\n\nResponse by Daly (1982): Provision of descendants in future generations is a public good, since the future offspring may potentially descend from all other members in a society.\n\n\nObjection by Mani et al. (2013): Rational parental behaviour is limited by income and wealth, since poverty impedes cognitive abilities of adults and hinders rational investment decisions in childern."
+    "section": "Add a Logo to your plot",
+    "text": "Add a Logo to your plot\n\nlibrary(magick)\nlogo &lt;- image_read(\"patentamt.png\")\n\n# png(\"finalplot.png\", bg = \"white\", width = 8, height = 6, res = 320, units = \"in\")\nmtcars |&gt; ggplot(aes(x = wt, y = mpg)) +\n  geom_point() +\n  labs(title = \"Chart with a logo\", caption = \"Figure: @matschnetzer\") +\n  theme_minimal()\ngrid::grid.raster(logo, x = 0.03, y = 0.01, just = c('left', 'bottom'), width = unit(1.3, 'in'))\n# dev.off()\n\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023"
   },
   {
-    "objectID": "slides/09_mobility/index.html#measurement-of-intergenerational-mobility",
-    "href": "slides/09_mobility/index.html#measurement-of-intergenerational-mobility",
+    "objectID": "slides/04_colors/index.html#colors-in-r",
+    "href": "slides/04_colors/index.html#colors-in-r",
     "title": "    Visualizing Innovation",
-    "section": "Measurement of intergenerational mobility",
-    "text": "Measurement of intergenerational mobility\n\nIntergenerational earnings elasticity: \\(\\beta\\) \\[log~y_{ic} = \\alpha + \\beta~y_{ip} + \\varepsilon_{ic}\\] Intergenerational earnings correlation: \\(\\rho\\) \\[\\rho = \\beta~\\frac{\\sigma_p}{\\sigma_c}\\] with \\(\\sigma\\) being the standard deviation."
+    "section": "Colors in R",
+    "text": "Colors in R\nYou can assign colors by names\n\n“red”, “green”, “chocolate”, “cadetblue”, etc.\nSee a complete list of the 657 colors typing colors()\n\n\n\n\n [1] \"white\"         \"aliceblue\"     \"antiquewhite\"  \"antiquewhite1\"\n [5] \"antiquewhite2\" \"antiquewhite3\" \"antiquewhite4\" \"aquamarine\"   \n [9] \"aquamarine1\"   \"aquamarine2\"   \"aquamarine3\"   \"aquamarine4\"  \n\n\n\n\n Alternatively, you can use hex color codes\n\n#F8766D, #00BA38, #619CFF, etc.\nUse color picker to get hex code, e.g. https://htmlcolorcodes.com"
   },
   {
-    "objectID": "slides/09_mobility/index.html#life-cycle-vs.-current-income",
-    "href": "slides/09_mobility/index.html#life-cycle-vs.-current-income",
+    "objectID": "slides/04_colors/index.html#color-palettes-of-rcolorbrewer",
+    "href": "slides/04_colors/index.html#color-palettes-of-rcolorbrewer",
     "title": "    Visualizing Innovation",
-    "section": "Life cycle vs. current income",
-    "text": "Life cycle vs. current income\n\n(Measurable) current income corresponds to life cycle income plus random transitory deviations \\[ y_{ic}^* = y_{ic} + \\omega_{ic} \\\\\ny_{ip}^* = y_{ip} + \\omega_{ip} \\]\nIntergenerational elasticity is calculated with current income records\n\\[ plim~\\widehat{\\beta} = \\frac{cov(y_{ip}^*, y_{ic}^*)}{var(y_{ip}^*)} = \\\\\n= \\frac{\\beta\\left[var(y_{ip}) + cov(y_{ip}, \\omega_{ip})\\right] + cov(y_{ic}, \\omega_{ic})/\\beta + cov(\\omega_{ic}, \\omega_{ip})}{var(y_{ip}) + 2 \\cdot cov(y_{ip}, \\omega_{ip}) + var(\\omega_{ip})} \\]\nConsequently there is an attenuation bias (downward bias) \\[ plim~\\widehat{\\beta} = \\beta \\frac{var(y_{ip})}{var(y_{ip}) + var(\\omega_{ip})} &lt; \\beta \\]"
+    "section": "Color palettes of {RColorBrewer}",
+    "text": "Color palettes of {RColorBrewer}\n\n\nSequential\nUse to encode numerical information with order\n\n\n\n\n\n\nDiverging\nUse to encode numerical information with critical midpoint\n\n\n\n\n\n\nQualitative\nUse to encode categorical information\n\n\n\n\n\n\n\n\n\nSource: Scherer (2022)"
   },
   {
-    "objectID": "slides/09_mobility/index.html#transition-matrices",
-    "href": "slides/09_mobility/index.html#transition-matrices",
+    "objectID": "slides/04_colors/index.html#color-blindness",
+    "href": "slides/04_colors/index.html#color-blindness",
     "title": "    Visualizing Innovation",
-    "section": "Transition matrices",
-    "text": "Transition matrices\nA transition matrix captures the probabilities of switches \\(p_{ij}\\) from status \\(i\\) to \\(j\\).\n\\[\n  P =\n  \\left[ {\\begin{array}{cccc}\n    p_{11} & p_{12} & \\cdots & p_{1n}\\\\\n    p_{21} & p_{22} & \\cdots & p_{2n}\\\\\n    \\vdots & \\vdots & \\ddots & \\vdots\\\\\n    p_{m1} & p_{m2} & \\cdots & p_{mn}\\\\\n  \\end{array} } \\right]\n\\]\n\nThere are various indices to compare transition matrices:\n\nPrais-Index: \\(M(P) = \\frac{n - trace(P)}{n-1}\\) where \\(M(P) \\in [0,1]\\)\nAbsolute Average Jump (AAJ): \\(\\Omega = \\frac{\\sum_{i=1}^{n}|rank_{ic} - rank_{ip}|}{n}\\)"
+    "section": "Color blindness",
+    "text": "Color blindness\n\n\nYou may check whether the color scale works for people who can distinguish fewer colours than others with {colorBlindness}.\n\n\n\n\n\n\nThe viridis color scale is discriminable under the most common forms of colour blindness, and reproduces well in greyscale."
   },
   {
-    "objectID": "slides/09_mobility/index.html#great-gatsby-curve",
-    "href": "slides/09_mobility/index.html#great-gatsby-curve",
+    "objectID": "slides/04_colors/index.html#fancy-palettes",
+    "href": "slides/04_colors/index.html#fancy-palettes",
     "title": "    Visualizing Innovation",
-    "section": "Great Gatsby curve",
-    "text": "Great Gatsby curve\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nJoining with `by = join_by(iso3c)`\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\nSource: OECD (2018), Corak (2013)"
+    "section": "Fancy palettes",
+    "text": "Fancy palettes\n\n\n{MetBrewer}\n\n\n\n\n\n\n{wesanderson}"
   },
   {
-    "objectID": "slides/09_mobility/index.html#educational-mobility-in-austria",
-    "href": "slides/09_mobility/index.html#educational-mobility-in-austria",
+    "objectID": "slides/04_colors/index.html#color-scales-in-ggplot",
+    "href": "slides/04_colors/index.html#color-scales-in-ggplot",
     "title": "    Visualizing Innovation",
-    "section": "Educational mobility in Austria",
-    "text": "Educational mobility in Austria\n\n\n\n\n\n\n\nNote: Sample of 25 to 44 years of age"
+    "section": "Color scales in {ggplot}",
+    "text": "Color scales in {ggplot}\n\nscale_color_*  scale_fill_*\n\n\n\nContinuous:\n\ncontinuous(type)\ndistiller(palette)\ngradient(high, low)\ngradient2(high, mid, low)\ngradientn(colours)\nviridis_c(option)\n\n\nDiscrete:\n\nmanual(values)\nbrewer(palette)\ngrey(start, end)\nviridis_d(option)"
   },
   {
-    "objectID": "slides/09_mobility/index.html#decreasing-absolute-mobility-in-the-us",
-    "href": "slides/09_mobility/index.html#decreasing-absolute-mobility-in-the-us",
-    "title": "    Visualizing Innovation",
-    "section": "Decreasing absolute mobility in the US",
-    "text": "Decreasing absolute mobility in the US\n\n\n\n\n\n\n\nSource: Chetty et al. (2017)"
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#multigenerational-persistence",
-    "href": "slides/09_mobility/index.html#multigenerational-persistence",
-    "title": "    Visualizing Innovation",
-    "section": "Multigenerational persistence",
-    "text": "Multigenerational persistence\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource: Neidhöfer/Stockhausen (2018)"
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#mobility-takes-generations",
-    "href": "slides/09_mobility/index.html#mobility-takes-generations",
-    "title": "    Visualizing Innovation",
-    "section": "Mobility takes generations",
-    "text": "Mobility takes generations\n\n\n\n\n\n\n\n\n\nSource: OECD (2018)"
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#long-term-social-persistence",
-    "href": "slides/09_mobility/index.html#long-term-social-persistence",
-    "title": "    Visualizing Innovation",
-    "section": "Long-term social persistence",
-    "text": "Long-term social persistence\n\n\n🇬🇧 Clark/Cummins (2015): Richest british families around 1850 still own four times the average family wealth in 2012  (= 5 generations later)\n🇮🇹 Barone/Mocetti (2020): Families with highest income in Florence in 1427 still are at the top of the income distribution in 2011  (= 6 centuries later)\n🇩🇪 Braun/Stuhler (2017): Social status in Germany also depends from the great-grandparents. (= 4 generations later)"
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#projections",
-    "href": "slides/09_mobility/index.html#projections",
-    "title": "    Visualizing Innovation",
-    "section": "Projections",
-    "text": "Projections\nChoose a map projection! For instance, {giscoR} by Eurostat provides maps in the following three projections. Check coordinates for axis limits at https://epsg.io.\n\nLinking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0; sf_use_s2() is TRUE"
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#the-sf-package",
-    "href": "slides/09_mobility/index.html#the-sf-package",
-    "title": "    Visualizing Innovation",
-    "section": "The {sf} package",
-    "text": "The {sf} package\nThe sf (simple features) package deals with spatial geometries. These features have a geometry describing where on Earth the feature is located, and they have attributes, which describe other properties."
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#plot-a-map",
-    "href": "slides/09_mobility/index.html#plot-a-map",
-    "title": "    Visualizing Innovation",
-    "section": "Plot a map",
-    "text": "Plot a map\n\neurope_3035 |&gt; select(CNTR_ID, NAME_ENGL, geometry) |&gt; slice_head(n = 3)\n\nSimple feature collection with 3 features and 2 fields\nGeometry type: POLYGON\nDimension:     XY\nBounding box:  xmin: 3618229 ymin: 1900590 xmax: 5257241 ymax: 2889034\nProjected CRS: ETRS89-extended / LAEA Europe\n  CNTR_ID NAME_ENGL                       geometry\n1      AL   Albania POLYGON ((5148385 2216599, ...\n2      AT   Austria POLYGON ((4832035 2857837, ...\n3      AD   Andorra POLYGON ((3640254 2192873, ...\n\neurope_3035 |&gt; ggplot() + \n  geom_sf(fill = \"midnightblue\", linewidth = .1, color = \"white\") + \n  coord_sf(xlim = c(2377294, 7453440), ylim = c(1313597, 5628510), expand = F)"
-  },
-  {
-    "objectID": "slides/09_mobility/index.html#bibliography",
-    "href": "slides/09_mobility/index.html#bibliography",
+    "objectID": "slides/04_colors/index.html#bibliography",
+    "href": "slides/04_colors/index.html#bibliography",
     "title": "    Visualizing Innovation",
     "section": "Bibliography",
-    "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nBarone, Guglielmo/Mocetti, Sauro (2020). Intergenerational mobility in the very long run: Florence 1427-2011. The Review of Economic Studies, 88(4), 1863–1891. DOI: 10.1093/restud/rdaa075\n\n\nBecker, Gary/Tomes, Nigel (1979). An equilibrium theory of the distribution of income and intergenerational mobility. The Journal of Political Economy, 87(6), 1153–1189.\n\n\nBecker, Gary/Tomes, Nigel (1986). Human capital and the rise and fall of families. Journal of Labor Economics, 4(3), S1–S39.\n\n\nBraun, Sebastian Till/Stuhler, Jan (2017). The transmission of inequality across multiple generations: Testing recent theories with evidence from germany. The Economic Journal, 128(609), 576–611. DOI: 10.1111/ecoj.12453\n\n\nChetty, Raj/Grusky, David/Hell, Maximilian/Hendren, Nathaniel/Manduca, Robert/Narang, Jimmy (2017). The fading american dream: Trends in absolute income mobility since 1940. Science, 356(6336), 398–406. DOI: 10.1126/science.aal4617\n\n\nClark, Gregory/Cummins, Neil (2015). Intergenerational wealth mobility in england, 1858–2012: Surnames and social mobility. The Economic Journal, 125(582), 61–85. DOI: 10.1111/ecoj.12165\n\n\nCorak, Miles (2013). Income inequality, equality of opportunity, and intergenerational mobility. Journal of Economic Perspectives, 27(3), 79–102. DOI: 10.1257/jep.27.3.79\n\n\nDaly, Herman E. (1982). Chicago school individualism versus sexual reproduction: A critique of becker and tomes. Journal of Economic Issues, 16(1), 307–312.\n\n\nFranzini, Maurizio/Raitano, Michele (2009). Persistence of inequality in europe: The role of family economic conditions. International Review of Applied Economics, 23(3), 345–366. DOI: 10.1080/02692170902811777\n\n\nMani, Anandi/Mullainathan, Sendhil/Shafir, Eldar/Zhao, Jiaying (2013). Poverty impedes cognitive function. Science, 341(6149), 976–980. DOI: 10.1126/science.1238041\n\n\nNeidhöfer, Guido/Stockhausen, Maximilian (2018). Dynastic inequality compared: Multigenerational mobility in the united states, the united kingdom, and germany. Review of Income and Wealth, 65(2), 383–414. DOI: 10.1111/roiw.12364\n\n\nOECD (2018). A broken social elevator? How to promote social mobility. OECD Publishing. DOI: 10.1787/9789264301085-en"
-  },
-  {
-    "objectID": "slides/07_income/index.html#income-inequality-in-economic-policy",
-    "href": "slides/07_income/index.html#income-inequality-in-economic-policy",
-    "title": "    Visualizing Innovation",
-    "section": "Income inequality in economic policy",
-    "text": "Income inequality in economic policy\n\n\n\n\n\nUN SDG 10.1: “By 2030, progressively achieve and sustain income growth of the bottom 40 per cent of the population at a rate higher than the national average.”\nEconomists focus on the economic origins and implications of inequality rather than the social and ecological context.\nIn neoclassical economics, income inequality arises from differences in marginal productivity and might stimulate economic growth due to differential savings rates, investment, and incentives for effort (Josifidis/Supic, 2018).\nIn (Post-)Keynesian economics, income inequality is the result of institutional settings, power relations, etc. Inequality harms economic growth in most of these models due to detrimental effects on aggregate demand (Kurz/Salvadori, 2010)."
-  },
-  {
-    "objectID": "slides/07_income/index.html#functional-distribution",
-    "href": "slides/07_income/index.html#functional-distribution",
-    "title": "    Visualizing Innovation",
-    "section": "Functional distribution",
-    "text": "Functional distribution\nIncome accounts in the System of National Accounts show primary (from production) and secondary (from redistribution) income flows. It is also the base for functional distribution:\n\n\nGross domestic product (GDP) at market prices  \\(+\\) Primary incomes receivable from the rest of world  \\(-\\) Primary incomes payable to the rest of world\n\n\\(=\\) Gross national income (GNI) at market prices  \\(-\\) Consumption of fixed capital\n\n\\(=\\) Net national income at market prices  \\(-\\) Taxes on products  \\(+\\) Subsidies on products\n\n\\(=\\) Net national income at factor cost\n\n\n\n ← Rest of World ← Depreciation ← Government ← Production factors"
-  },
-  {
-    "objectID": "slides/07_income/index.html#income-accounts-for-austria-2021",
-    "href": "slides/07_income/index.html#income-accounts-for-austria-2021",
-    "title": "    Visualizing Innovation",
-    "section": "Income accounts for Austria, 2021",
-    "text": "Income accounts for Austria, 2021\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLinks is a tbl_df. Converting to a plain data frame.\n\n\n\n\n\n\nWage share = Compensation of Employees / Net national income at factor cost"
-  },
-  {
-    "objectID": "slides/07_income/index.html#the-wage-share-in-austria",
-    "href": "slides/07_income/index.html#the-wage-share-in-austria",
-    "title": "    Visualizing Innovation",
-    "section": "The wage share in Austria",
-    "text": "The wage share in Austria"
-  },
-  {
-    "objectID": "slides/07_income/index.html#functional-income-distribution-in-continental-europe",
-    "href": "slides/07_income/index.html#functional-income-distribution-in-continental-europe",
-    "title": "    Visualizing Innovation",
-    "section": "Functional income distribution in Continental Europe",
-    "text": "Functional income distribution in Continental Europe"
-  },
-  {
-    "objectID": "slides/07_income/index.html#functional-distribution-in-anglosaxon-countries",
-    "href": "slides/07_income/index.html#functional-distribution-in-anglosaxon-countries",
-    "title": "    Visualizing Innovation",
-    "section": "Functional distribution in Anglosaxon countries",
-    "text": "Functional distribution in Anglosaxon countries"
-  },
-  {
-    "objectID": "slides/07_income/index.html#factors-influencing-the-wage-share",
-    "href": "slides/07_income/index.html#factors-influencing-the-wage-share",
-    "title": "    Visualizing Innovation",
-    "section": "Factors influencing the wage share",
-    "text": "Factors influencing the wage share\n\nLabour market\n\nOrganization (e.g. collective bargaining, workers councils)\nLeverage (e.g. unemployment rate, strength of unions)\n\nProduct markets\n\nGlobalization\nTechnological change\n\nPolitics\n\nInfluence of capital income earners\n\n\n\n\n Reading recommendation: Stockhammer (2015)"
-  },
-  {
-    "objectID": "slides/07_income/index.html#historical-development-of-global-personal-inequality-3-views",
-    "href": "slides/07_income/index.html#historical-development-of-global-personal-inequality-3-views",
-    "title": "    Visualizing Innovation",
-    "section": "Historical development of global personal inequality: 3 views",
-    "text": "Historical development of global personal inequality: 3 views\n\n\n\n\n\nSimon Kuznets\n\n\n\n\n\n\n\nThomas Piketty\n\n\n\n\n\n\n\n\n\nBranko Milanovic"
-  },
-  {
-    "objectID": "slides/07_income/index.html#global-inequality-1820-2020",
-    "href": "slides/07_income/index.html#global-inequality-1820-2020",
-    "title": "    Visualizing Innovation",
-    "section": "Global inequality 1820-2020",
-    "text": "Global inequality 1820-2020\n\n\n\n\n\n\n\nSource: Chancel et al. (2022)"
-  },
-  {
-    "objectID": "slides/07_income/index.html#decomposition-of-global-inequality",
-    "href": "slides/07_income/index.html#decomposition-of-global-inequality",
-    "title": "    Visualizing Innovation",
-    "section": "Decomposition of global inequality",
-    "text": "Decomposition of global inequality\n\n\n\n\n\n\n\nSource: Chancel et al. (2022)"
-  },
-  {
-    "objectID": "slides/07_income/index.html#disposable-net-income-in-europe",
-    "href": "slides/07_income/index.html#disposable-net-income-in-europe",
-    "title": "    Visualizing Innovation",
-    "section": "Disposable net income in Europe",
-    "text": "Disposable net income in Europe\n\nThe legacy packages maptools, rgdal, and rgeos, underpinning the sp package,\nwhich was just loaded, will retire in October 2023.\nPlease refer to R-spatial evolution reports for details, especially\nhttps://r-spatial.org/r/2023/05/15/evolution4.html.\nIt may be desirable to make the sf package available;\npackage maintainers should consider adding sf to Suggests:.\nThe sp package is now running under evolution status 2\n     (status 2 uses the sf package in place of rgdal)\nSupport for Spatial objects (`sp`) will be deprecated in {rnaturalearth} and will be removed in a future release of the package. Please use `sf` objects with {rnaturalearth}. For example: `ne_download(returnclass = 'sf')`\n\nAttache Paket: 'rnaturalearthdata'\nDas folgende Objekt ist maskiert 'package:rnaturalearth':\n\n    countries110\nLinking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0; sf_use_s2() is TRUE\nJoining with `by = join_by(geo)`"
-  },
-  {
-    "objectID": "slides/07_income/index.html#axes",
-    "href": "slides/07_income/index.html#axes",
-    "title": "    Visualizing Innovation",
-    "section": "Axes",
-    "text": "Axes\nContinuous\n\nggplot(aes(x = life_expectancy, y = poverty_rate)) +\n  geom_point() +\n  scale_x_continuous(limits = c(40, 100),\n                     breaks = seq(40, 100, 20),\n                     labels = scales::number_format(suffix = \"years\")) +\n  scale_y_continuous(labels = scales::percent)\n\nDates\n\nggplot(aes(x = year, y = poverty_rate)) +\n  geom_line() +\n  scale_x_date(limits = c(as.Date(\"2020-01-01\"), as.Date(\"2024-01-01\")),\n                breaks = date_breaks = \"2 years\",\n                labels = date_labels = \"%Y\")\n\nOthers\nscale_x_log10(), scale_x_reverse(), scale_x_sqrt(), …"
-  },
-  {
-    "objectID": "slides/07_income/index.html#colors",
-    "href": "slides/07_income/index.html#colors",
-    "title": "    Visualizing Innovation",
-    "section": "Colors",
-    "text": "Colors\nManual\n\nggplot(aes(x = year, y = poverty_rate, color = country)) +\n  geom_line() +\n  scale_color_manual(values = c(\"red\", \"blue\", \"green\"))\n\nGradient\n\nggplot(aes(x = gdp, y = life_expectancy, color = poverty_rate)) +\n  geom_point() +\n  scale_color_gradient(low = \"green\", high = \"red\", na.value = \"gray80\")\n\nBrewer\n\nggplot(aes(x = year, y = poverty_rate, fill = country)) +\n  geom_area() +\n  scale_fill_brewer(palette = \"Set1\")\n\nOthers\nscale_color_binned(), scale_color_distiller(), scale_color_grey(), …"
-  },
-  {
-    "objectID": "slides/07_income/index.html#shape-size-and-alpha",
-    "href": "slides/07_income/index.html#shape-size-and-alpha",
-    "title": "    Visualizing Innovation",
-    "section": "Shape, size and alpha",
-    "text": "Shape, size and alpha\n\ntribble(~x, ~y, ~significance, ~gdp, ~continent,\n        0.5, 0.5, \"yes\", 140, \"Asia\",\n        1.0, 0.5, \"yes\", 100, \"Africa\",\n        1.5, 0.5, \"no\",  250, \"Europe\") |&gt; \n  ggplot(aes(x = x, y = y)) +\n  geom_point(aes(alpha = significance, size = gdp, shape = continent)) +\n  scale_alpha_discrete(range = c(0.5, 1), guide = guide_none()) +\n  scale_size_continuous(range = c(5, 12), guide = guide_none()) +\n  scale_shape_manual(values = c(17, 19, 15),\n                     guide = guide_legend(title = \"Continent\", \n                                          override.aes = list(size = 5))) +\n  theme_minimal()\n\nWarning: Using alpha for a discrete variable is not advised."
-  },
-  {
-    "objectID": "slides/07_income/index.html#guides",
-    "href": "slides/07_income/index.html#guides",
-    "title": "    Visualizing Innovation",
-    "section": "Guides",
-    "text": "Guides\n\nggplot(aes(x = life_expectancy, y = poverty_rate, color = continent)) +\n  geom_point() +\n  scale_color_viridis_d(guide = guide_legend(title.position = \"top\",\n                                             title.theme = element_text(size = 2),  \n                                             title.hjust = 0, title.vjust = 0.5,\n                                             label.position = \"bottom\",\n                                             label.hjust = 0, label.vjust = 0.5,\n                                             keywidth = 2, keyheight = 2,\n                                             direction = \"horizontal\",\n                                             override.aes = list(size = 4),\n                                             nrow = 1, ncol = 4,\n                                             byrow = FALSE, reverse = FALSE, ...))\n\n\n\n\n\n\n\n\n\n\nScale type\nDefault guide type\n\n\n\n\ncontinuous scales for colour/fill aesthetics\ncolourbar\n\n\nbinned scales for colour/fill aesthetics\ncoloursteps\n\n\nposition scales (continuous, binned and discrete)\naxis\n\n\ndiscrete scales (except position scales)\nlegend\n\n\nbinned scales (except position/colour/fill scales)\nbins"
-  },
-  {
-    "objectID": "slides/07_income/index.html#bibliography",
-    "href": "slides/07_income/index.html#bibliography",
-    "title": "    Visualizing Innovation",
-    "section": "Bibliography",
-    "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nChancel, Lucas/Piketty, Thomas/Saez, Emmanuel/Zucman, Gabriel (2022). World inequality report 2022. World Inequality Lab.\n\n\nJosifidis, Kosta/Supic, Novica (2018). Institutionalist versus neoclassical view on income distribution and economic progress: The OECD panel evidence. Panoeconomicus, 65(3), 319–337. DOI: 10.2298/pan1803319j\n\n\nKurz, Heinz D./Salvadori, Neri (2010). The post-keynesian theories of growth and distribution: A survey. In Setterfield, Mark (Ed.), Handbook of alternative theories of economic growth. Edward Elgar Publishing. DOI: 10.4337/9781849805582.00010\n\n\nStockhammer, Engelbert (2015). Determinants of the wage share: A panel analysis of advanced and developing economies. British Journal of Industrial Relations, 55(1), 3–33. DOI: 10.1111/bjir.12165"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#what-does-global-warming-mean",
-    "href": "slides/10_climate/index.html#what-does-global-warming-mean",
-    "title": "    Visualizing Innovation",
-    "section": "What does global warming mean?",
-    "text": "What does global warming mean?\n\n\n\n\n\n\n\nSource: Datawrapper"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#global-warming-stripes-for-1850-2022",
-    "href": "slides/10_climate/index.html#global-warming-stripes-for-1850-2022",
-    "title": "    Visualizing Innovation",
-    "section": "Global warming stripes for 1850-2022",
-    "text": "Global warming stripes for 1850-2022\n\n\n\n\n\n\n\nSource: Ed Hawkins"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#global-warming-stripes-explained",
-    "href": "slides/10_climate/index.html#global-warming-stripes-explained",
-    "title": "    Visualizing Innovation",
-    "section": "Global warming stripes explained",
-    "text": "Global warming stripes explained\n\n\n\n\n\n\n\nSource: Ed Hawkins"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#ocean-surface-temperature-at-record-high",
-    "href": "slides/10_climate/index.html#ocean-surface-temperature-at-record-high",
-    "title": "    Visualizing Innovation",
-    "section": "Ocean surface temperature at record high",
-    "text": "Ocean surface temperature at record high\n\n\n\n\n\n\n\nSource: Guardian"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#arctic-ice-at-record-low",
-    "href": "slides/10_climate/index.html#arctic-ice-at-record-low",
-    "title": "    Visualizing Innovation",
-    "section": "Arctic ice at record low",
-    "text": "Arctic ice at record low\n\n\n\n\n\n\n\nSource: New York Times"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#number-of-very-hot-days-30c-in-vienna",
-    "href": "slides/10_climate/index.html#number-of-very-hot-days-30c-in-vienna",
-    "title": "    Visualizing Innovation",
-    "section": "Number of very hot days (+30°C) in Vienna",
-    "text": "Number of very hot days (+30°C) in Vienna\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.2     ✔ readr     2.1.4\n✔ forcats   1.0.0     ✔ stringr   1.5.0\n✔ ggplot2   3.4.3     ✔ tibble    3.2.1\n✔ lubridate 1.9.2     ✔ tidyr     1.3.0\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nLinking to GEOS 3.11.0, GDAL 3.5.3, PROJ 9.1.0; sf_use_s2() is TRUE\n\n\n\n\n\n\n\n\n\n\n\nSource: ZAMG"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#what-is-ecological-economics",
-    "href": "slides/10_climate/index.html#what-is-ecological-economics",
-    "title": "    Visualizing Innovation",
-    "section": "What is ecological economics?",
-    "text": "What is ecological economics?\n\nEconomics of natural resources has a long history dating back to classical economists like Malthus and the phyisocrats where land is source of wealth\n1960s: Revival of Pigou’s concept of externalities to describe pollution\n1970s: Are there limits to growth? (Meadows et al., 1972)\n1980s: Institutionalization of ecological economics with establishment of the International Society for Ecological Economics in 1988 (Røpke, 2004)\nEcological economics addresses the interdependence and coevolution of human economies and natural ecosystems"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#climate-in-economic-policy",
-    "href": "slides/10_climate/index.html#climate-in-economic-policy",
-    "title": "    Visualizing Innovation",
-    "section": "Climate in economic policy",
-    "text": "Climate in economic policy\n\n\n\n\n\nEcological sustainability is no explicit goal in traditional economic policy frameworks\nClimate and the environment are addressed in several SDGs, like in SDG 7 (clean energy) or SDG12 (responsible consumption & production)\nSDG 13: “Take urgent action to combat climate change and its impacts” but only vague targets\nThe UN “Paris agreement” of 2015 is a legally binding treaty to limit the temperature increase to 1.5°C above pre-industrial levels and to reduce global emissions by 43% by 2030."
-  },
-  {
-    "objectID": "slides/10_climate/index.html#decoupling-growth-from-emissions",
-    "href": "slides/10_climate/index.html#decoupling-growth-from-emissions",
-    "title": "    Visualizing Innovation",
-    "section": "Decoupling growth from emissions",
-    "text": "Decoupling growth from emissions\n\n\n\n\nAttention!\n\nConsumption-based versus production-based emissions!\nThese countries represent less than 15% of global population and less than 30% of global emissions!\nGlobal emissions still continue to rise!"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#climate-crisis-and-inequality",
-    "href": "slides/10_climate/index.html#climate-crisis-and-inequality",
-    "title": "    Visualizing Innovation",
-    "section": "Climate crisis and inequality",
-    "text": "Climate crisis and inequality\n\nThere is ample evidence of inequality in (consumption-based) greenhouse gas emissions. However, studies typically find emissions inequality being smaller than income or wealth inequality.\n20 global billionaires emit 164,000 tons of CO2e whereof two thirds origin from their yachts only. The global average is 5 tons per capita, thus 20 indiviuals emit 100 tons. (Barros/Wilk, 2021)\nIn the EU, top 1% of households emit 22 times the per capita climate target of 2.5 tons of CO2e. Only 5% of EU households live within the targets. (Ivanova/Wood, 2020)\nIn Austria, the top decile in the income distribution emits 4 times more than the bottom decile. (Theine et al., 2022)"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#global-emissions-inequality",
-    "href": "slides/10_climate/index.html#global-emissions-inequality",
-    "title": "    Visualizing Innovation",
-    "section": "Global emissions inequality",
-    "text": "Global emissions inequality\n\n\n\n\n\n\n\nSource: Chancel et al. (2023)"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#a-framework-for-climate-policy",
-    "href": "slides/10_climate/index.html#a-framework-for-climate-policy",
-    "title": "    Visualizing Innovation",
-    "section": "A framework for climate policy",
-    "text": "A framework for climate policy\n\n\n\n\n\n\n\nSource: Chancel et al. (2023)"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#what-are-facets",
-    "href": "slides/10_climate/index.html#what-are-facets",
-    "title": "    Visualizing Innovation",
-    "section": "What are facets?",
-    "text": "What are facets?\nFacets show small multiples (or subplots) for different subsets of data\n\n\n\n\n\n\n\n\n\nCode\nResult\n\n\n\n\nfacet_wrap(~continent)\nPlot for each continent\n\n\nfacet_wrap(continent ~ year)\nPlot for each continent/year\n\n\nfacet_wrap(…, ncol = 1, nrow = 1)\nSpecify grid layout with columns and rows\n\n\nfacet_wrap(…, scales = “fixed”)\nSpecify fixed axis, alternatively “free_x” or “free_y”\n\n\nfacet_wrap(…, dir = “h”)\nDirection of facets, horizontal (“h”) or vertical (“v”)\n\n\nfacet_wrap(…, strip.position = “top”)\nPositioning of the facet labels (strips)\n\n\n\n\n\n\nNote: facet_grid() produces a grid of plots for each combination of variables, even if some plots are empty."
-  },
-  {
-    "objectID": "slides/10_climate/index.html#create-facets-by-a-variable-of-interest",
-    "href": "slides/10_climate/index.html#create-facets-by-a-variable-of-interest",
-    "title": "    Visualizing Innovation",
-    "section": "Create facets by a variable of interest",
-    "text": "Create facets by a variable of interest\nggplot(data = mpg) +\n  geom_point(aes(x = displ, y = hwy)) +\n  facet_wrap(~class, nrow = 2)"
-  },
-  {
-    "objectID": "slides/10_climate/index.html#bibliography",
-    "href": "slides/10_climate/index.html#bibliography",
-    "title": "    Visualizing Innovation",
-    "section": "Bibliography",
-    "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nBarros, Beatriz/Wilk, Richard (2021). The outsized carbon footprints of the super-rich. Sustainability: Science, Practice and Policy, 17(1), 316–322. DOI: 10.1080/15487733.2021.1949847\n\n\nChancel, Lucas/Bothe, Philipp/Voituriez, Tancrède (2023). Climate inequality report. World Inequality Lab Study 2023/1.\n\n\nIvanova, Diana/Wood, Richard (2020). The unequal distribution of household carbon footprints in europe and its link to sustainability. Global Sustainability, 3(e18), 1–12. DOI: 10.1017/sus.2020.12\n\n\nMeadows, Dennis L./Meadows, Donella/Randers, Jørgen/Behrens, William W. (1972). The limits to growth. Universe Books, New York.\n\n\nRøpke, Inge (2004). The early history of modern ecological economics. Ecological Economics, 50(3-4), 293–314. DOI: 10.1016/j.ecolecon.2004.02.012\n\n\nTheine, Hendrik/Humer, Stefan/Moser, Mathias/Schnetzer, Matthias (2022). Emissions inequality: Disparities in income, expenditure, and the carbon footprint in austria. Ecological Economics, 197, 107435. DOI: 10.1016/j.ecolecon.2022.107435"
+    "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nScherer, Cédric (2022). Graphic design with ggplot2. https://rstudio-conf-2022.github.io/ggplot2-graphic-design/"
   },
   {
     "objectID": "slides/02_visualization/index.html#milestones-in-data-visualization",
@@ -644,46 +378,25 @@
     "text": "Additional geometries\n\n\nggstream::geom_stream() \n\nwaffle::geom_waffle() \n\nggchicklet::geom_chicklet() \n\n\n\n\nggridges::geom_density_ridges() \n\nggsankey::geom_sankey() \n\nggbump::geom_bump() \n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023"
   },
   {
-    "objectID": "slides/04_colors/index.html#colors-in-r",
-    "href": "slides/04_colors/index.html#colors-in-r",
+    "objectID": "slides/07_maps/index.html#projections",
+    "href": "slides/07_maps/index.html#projections",
     "title": "    Visualizing Innovation",
-    "section": "Colors in R",
-    "text": "Colors in R\nYou can assign colors by names\n\n“red”, “green”, “chocolate”, “cadetblue”, etc.\nSee a complete list of the 657 colors typing colors()\n\n\n\n\n [1] \"white\"         \"aliceblue\"     \"antiquewhite\"  \"antiquewhite1\"\n [5] \"antiquewhite2\" \"antiquewhite3\" \"antiquewhite4\" \"aquamarine\"   \n [9] \"aquamarine1\"   \"aquamarine2\"   \"aquamarine3\"   \"aquamarine4\"  \n\n\n\n\n Alternatively, you can use hex color codes\n\n#F8766D, #00BA38, #619CFF, etc.\nUse color picker to get hex code, e.g. https://htmlcolorcodes.com"
+    "section": "Projections",
+    "text": "Projections\nChoose a map projection! For instance, {giscoR} by Eurostat provides maps in the following three projections. Check coordinates for axis limits at https://epsg.io."
   },
   {
-    "objectID": "slides/04_colors/index.html#color-palettes-of-rcolorbrewer",
-    "href": "slides/04_colors/index.html#color-palettes-of-rcolorbrewer",
+    "objectID": "slides/07_maps/index.html#the-sf-package",
+    "href": "slides/07_maps/index.html#the-sf-package",
     "title": "    Visualizing Innovation",
-    "section": "Color palettes of {RColorBrewer}",
-    "text": "Color palettes of {RColorBrewer}\n\n\nSequential\nUse to encode numerical information with order\n\n\n\n\n\n\nDiverging\nUse to encode numerical information with critical midpoint\n\n\n\n\n\n\nQualitative\nUse to encode categorical information\n\n\n\n\n\n\n\n\n\nSource: Scherer (2022)"
+    "section": "The {sf} package",
+    "text": "The {sf} package\nThe sf (simple features) package deals with spatial geometries. These features have a geometry describing where on Earth the feature is located, and they have attributes, which describe other properties."
   },
   {
-    "objectID": "slides/04_colors/index.html#color-blindness",
-    "href": "slides/04_colors/index.html#color-blindness",
+    "objectID": "slides/07_maps/index.html#plot-a-map",
+    "href": "slides/07_maps/index.html#plot-a-map",
     "title": "    Visualizing Innovation",
-    "section": "Color blindness",
-    "text": "Color blindness\n\n\nYou may check whether the color scale works for people who can distinguish fewer colours than others with {colorBlindness}.\n\n\n\n\n\n\nThe viridis color scale is discriminable under the most common forms of colour blindness, and reproduces well in greyscale."
-  },
-  {
-    "objectID": "slides/04_colors/index.html#fancy-palettes",
-    "href": "slides/04_colors/index.html#fancy-palettes",
-    "title": "    Visualizing Innovation",
-    "section": "Fancy palettes",
-    "text": "Fancy palettes\n\n\n{MetBrewer}\n\n\n\n\n\n\n{wesanderson}"
-  },
-  {
-    "objectID": "slides/04_colors/index.html#color-scales-in-ggplot",
-    "href": "slides/04_colors/index.html#color-scales-in-ggplot",
-    "title": "    Visualizing Innovation",
-    "section": "Color scales in {ggplot}",
-    "text": "Color scales in {ggplot}\n\nscale_color_*  scale_fill_*\n\n\n\nContinuous:\n\ncontinuous(type)\ndistiller(palette)\ngradient(high, low)\ngradient2(high, mid, low)\ngradientn(colours)\nviridis_c(option)\n\n\nDiscrete:\n\nmanual(values)\nbrewer(palette)\ngrey(start, end)\nviridis_d(option)"
-  },
-  {
-    "objectID": "slides/04_colors/index.html#bibliography",
-    "href": "slides/04_colors/index.html#bibliography",
-    "title": "    Visualizing Innovation",
-    "section": "Bibliography",
-    "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nScherer, Cédric (2022). Graphic design with ggplot2. https://rstudio-conf-2022.github.io/ggplot2-graphic-design/"
+    "section": "Plot a map",
+    "text": "Plot a map\n\nlibrary(giscoR)\neurope &lt;- gisco_get_countries(region = \"Europe\", resolution = \"10\", epsg = 3035)\neurope |&gt; select(CNTR_ID, NAME_ENGL, geometry) |&gt; slice_head(n = 3)\neurope |&gt; ggplot() + \n  geom_sf(fill = \"midnightblue\", linewidth = .1, color = \"white\") + \n  coord_sf(xlim = c(2377294, 7453440), ylim = c(1313597, 5628510), expand = F)\n\n\n\nSimple feature collection with 3 features and 2 fields\nGeometry type: POLYGON\nDimension:     XY\nBounding box:  xmin: 3616945 ymin: 1898784 xmax: 5257241 ymax: 2890133\nProjected CRS: ETRS89-extended / LAEA Europe\n  CNTR_ID NAME_ENGL                       geometry\n1      AD   Andorra POLYGON ((3640254 2192873, ...\n2      AL   Albania POLYGON ((5148385 2216599, ...\n3      AT   Austria POLYGON ((4832035 2857837, ...\n\n\n\n\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023"
   },
   {
     "objectID": "slides/01_introduction/index.html#course-info",
@@ -873,34 +586,6 @@
     "title": "    Visualizing Innovation",
     "section": "Bibliography",
     "text": "Bibliography\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023\n\n\n\nAngel, Stefan/Disslbacher, Franziska/Humer, Stefan/Schnetzer, Matthias (2019). What did you really earn last year?: Explaining measurement error in survey income data. Journal of the Royal Statistical Society: Series A (Statistics in Society). DOI: 10.1111/rssa.12463\n\n\nAngrist, Joshua/Azoulay, Pierre/Ellison, Glenn/Hill, Ryan/Lu, Susan Feng (2017). Economic research evolves: Fields and styles. American Economic Review, 107(5), 293–297. DOI: 10.1257/aer.p20171117\n\n\nBrice, Brandon D./Montesinos-Yufa, Hugo M. (2019). The era of empirical evidence. Mimeo.\n\n\nDisslbacher, Franziska/Ertl, Michael/List, Emanuel/Mokre, Patrick/Schnetzer, Matthias (2020). On top of the top - adjusting wealth distributions using national rich lists (Working Paper Series No. 20). INEQ.\n\n\nGorman, Kristen B./Williams, Tony D./Fraser, William R. (2014). Ecological sexual dimorphism and environmental variability within a community of antarctic penguins (genus pygoscelis). PLoS ONE, 9(3), e90081. DOI: 10.1371/journal.pone.0090081"
-  },
-  {
-    "objectID": "slides/06_themes/index.html#themes-1",
-    "href": "slides/06_themes/index.html#themes-1",
-    "title": "    Visualizing Innovation",
-    "section": "Themes",
-    "text": "Themes"
-  },
-  {
-    "objectID": "slides/06_themes/index.html#theme-elements",
-    "href": "slides/06_themes/index.html#theme-elements",
-    "title": "    Visualizing Innovation",
-    "section": "Theme elements",
-    "text": "Theme elements\n\n\n\n\n\n\n\nSource: Henry Wang"
-  },
-  {
-    "objectID": "slides/06_themes/index.html#main-theme-components",
-    "href": "slides/06_themes/index.html#main-theme-components",
-    "title": "    Visualizing Innovation",
-    "section": "Main theme components",
-    "text": "Main theme components\n\ndata |&gt; ggplot(aes(x = var1, y = var2)) |&gt;\n  geom_line() +\n  theme_minimal() +\n  theme(plot.background = element_rect(fill = \"red\"),\n        panel.grid.x = element_blank(),\n        axis.line.x = element_line(linewidth = 1.2),\n        legend.text = element_text(size = 7),\n        legend.position = \"top\")\n\n\n\n\n\n\nPlot\nPanel\nAxis\nLegend\nStrip\n\n\n\n\nbackground\nbackground\ntitle\nbackground\nbackground\n\n\ntitle\nborder\ntext\nkey\nplacement\n\n\nsubtitle\ngrid\nticks\ntitle\ntext\n\n\ncaption\nspacing\nline\ntext\n\n\n\nmargin\n\n\nposition"
-  },
-  {
-    "objectID": "slides/06_themes/index.html#add-a-logo-to-your-plot",
-    "href": "slides/06_themes/index.html#add-a-logo-to-your-plot",
-    "title": "    Visualizing Innovation",
-    "section": "Add a Logo to your plot",
-    "text": "Add a Logo to your plot\n\nlibrary(magick)\nlogo &lt;- image_read(\"patentamt.png\")\n\n# png(\"finalplot.png\", bg = \"white\", width = 8, height = 6, res = 320, units = \"in\")\nmtcars |&gt; ggplot(aes(x = wt, y = mpg)) +\n  geom_point() +\n  labs(title = \"Chart with a logo\", caption = \"Figure: @matschnetzer\") +\n  theme_minimal()\ngrid::grid.raster(logo, x = 0.03, y = 0.01, just = c('left', 'bottom'), width = unit(1.3, 'in'))\n# dev.off()\n\n\n\n\n\n\n\nPI 0822 Economic Policy (Applied Track) | Winter term 2023"
   },
   {
     "objectID": "slides/05_labels/index.html#serif-and-sans-serif-fonts",
