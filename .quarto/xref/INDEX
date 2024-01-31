@@ -55,5 +55,11 @@
   },
   "slides/05_labels/index.qmd": {
     "index.html": "5e425a01"
+  },
+  "slides/06_themes/index.qmd": {
+    "index.html": "3424ae55"
+  },
+  "slides/07_maps/index.qmd": {
+    "index.html": "8376fb38"
   }
 }

@@ -12,7 +12,7 @@ css: layout/css/adveconpol.scss
 <ul class="fa-ul" style="padding-left: 0;">
     <li><span class="fa-li">{{< fa user >}}</span>{{< var instructor.name >}}</li>
     <li><span class="fa-li">{{< fa globe >}}</span>[{{< var instructor.url >}}]({{< var instructor.url >}})</li>
-    <li><span class="fa-li">{{< fa envelope >}}</span><a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a></li>
+    <li><span class="fa-li">{{< fa envelope >}}</span>{{< var instructor.email >}}</li>
     <li><span class="fa-li">{{< fa brands twitter >}}</span>[{{< var instructor.twitter >}}](https://www.twitter.com/{{< var instructor.twitter >}})</li>
 </ul>
 :::

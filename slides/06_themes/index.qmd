@@ -1,0 +1,156 @@
+---
+metadata-files: 
+    - ../../_variables.yml
+title: |
+    <span class='fa-stack course-icon'>
+        <i class='fas {{< var course.icon-bg >}} fa-stack-2x blue'></i>
+        <i class='fas {{< var course.icon >}} fa-stack-1x fa-inverse' style='margin-top:-5pt'></i>
+      </span><br>
+    {{< var course.subtitle >}}
+author: "{{< var instructor.name >}}"  
+subtitle: Themes
+date: November 27, 2023
+date-format: long
+from: markdown+emoji
+bibliography: ../../data/lit/wipol_advanced.bib
+csl: ../../data/lit/wipol.csl
+execute:
+  freeze: auto
+  echo: true
+  fig-width: 6
+  fig-height: 5
+format:
+  revealjs:
+    theme: ../econpol_slides.scss
+    footer: '{{< var course.number >}} {{< var course.title >}} | {{< var course.semester >}}'
+    logo: ../../data/img/wu-logo-simple.png
+    header-includes: |
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet"/>
+    slide-number: true
+    show-slide-number: all
+    transition: fade
+    progress: true
+    multiplex: false
+    scrollable: false
+    preview-links: false
+    hide-inactive-cursor: true
+    highlight-style: printing
+    pause: true
+---
+
+# Themes
+
+![](../../data/img/avatar_break.png){fig-align="center" height=350}
+
+::: footer
+:::
+
+## Themes
+
+<center>
+
+```{r themes}
+#| echo: false
+#| results: 'asis'
+#| fig-width: 10
+#| fig-height: 5.5
+library(tidyverse)
+library(patchwork)
+
+mtcars2 <- within(mtcars, {
+  vs <- factor(vs, labels = c("V-shaped", "Straight"))
+  am <- factor(am, labels = c("Automatic", "Manual"))
+  cyl  <- factor(cyl)
+  gear <- factor(gear)
+})
+
+p <- ggplot(mtcars2) +
+  geom_point(aes(x = wt, y = mpg, colour = gear)) +
+  labs(x = "Weight (1000 lbs)", y = "Fuel economy (mpg)", colour = "Gears") +
+  theme(plot.title = element_text(family = "Roboto Condensed"))
+
+p1 <- p + labs(title = "theme_grey()") + theme_grey(base_size = 7)
+p2 <- p + labs(title = "theme_bw()") + theme_bw(base_size = 7)
+p3 <- p + labs(title = "theme_minimal()") + theme_minimal(base_size = 7)
+p4 <- p + labs(title = "theme_dark()") + theme_dark(base_size = 7)
+p5 <- p + labs(title = "theme_classic()") + theme_classic(base_size = 7)
+p6 <- p + labs(title = "theme_void()") + theme_void(base_size = 7)
+
+(p1 + p2 + p3) / (p4 + p5 + p6) & 
+  theme(plot.title = element_text(family = "Roboto Condensed", size = 16),
+        plot.margin = margin(b = 2, r = 1, unit = "lines"))
+```
+
+</center>
+
+## Theme elements {.medium}
+
+![](img/theme_elements.png){height="500" fig-align="center"}
+
+::: {.aside}
+Source: [Henry Wang](https://henrywang.nl/ggplot2-theme-elements-demonstration/)
+:::
+
+## Main theme components {.medium}
+
+```{r theming}
+#| echo: true
+#| eval: false
+data |> ggplot(aes(x = var1, y = var2)) |>
+  geom_line() +
+  theme_minimal() +
+  theme(plot.background = element_rect(fill = "red"),
+        panel.grid.x = element_blank(),
+        axis.line.x = element_line(linewidth = 1.2),
+        legend.text = element_text(size = 7),
+        legend.position = "top")
+```
+
+<br>
+
+::: {.tbl-classic}
+| Plot | Panel | Axis | Legend | Strip |
+|------|-------|------|--------|-------|
+| background | background | title | background | background |
+| title | border | text | key | placement | 
+| subtitle | grid | ticks | title | text |
+| caption | spacing | line | text | |
+| margin |  |  | position | |
+:::
+
+## Add a Logo to your plot {.smaller}
+
+```{r logocode}
+#| echo: true
+#| eval: false
+library(magick)
+logo <- image_read("patentamt.png")
+
+# png("finalplot.png", bg = "white", width = 8, height = 6, res = 320, units = "in")
+mtcars |> ggplot(aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Chart with a logo", caption = "Figure: @matschnetzer") +
+  theme_minimal()
+grid::grid.raster(logo, x = 0.03, y = 0.01, just = c('left', 'bottom'), width = unit(1.3, 'in'))
+# dev.off()
+```
+
+<center>
+
+```{r logo}
+#| echo: false
+#| results: 'asis'
+#| fig-width: 7
+#| fig-height: 3.5
+library(magick)
+logo <- image_read("img/patentamt.png")
+
+mtcars |> ggplot(aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Chart with a logo", caption = "Figure: @matschnetzer") +
+  theme_minimal(base_family = "Roboto Condensed")
+
+grid::grid.raster(logo, x = 0.03, y = 0.01, just = c('left', 'bottom'), width = unit(1.3, 'in'))
+```
+
+</center>

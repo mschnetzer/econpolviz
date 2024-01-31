@@ -116,8 +116,8 @@ schedule <- read_xlsx("../../data/schedule/schedule.xlsx")
 #| results: 'asis'
 schedule |> arrange(Date) |> select(-c(Chart,Slides,Code,Data)) |>
   mutate(Assignment = ifelse(!is.na(Assignment),
-        glue('<i class="fa-solid fa-pen fa-lg red"></i>'),
-        glue('<i class="fa-solid fa-pen fa-lg grey200"></i>')),
+        glue('{fontawesome::fa("pen")}'),
+        glue('<font color="#e9ecef">{fontawesome::fa("pen")}</font>')),
         Date = format(Date, '%b %d, %Y')) |>
   mutate(Assignment = map(Assignment, gt::html)) |>
         gt() |>

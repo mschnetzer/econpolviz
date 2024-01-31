@@ -109,9 +109,9 @@ lord-icon.large {
 }
 
 .altlist ul li:before {
-  font-family: 'FontAwesome';
+  font: var(--fa-font-solid);
+  content: '\f35a';
   font-size: 1.3rem;
-  content: '\f0a9';
   margin: 0 15px 0 -20px;
 }
 
