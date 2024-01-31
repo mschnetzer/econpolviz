@@ -431,7 +431,7 @@
     "href": "slides/01_introduction/index.html#schedule",
     "title": "    Visualizing Innovation",
     "section": "Schedule",
-    "text": "Schedule\n\n  \n  \n\n\n\n\n\n\n\n\n\n\nDate\nTime\nRoom\nContent\nAssignment\n\n\n\n\nOct 09, 2023\n10:00-12:00\nTC.3.10\nData\n\n\n\nOct 16, 2023\n10:00-12:00\nTC.3.10\nVisualization\n\n\n\nOct 23, 2023\n10:00-12:00\nTC.3.10\nGeometries\n\n\n\nOct 30, 2023\n10:00-12:00\nOnline\nColors\n\n\n\nNov 06, 2023\n10:00-12:00\nTC.3.10\nLabels\n\n\n\nNov 13, 2023\n10:00-12:00\nTC.3.10\nPatents\n\n\n\nNov 20, 2023\n10:00-12:00\nTC.3.10\nPatent Data\n\n\n\nNov 27, 2023\n10:00-12:00\nTC.3.10\nThemes\n\n\n\nDec 04, 2023\n10:00-12:00\nTC.3.08\nMaps\n\n\n\nDec 11, 2023\n10:00-12:00\nTC.3.06\nPresentations (1-4, 13, 15-20)\n\n\n\nDec 18, 2023\n10:00-12:00\nTC.3.06\nPresentations (5-12, 14)"
+    "text": "Schedule\n\n  \n  \n\n\n\n\n\n\n\n\n\n\nDate\nTime\nRoom\nContent\nAssignment\n\n\n\n\nOct 09, 2023\n10:00-12:00\nTC.3.10\nData\n\n\n\n\n\n\n\nOct 16, 2023\n10:00-12:00\nTC.3.10\nVisualization\n\n\n\n\n\nOct 23, 2023\n10:00-12:00\nTC.3.10\nGeometries\n\n\n\n\n\nOct 30, 2023\n10:00-12:00\nOnline\nColors\n\n\n\n\n\nNov 06, 2023\n10:00-12:00\nTC.3.10\nLabels\n\n\n\n\n\nNov 13, 2023\n10:00-12:00\nTC.3.10\nPatents\n\n\n\n\n\n\n\nNov 20, 2023\n10:00-12:00\nTC.3.10\nPatent Data\n\n\n\n\n\n\n\nNov 27, 2023\n10:00-12:00\nTC.3.10\nThemes\n\n\n\n\n\n\n\nDec 04, 2023\n10:00-12:00\nTC.3.08\nMaps\n\n\n\n\n\n\n\nDec 11, 2023\n10:00-12:00\nTC.3.06\nPresentations (1-4, 13, 15-20)\n\n\n\n\n\n\n\nDec 18, 2023\n10:00-12:00\nTC.3.06\nPresentations (5-12, 14)"
   },
   {
     "objectID": "slides/01_introduction/index.html#assignments",
@@ -529,7 +529,7 @@
     "href": "slides/01_introduction/index.html#administrative-versus-survey-data",
     "title": "    Visualizing Innovation",
     "section": "Administrative versus survey data",
-    "text": "Administrative versus survey data\n\n\n\n\n\n\nImpact on response behavior:\n\nSocial desirability\nSociodemographic characteristics\nSurvey design\nLearning effect\n\n\n\n{{&lt; li zpxybbhl trigger=loop delay=1000 colors=secondary:#e76254 &gt;}}\n\n\n\n\n\nSource: Angel et al. (2019)"
+    "text": "Administrative versus survey data\n\n\n\n\n\n\nImpact on response behavior:\n\nSocial desirability\nSociodemographic characteristics\nSurvey design\nLearning effect\n\n\n\n\n\n\n\n\n\nSource: Angel et al. (2019)"
   },
   {
     "objectID": "slides/01_introduction/index.html#mean-reverting-errors",
