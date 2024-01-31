@@ -8,7 +8,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.3.450">
+  <meta name="generator" content="quarto-1.4.549">
 
   <meta name="author" content="Dr.&nbsp;Matthias Schnetzer">
   <meta name="dcterms.date" content="2023-11-27">
@@ -32,7 +32,7 @@
     }
     /* CSS for syntax highlighting */
     pre > code.sourceCode { white-space: pre; position: relative; }
-    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span { line-height: 1.25; }
     pre > code.sourceCode > span:empty { height: 1.2em; }
     .sourceCode { overflow: visible; }
     code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -222,7 +222,8 @@
   }
 
   .callout.callout-titled .callout-body > .callout-content > :last-child {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0;
   }
 
   .callout.callout-titled .callout-icon::before {
@@ -410,7 +411,7 @@ Dr.&nbsp;Matthias Schnetzer
 <h1>Themes</h1>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="../../data/img/avatar_break.png" height="350"></p>
+<p><img data-src="../../data/img/avatar_break.png" class="quarto-figure quarto-figure-center" height="350"></p>
 </figure>
 </div>
 <div class="footer">
@@ -427,7 +428,7 @@ Dr.&nbsp;Matthias Schnetzer
 <h2>Theme elements</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="img/theme_elements.png" height="500"></p>
+<p><img data-src="img/theme_elements.png" class="quarto-figure quarto-figure-center" height="500"></p>
 </figure>
 </div>
 
@@ -437,14 +438,14 @@ Dr.&nbsp;Matthias Schnetzer
 <section id="main-theme-components" class="slide level2 medium">
 <h2>Main theme components</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>data <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> var1, <span class="at">y =</span> var2)) <span class="sc">|&gt;</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a>  <span class="fu">theme</span>(<span class="at">plot.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"red"</span>),</span>
-<span id="cb1-5"><a href="#cb1-5"></a>        <span class="at">panel.grid.x =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb1-6"><a href="#cb1-6"></a>        <span class="at">axis.line.x =</span> <span class="fu">element_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>),</span>
-<span id="cb1-7"><a href="#cb1-7"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">7</span>),</span>
-<span id="cb1-8"><a href="#cb1-8"></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a>data <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> var1, <span class="at">y =</span> var2)) <span class="sc">|&gt;</span></span>
+<span id="cb1-2"><a></a>  <span class="fu">geom_line</span>() <span class="sc">+</span></span>
+<span id="cb1-3"><a></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
+<span id="cb1-4"><a></a>  <span class="fu">theme</span>(<span class="at">plot.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"red"</span>),</span>
+<span id="cb1-5"><a></a>        <span class="at">panel.grid.x =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb1-6"><a></a>        <span class="at">axis.line.x =</span> <span class="fu">element_line</span>(<span class="at">linewidth =</span> <span class="fl">1.2</span>),</span>
+<span id="cb1-7"><a></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">7</span>),</span>
+<span id="cb1-8"><a></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br></p>
 <div class="tbl-classic">
@@ -501,24 +502,26 @@ Dr.&nbsp;Matthias Schnetzer
 <section id="add-a-logo-to-your-plot" class="slide level2 smaller">
 <h2>Add a Logo to your plot</h2>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="fu">library</span>(magick)</span>
-<span id="cb2-2"><a href="#cb2-2"></a>logo <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"patentamt.png"</span>)</span>
-<span id="cb2-3"><a href="#cb2-3"></a></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="co"># png("finalplot.png", bg = "white", width = 8, height = 6, res = 320, units = "in")</span></span>
-<span id="cb2-5"><a href="#cb2-5"></a>mtcars <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> wt, <span class="at">y =</span> mpg)) <span class="sc">+</span></span>
-<span id="cb2-6"><a href="#cb2-6"></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
-<span id="cb2-7"><a href="#cb2-7"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Chart with a logo"</span>, <span class="at">caption =</span> <span class="st">"Figure: @matschnetzer"</span>) <span class="sc">+</span></span>
-<span id="cb2-8"><a href="#cb2-8"></a>  <span class="fu">theme_minimal</span>()</span>
-<span id="cb2-9"><a href="#cb2-9"></a>grid<span class="sc">::</span><span class="fu">grid.raster</span>(logo, <span class="at">x =</span> <span class="fl">0.03</span>, <span class="at">y =</span> <span class="fl">0.01</span>, <span class="at">just =</span> <span class="fu">c</span>(<span class="st">'left'</span>, <span class="st">'bottom'</span>), <span class="at">width =</span> <span class="fu">unit</span>(<span class="fl">1.3</span>, <span class="st">'in'</span>))</span>
-<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># dev.off()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a><span class="fu">library</span>(magick)</span>
+<span id="cb2-2"><a></a>logo <span class="ot">&lt;-</span> <span class="fu">image_read</span>(<span class="st">"patentamt.png"</span>)</span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="co"># png("finalplot.png", bg = "white", width = 8, height = 6, res = 320, units = "in")</span></span>
+<span id="cb2-5"><a></a>mtcars <span class="sc">|&gt;</span> <span class="fu">ggplot</span>(<span class="fu">aes</span>(<span class="at">x =</span> wt, <span class="at">y =</span> mpg)) <span class="sc">+</span></span>
+<span id="cb2-6"><a></a>  <span class="fu">geom_point</span>() <span class="sc">+</span></span>
+<span id="cb2-7"><a></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Chart with a logo"</span>, <span class="at">caption =</span> <span class="st">"Figure: @matschnetzer"</span>) <span class="sc">+</span></span>
+<span id="cb2-8"><a></a>  <span class="fu">theme_minimal</span>()</span>
+<span id="cb2-9"><a></a>grid<span class="sc">::</span><span class="fu">grid.raster</span>(logo, <span class="at">x =</span> <span class="fl">0.03</span>, <span class="at">y =</span> <span class="fl">0.01</span>, <span class="at">just =</span> <span class="fu">c</span>(<span class="st">'left'</span>, <span class="st">'bottom'</span>), <span class="at">width =</span> <span class="fu">unit</span>(<span class="fl">1.3</span>, <span class="st">'in'</span>))</span>
+<span id="cb2-10"><a></a><span class="co"># dev.off()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <center>
 <p><img data-src="index_files/figure-revealjs/logo-1.png" width="672"></p>
 </center>
 
+<div class="quarto-auto-generated-content">
 <p><img src="../../data/img/wu-logo-simple.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>PI 0822 Economic Policy (Applied Track) | Winter term 2023</p>
+</div>
 </div>
 </section></section>
     </div>
@@ -547,7 +550,6 @@ Dr.&nbsp;Matthias Schnetzer
       Reveal.initialize({
 'controlsAuto': true,
 'previewLinksAuto': false,
-'smaller': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
@@ -846,10 +848,9 @@ Dr.&nbsp;Matthias Schnetzer
         // clear code selection
         e.clearSelection();
       });
-      function tippyHover(el, contentFn) {
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
         const config = {
           allowHTML: true,
-          content: contentFn,
           maxWidth: 500,
           delay: 100,
           arrow: false,
@@ -859,8 +860,17 @@ Dr.&nbsp;Matthias Schnetzer
           interactive: true,
           interactiveBorder: 10,
           theme: 'light-border',
-          placement: 'bottom-start'
+          placement: 'bottom-start',
         };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
           config['offset'] = [0,0];
           config['maxWidth'] = 700;
         window.tippy(el, config); 
