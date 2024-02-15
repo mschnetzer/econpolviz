@@ -28,6 +28,8 @@ website:
         text: Schedule
       - href: visualization.qmd
         text: Visualization
+      - href: gallery.qmd
+        text: Gallery
 
   page-footer:
     right: |

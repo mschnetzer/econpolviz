@@ -1,0 +1,56 @@
+---
+title: "Gallery"
+page-layout: full
+css: layout/css/adveconpol.scss
+filter:
+    - lightbox
+lightbox: auto
+---
+
+#### Selected charts created by students in this course
+
+<br>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
+
+![](data/gallery/dicleli.png){group="my-gallery"}
+
+![](data/gallery/esch.png){group="my-gallery"}
+
+![](data/gallery/freudenberger.png){group="my-gallery"}
+
+![](data/gallery/giovannini.png){group="my-gallery"}
+
+![](data/gallery/glatkova.png){group="my-gallery"}
+
+![](data/gallery/heinrich.png){group="my-gallery"}
+
+![](data/gallery/latinova.png){group="my-gallery"}
+
+![](data/gallery/maad.png){group="my-gallery"}
+
+![](data/gallery/markovskij.png){group="my-gallery"}
+
+![](data/gallery/mayukh.png){group="my-gallery"}
+
+![](data/gallery/mollet.png){group="my-gallery"}
+
+![](data/gallery/mueller.png){group="my-gallery"}
+
+![](data/gallery/noriega.png){group="my-gallery"}
+
+![](data/gallery/rauscher.png){group="my-gallery"}
+
+![](data/gallery/sahinovic.png){group="my-gallery"}
+
+![](data/gallery/schahinjan.png){group="my-gallery"}
+
+![](data/gallery/seefeld.png){group="my-gallery"}
+
+![](data/gallery/solder.png){group="my-gallery"}
+
+![](data/gallery/tack.png){group="my-gallery"}
+
+![](data/gallery/tackp.png){group="my-gallery"}
+
+:::
