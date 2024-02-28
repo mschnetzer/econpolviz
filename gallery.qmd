@@ -7,50 +7,82 @@ filter:
 lightbox: auto
 ---
 
+#### Award ceremony at the Austrian Patent Office (Feb 26, 2024)
+
+<br>
+
+::: {style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
+
+![Award Ceremony at the Austrian Patent Office (APO)](data/photos_web/20240226_01.png){group="my-gallery"}
+
+![Welcome note by APO President Dr. Stefan Harasek](data/photos_web/20240226_03.png){group="my-gallery"}
+
+![Welcome note by APO President Dr. Stefan Harasek](data/photos_web/20240226_11.png){group="my-gallery"}
+
+![The lecturer introduces the finalists](data/photos_web/20240226_12.png){group="my-gallery"}
+
+![Francesca Heinrich on the female inventor share (Appreciation award)](data/photos_web/20240226_06.png){group="my-gallery"}
+
+![Mariela Latinova on the Women's Inventor Rate (3rd place)](data/photos_web/20240226_09.png){group="my-gallery"}
+
+![Bernd Müller on sectoral R&D expenditures (2nd place)](data/photos_web/20240226_08.png){group="my-gallery"}
+
+![Mayukh Mukhopadhyay on the evolution of green patents (1st place)](data/photos_web/20240226_07.png){group="my-gallery"}
+
+![Fruitful cooperation between WU students and APO colleagues](data/photos_web/20240226_05.png){group="my-gallery"}
+
+![The four awardees](data/photos_web/20240226_04.png){group="my-gallery"}
+
+![Relaxed get-together at the Austrian Patent Office](data/photos_web/20240226_10.png){group="my-gallery"}
+
+:::
+
 #### Selected charts created by students in this course
 
 <br>
 
 ::: {style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));grid-gap: 1em;"}
 
-![](data/gallery/dicleli.png){group="my-gallery"}
+![Anna Cailotto](data/gallery/cailotto.png){group="my-gallery"}
 
-![](data/gallery/esch.png){group="my-gallery"}
+![Samet Dicleli](data/gallery/dicleli.png){group="my-gallery"}
 
-![](data/gallery/freudenberger.png){group="my-gallery"}
+![Leonhard Esch](data/gallery/esch.png){group="my-gallery"}
 
-![](data/gallery/giovannini.png){group="my-gallery"}
+![Philipp Freudenberger](data/gallery/freudenberger.png){group="my-gallery"}
 
-![](data/gallery/glatkova.png){group="my-gallery"}
+![Fabian Giovannini](data/gallery/giovannini.png){group="my-gallery"}
 
-![](data/gallery/heinrich.png){group="my-gallery"}
+![Daria Glatkova](data/gallery/glatkova.png){group="my-gallery"}
 
-![](data/gallery/latinova.png){group="my-gallery"}
+![Francesca Heinrich](data/gallery/heinrich.png){group="my-gallery"}
 
-![](data/gallery/maad.png){group="my-gallery"}
+![Mariela Latinova](data/gallery/latinova.png){group="my-gallery"}
 
-![](data/gallery/markovskij.png){group="my-gallery"}
+![Magdalena Maad](data/gallery/maad.png){group="my-gallery"}
 
-![](data/gallery/mayukh.png){group="my-gallery"}
+![Darius Markovskij](data/gallery/markovskij.png){group="my-gallery"}
 
-![](data/gallery/mollet.png){group="my-gallery"}
+![Mayukh Mukhopadhyay](data/gallery/mayukh.png){group="my-gallery"}
 
-![](data/gallery/mueller.png){group="my-gallery"}
+![Marie Mollet](data/gallery/mollet.png){group="my-gallery"}
 
-![](data/gallery/noriega.png){group="my-gallery"}
+![Bernd Müller](data/gallery/mueller.png){group="my-gallery"}
 
-![](data/gallery/rauscher.png){group="my-gallery"}
+![Lluis Quintana Noriega](data/gallery/noriega.png){group="my-gallery"}
 
-![](data/gallery/sahinovic.png){group="my-gallery"}
+![Lena Rauscher](data/gallery/rauscher.png){group="my-gallery"}
 
-![](data/gallery/schahinjan.png){group="my-gallery"}
+![Dalila Sahinovic](data/gallery/sahinovic.png){group="my-gallery"}
 
-![](data/gallery/seefeld.png){group="my-gallery"}
+![Mariam Schahinjan ](data/gallery/schahinjan.png){group="my-gallery"}
 
-![](data/gallery/solder.png){group="my-gallery"}
+![Martin Seefeld](data/gallery/seefeld.png){group="my-gallery"}
 
-![](data/gallery/tack.png){group="my-gallery"}
+![Valentin Solder](data/gallery/solder.png){group="my-gallery"}
 
-![](data/gallery/tackp.png){group="my-gallery"}
+![Filip Tack](data/gallery/tack.png){group="my-gallery"}
+
+![Polina Tack](data/gallery/tackp.png){group="my-gallery"}
 
 :::
